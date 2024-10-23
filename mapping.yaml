@@ -120,6 +120,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - symbols
   en_IN:
     - qwerty
     - qwertz
@@ -142,6 +143,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - symbols
   eo:
     - spanish
     - qwerty
