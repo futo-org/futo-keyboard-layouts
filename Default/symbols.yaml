@@ -1,0 +1,67 @@
+name: "Numeric / Symbols only"
+description: "A small keyboard with only numbers and symbols, intended for devices with physical keyboards."
+rowHeightMode: FillHeight
+rows:
+  - numbers:
+    - {type: case, normal: ["`", "~"], shifted: "~"}
+    - {type: case, normal: ["1", "!"], shifted: "!"}
+    - {type: case, normal: ["2", "@"], shifted: "@"}
+    - {type: case, normal: ["3", "#"], shifted: "#"}
+    - {type: case, normal: ["4", "$"], shifted: "$"}
+    - {type: case, normal: ["5", "%"], shifted: "%"}
+    - {type: case, normal: ["6", "^"], shifted: "^"}
+    - {type: case, normal: ["7", "&"], shifted: "&"}
+    - {type: case, normal: ["8", "*"], shifted: "*"}
+    - {type: case, normal: ["9", "("], shifted: "("}
+    - {type: case, normal: ["0", ")"], shifted: ")"}
+    - {type: case, normal: ["-", "_"], shifted: "_"}
+    - {type: case, normal: ["=", "+"], shifted: "+"}
+  - letters: 
+    - $shift 
+    - "\\" 
+    - "/" 
+    - "@" 
+    - "," 
+    - "." 
+    - "!" 
+    - "?" 
+    - "_" 
+    - "-" 
+    - ":" 
+    - ";"
+    - type: base
+      spec: "↑|!code/action_up"
+      attributes:
+        showPopup: false
+        repeatableEnabled: true
+        style: Action
+    - type: base
+      spec: ""
+  - bottom:
+    - $symbols 
+    - $action
+    - "$" 
+    - "&" 
+    - "*" 
+    - "^"
+    - "#" 
+    - "'" 
+    - "\""
+    - type: base
+      spec: "←|!code/action_left"
+      attributes:
+        showPopup: false
+        repeatableEnabled: true
+        style: Action
+    - type: base
+      spec: "↓|!code/action_down"
+      attributes:
+        showPopup: false
+        repeatableEnabled: true
+        style: Action
+    - type: base
+      spec: "→|!code/action_right"
+      attributes:
+        showPopup: false
+        repeatableEnabled: true
+        style: Action
