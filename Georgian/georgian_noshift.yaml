@@ -1,0 +1,40 @@
+name: Georgian QWERTY NoShift 
+languages: ka_GE
+attributes: {shiftable: false} # Automatic shifting breaks many of the characters
+rows:
+  - letters:
+    - 'ქ'
+    - 'წ'
+    - ['ე', '%', 'ჱ']
+    - 'რ'
+    - 'ღ'
+    - 'ტ'
+    - 'თ'
+    - ['ყ', '%', 'ჸ']
+    - 'უ'
+    - ['ი', '%', 'ჲ']
+    - 'ო'
+    - 'პ'
+  - letters:
+    - 'ჭ'
+    - 'შ'
+    - ['ა', 'ჺ']
+    - 'ს'
+    - 'დ'
+    - ['ფ', 'ჶ']
+    - ['გ', 'ჹ']
+    - ['ჰ', 'ჵ']
+    - ['ჯ', 'ჷ']
+    - 'ჟ'
+    - 'კ'
+    - 'ლ'
+  - letters:
+    - 'ზ'
+    - 'ძ'
+    - ['ხ', 'ჴ']
+    - 'ც'
+    - 'ჩ'
+    - ['ვ', 'ჳ']
+    - 'ბ'
+    - ['ნ', 'ჼ']
+    - 'მ'
