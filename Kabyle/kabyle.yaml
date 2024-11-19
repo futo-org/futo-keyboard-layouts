@@ -2,7 +2,7 @@ name: Kabyle
 languages: kab
 rows:
   - letters: # rowkeys_kabyle1.xml
-    - ['a', 'ɛ']
+    - ['a']
     - ['z', 'ẓ']
     - ['e']
     - ['r', 'ṛ']
@@ -11,7 +11,7 @@ rows:
     - ['u', 'o']
     - ['i']
     - ['ɛ']
-    - ['ɣ']
+    - ['ḥ']
   - letters: # rowkeys_kabyle2.xml
     - ['q']
     - ['s', 'ṣ']
@@ -27,7 +27,8 @@ rows:
     - ['w']
     - ['x']
     - ['c', 'č']
-    - ['v']
+    - ['ɣ', 'γ']
     - ['b', 'p']
     - ['n']
+    - ['ʷ', '°']
     - ['-']
