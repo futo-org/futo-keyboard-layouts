@@ -1,5 +1,6 @@
 name: Phone
 numberRowMode: AlwaysDisabled
+bottomRowHeightMode: Flexible
 attributes: &globalAttrs
   width: Grow
   showPopup: false
@@ -32,7 +33,7 @@ rows:
     splittable: false
   - bottom:
       - {type: base, spec: "!text/keylabel_to_phone_symbols|!code/key_shift"}
-      - {type: base, spec: "0", moreKeys: "!noPanelAutoMoreKey!,+"}
+      - {type: base, spec: "0", hint: "+", moreKeys: "!noPanelAutoMoreKey!,+"}
       - {type: base, spec: "."}
       - {type: enter, attributes: { width: Grow }}
     attributes: *globalAttrs

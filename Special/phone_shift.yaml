@@ -1,5 +1,6 @@
 name: Phone Symbols
 numberRowMode: AlwaysDisabled
+bottomRowHeightMode: Flexible
 attributes: &globalAttrs
   width: Grow
   showPopup: false
