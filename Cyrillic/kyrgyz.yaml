@@ -1,0 +1,35 @@
+name: Kyrgyz
+languages: ky tyv
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - { type: base, spec: "ё", attributes: { width: Grow } }
+    - { type: base, spec: "ү", attributes: { width: Grow } }
+    - { type: base, spec: "ң", attributes: { width: Grow } }
+    - { type: base, spec: "ө", attributes: { width: Grow } }
+    - { type: base, spec: "ъ", attributes: { width: Grow } }
+  - letters:
+    - й
+    - ц
+    - ['у', 'ү']
+    - к
+    - е
+    - ['н', 'ң']
+    - г
+    - ш
+    - щ
+    - з
+    - х
+  - letters:
+    - ф
+    - ы
+    - в
+    - а
+    - п
+    - р
+    - ['о', 'ө']
+    - л
+    - д
+    - ж
+    - э
+  - letters: я ч с м и т ь б ю

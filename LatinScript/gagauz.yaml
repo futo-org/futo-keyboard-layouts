@@ -1,0 +1,17 @@
+name: Gagauz
+languages: gag
+rows:
+  - letters: ä ê ç ţ ş ü ı ö
+  - letters:
+    - q
+    - w
+    - e
+    - r
+    - t
+    - y
+    - u
+    - {type: case, normal: ['i'], shifted: ['İ']}
+    - o
+    - p
+  - letters: a s d f g h j k l
+  - letters: z x c v b n m

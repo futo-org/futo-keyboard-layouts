@@ -1,0 +1,79 @@
+name: Uyghur (Arabic)
+languages: ug
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - 'چ'
+    - 'ۋ'
+    - 'ې'
+    - 'ژ'
+    - 'ر'
+    - 'ت'
+    - 'ي'
+    - 'ۇ'
+    - 'ڭ'
+    - 'و'
+    - 'پ'
+
+  - letters:
+    - 'ھ'
+    - 'س'
+    - {type: case, normal: 'د', shiftedManually: 'ژ'}
+
+    # U+0627 "ا" ARABIC LETTER ALEF
+    # U+0622 "آ" ARABIC LETTER ALEF WITH MADDA ABOVE
+    # U+0625 "إ" ARABIC LETTER ALEF WITH HAMZA BELOW
+    # U+0623 "أ" ARABIC LETTER ALEF WITH HAMZA ABOVE
+    # U+0654 "ٔ" ARABIC HAMZA ABOVE
+    - ["\u0627", "\u0622", "\u0625", "\u0623", "\u0654"]
+
+    # U+06D5 "ە" ARABIC LETTER AE
+    # U+0641 "ف" ARABIC LETTER FEH
+    - ["\u06d5", "\u0641"]
+
+    - 'ى'
+    - 'ق'
+    - 'ك'
+    - 'ل'
+    - 'گ'
+    - 'ۆ'
+
+  - letters:
+    - 'ز'
+    - 'ش'
+    - 'غ'
+    - 'ۈ'
+    - 'ب'
+    - 'ن'
+    - 'م'
+    - 'خ'
+    - 'ج'
+    - 'ئ'
+    - $delete
+
+  - bottom:
+    - $symbols
+    - ['،', ',']
+    - $action
+    - $space
+
+    # U+061F "؟" ARABIC QUESTION MARK
+    # U+0654 "ٔ" ARABIC HAMZA ABOVE
+    # U+0655 "ٕ" ARABIC HAMZA BELOW
+    # U+064E "َ" ARABIC FATHA
+    # U+064B "ً" ARABIC FATHATAN
+    # U+0650 "ِ" ARABIC KASRA
+    # U+064D "ٍ" ARABIC KASRATAN
+    # U+064F "ُ" ARABIC DAMMA
+    # U+0657 "ٗ" ARABIC INVERTED DAMMA
+    # U+064C "ٌ" ARABIC DAMMATAN
+    # U+0652 "ْ" ARABIC SUKUN
+    # U+0651 "ّ" ARABIC SHADDA
+    # U+0653 "ٓ" ARABIC MADDAH ABOVE
+    # U+0670 "ٰ" ARABIC SUPERSCRIPT ALEF
+    # U+0656 "ٖ" ARABIC SUBSCRIPT ALEF
+    # U+0658 "٘" ARABIC MARK NOON GHUNNA
+    # U+06D4 "۔" ARABIC FULL STOP
+    - ['.', "\u061F", "\u0654", "\u0655", "\u064E", "\u064B", "\u0650", "\u064D", "\u064F", "\u0657", "\u064C", "\u0652", "\u0651", "\u0653", "\u0670", "\u0656", "\u0658", "\u06D4"]
+
+    - $enter

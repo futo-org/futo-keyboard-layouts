@@ -10,6 +10,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  alt:
+    - altai
   ar:
     - arabic
     - arabic_pc
@@ -71,6 +73,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  cv:
+    - chuvash
   da:
     - nordic
     - qwerty
@@ -280,6 +284,8 @@ languages:
     - pcqwerty
     - nordic
     - bepo_inclusive
+  gag:
+    - gagauz
   gl_ES:
     - spanish
     - qwerty
@@ -396,6 +402,8 @@ languages:
     - nordic
   ka_GE:
     - georgian
+  kaa:
+    - karakalpak_latin
   kk:
     - kazakh_cyrillic
     - east_slavic
@@ -412,6 +420,7 @@ languages:
   ku_Latn:
     - kurdish_latin
   ky:
+    - kyrgyz
     - east_slavic
     - russian_student
     - russian_yavert
@@ -536,6 +545,8 @@ languages:
     - russian_student
     - russian_yavert
     - russian_yazhert
+  sah:
+    - yakut
   si_LK:
     - sinhala
   sk:
@@ -592,6 +603,8 @@ languages:
     - telugu
   th:
     - thai
+  tk:
+    - turkmen
   tl:
     - spanish
     - qwerty
@@ -616,6 +629,12 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  tt:
+    - tatar
+  tyv:
+    - kyrgyz
+  ug:
+    - uyghur
   uk:
     - ukrainian
     - east_slavic

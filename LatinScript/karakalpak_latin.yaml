@@ -1,0 +1,13 @@
+name: Karakalpak (Latin)
+languages: kaa
+rows:
+  - letters:
+    - á
+    - ǵ
+    - ń
+    - ó
+    - ú
+    - {type: case, normal: ['ı'], shifted: ['Í']}
+  - letters: q w e r t y u i o p
+  - letters: a s d f g h j k l
+  - letters: z x c v b n m
