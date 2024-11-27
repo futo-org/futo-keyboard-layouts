@@ -1,0 +1,59 @@
+name: Myanmar G
+languages: my
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - {type: case, normal: ["ဈ", "ဍ္ဎ"], shiftedManually: ["၁"]}
+    - {type: case, normal: ["ဝ", "ကျပ်"], shiftedManually: ["၂"]}
+    - {type: case, normal: ["ဋ", "ဋ္ဌ"], shiftedManually: ["၃"]}
+    - {type: case, normal: ["ုံ", "င်္"], shiftedManually: ["၄"]}
+    - {type: case, normal: ["ော", "ေါ"], shiftedManually: ["၅"]}
+    - {type: case, normal: ["ဪ", "ဩ"], shiftedManually: ["၆"]}
+    - {type: case, normal: ["ရ", "ၒ", "ၓ"], shiftedManually: ["၇"]}
+    - {type: case, normal: ["ဂ", "ၔ", "ၕ"], shiftedManually: ["၈"]}
+    - {type: case, normal: ["ဟ", "ၐ", "ၑ"], shiftedManually: ["၉"]}
+    - {type: case, normal: ["၏"], shiftedManually: ["၀"]}
+
+  - letters:
+    - {type: case, normal: ["ဆ"], shiftedManually: ["ဍ"]}
+    - {type: case, normal: ["တ"], shiftedManually: ["ဏ္ဍ"]}
+    - {type: case, normal: ["န"], shiftedManually: ["ဣ"]}
+    - {type: case, normal: ["မ"], shiftedManually: ["၎င်း"]}
+    - {type: case, normal: ["အ"], shiftedManually: ["ဤ"]}
+    - {type: case, normal: ["ပ"], shiftedManually: ["၌"]}
+    - {type: case, normal: ["က"], shiftedManually: ["ဥ"]}
+    - {type: case, normal: ["င"], shiftedManually: ["၍"]}
+    - {type: case, normal: ["သ"], shiftedManually: ["ဿ"]}
+    - {type: case, normal: ["စ"], shiftedManually: ["ဏ"]}
+
+  - letters:
+    - {type: case, normal: ["‌ေ"], shiftedManually: ["ဗ"]}
+    - {type: case, normal: ["ျ"], shiftedManually: ["ှ"]}
+    - {type: case, normal: ["ိ"], shiftedManually: ["ီ"]}
+    - {type: case, normal: ["်"], shiftedManually: ["္"]}
+    - {type: case, normal: ["ါ"], shiftedManually: ["ွ"]}
+    - {type: case, normal: ["့"], shiftedManually: ["ံ"]}
+    - {type: case, normal: ["ြ"], shiftedManually: ["ဲ"]}
+    - {type: case, normal: ["ု"], shiftedManually: ["ဒ"]}
+    - {type: case, normal: ["ူ"], shiftedManually: ["ဓ"]}
+    - {type: case, normal: ["း"], shiftedManually: ["ဏ္ဌ"]}
+
+  - letters:
+    - $shift
+    - {type: case, normal: ["ဖ"], shiftedManually: ["ဇ"]}
+    - {type: case, normal: ["ထ"], shiftedManually: ["ဌ"]}
+    - {type: case, normal: ["ခ"], shiftedManually: ["ဃ"]}
+    - {type: case, normal: ["လ"], shiftedManually: ["ဠ"]}
+    - {type: case, normal: ["ဘ"], shiftedManually: ["ဎ"]}
+    - {type: case, normal: ["ည"], shiftedManually: ["ဉ"]}
+    - {type: case, normal: ["ာ"], shiftedManually: ["ဦ"]}
+    - {type: case, normal: ["ယ"], shiftedManually: ["ဧ"]}
+    - $delete
+
+  - bottom:
+    - $symbols
+    - {type: case, normal: ["၊"], shiftedManually: [","]}
+    - $action
+    - $space
+    - {type: case, normal: ["။"], shiftedManually: ["."]}
+    - $enter

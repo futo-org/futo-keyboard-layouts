@@ -460,6 +460,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  my:
+    - myanmar_g
   nb:
     - nordic
   ne_NP:
