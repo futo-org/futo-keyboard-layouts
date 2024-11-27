@@ -1,0 +1,7 @@
+name: Hausa
+languages: ha
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters: [q, w, e, [r, r̃], t, y, u, i, o, p, ƙ]
+  - letters: a s d f g h j k l ɗ ʼ
+  - letters: z x c v b n m ɓ ƴ

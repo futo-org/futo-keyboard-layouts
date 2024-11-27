@@ -292,6 +292,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  ha:
+    - hausa
   hi:
     - hindi
     - hindi_compact
