@@ -1,0 +1,7 @@
+name: Romanian
+languages: ro
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters: q w e r t y u i o p ă
+  - letters: a s d f g h j k l ș ț
+  - letters: z x c v b n m î â
