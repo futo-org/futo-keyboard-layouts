@@ -320,6 +320,7 @@ languages:
     - pcqwerty
     - nordic
   hu:
+    - hungarian
     - qwertz
     - qwerty
     - dvorak

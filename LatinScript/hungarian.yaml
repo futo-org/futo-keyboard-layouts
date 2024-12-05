@@ -1,0 +1,7 @@
+name: Hungarian
+languages: hu
+rows:
+  - letters: á - é ő ű ü ú í ó ö
+  - letters: q w e r t z u i o p
+  - letters: a s d f g h j k l
+  - letters: y x c v b n m
