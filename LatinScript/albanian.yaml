@@ -1,0 +1,7 @@
+name: Albanian
+languages: sq
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters: q w e r t z u i o p
+  - letters: a s d f g h j k l ë
+  - letters: y x c v b n m ç

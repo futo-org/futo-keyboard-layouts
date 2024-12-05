@@ -562,6 +562,18 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  sq:
+    - albanian
+    - qwertz
+    - qwerty
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
   sr:
     - south_slavic
   sr_Latn:
