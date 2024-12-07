@@ -460,6 +460,18 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  mt:
+    - maltese
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
   nb:
     - nordic
   ne_NP:
