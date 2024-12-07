@@ -3,37 +3,37 @@ languages: ta-LK ta-IN ta-SG
 minimumFunctionalKeyWidth: 0.0
 rows:
   - letters: # rowkeys_tamil1.xml
-    - {type: case, normal: ['ௌ'], shifted: ['ஔ']}
-    - {type: case, normal: ['ை'], shifted: ['ஐ']}
-    - {type: case, normal: ['ா'], shifted: ['ஆ']}
-    - {type: case, normal: ['ீ'], shifted: ['ஈ']}
-    - {type: case, normal: ['ூ'], shifted: ['ஊ']}
+    - {type: case, normal: ['ௌ'], shiftedManually: ['ஔ']}
+    - {type: case, normal: ['ை'], shiftedManually: ['ஐ']}
+    - {type: case, normal: ['ா'], shiftedManually: ['ஆ']}
+    - {type: case, normal: ['ீ'], shiftedManually: ['ஈ']}
+    - {type: case, normal: ['ூ'], shiftedManually: ['ஊ']}
     - ['ம']
     - ['ன']
     - ['ந']
     - ['ங']
     - ['ண']
-    - {type: case, normal: ['ஞ'], shifted: ['ஜ']}
+    - {type: case, normal: ['ஞ'], shiftedManually: ['ஜ']}
   - letters: # rowkeys_tamil2.xml
-    - {type: case, normal: ['ோ', 'ௐ'], shifted: ['ஓ']}
-    - {type: case, normal: ['ே'], shifted: ['ஏ']}
-    - {type: case, normal: ['அ'], shifted: ['ஃ']}
-    - {type: case, normal: ['ி'], shifted: ['இ']}
-    - {type: case, normal: ['ு'], shifted: ['உ']}
+    - {type: case, normal: ['ோ', 'ௐ'], shiftedManually: ['ஓ']}
+    - {type: case, normal: ['ே'], shiftedManually: ['ஏ']}
+    - {type: case, normal: ['அ'], shiftedManually: ['ஃ']}
+    - {type: case, normal: ['ி'], shiftedManually: ['இ']}
+    - {type: case, normal: ['ு'], shiftedManually: ['உ']}
     - ['ற']
     - ['ப']
-    - {type: case, normal: ['க'], shifted: ['ஹ']}
+    - {type: case, normal: ['க'], shiftedManually: ['ஹ']}
     - ['த']
-    - {type: case, normal: ['ச', 'ஶ்ரீ', 'ஸ'], shifted: ['ஸ']}
-    - {type: case, normal: ['ட'], shifted: ['க்ஷ']}
+    - {type: case, normal: ['ச', 'ஶ்ரீ', 'ஸ'], shiftedManually: ['ஸ']}
+    - {type: case, normal: ['ட'], shiftedManually: ['க்ஷ']}
   - letters: # rowkeys_tamil3.xml
-    - {type: case, normal: ['ொ'], shifted: ['ஒ']}
-    - {type: case, normal: ['ெ'], shifted: ['எ']}
+    - {type: case, normal: ['ொ'], shiftedManually: ['ஒ']}
+    - {type: case, normal: ['ெ'], shiftedManually: ['எ']}
     - ['்']
     - ['ர']
     - ['வ']
     - ['ழ']
     - ['ல']
-    - {type: case, normal: ['ள'], shifted: ['ஷ']}
-    - {type: case, normal: ['ய'], shifted: ['ஶ']}
+    - {type: case, normal: ['ள'], shiftedManually: ['ஷ']}
+    - {type: case, normal: ['ய'], shiftedManually: ['ஶ']}
 # detected 3 rows
