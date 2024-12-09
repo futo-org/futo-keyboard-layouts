@@ -1,0 +1,50 @@
+name: Bengali (Jatiyo)
+languages: bn
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - {type: case, normal: ['ঙ', '১', '৴'], shiftedManually: ['ং']}
+    - {type: case, normal: ['য', "্য", '২', '৵'], shiftedManually: ['য়']}
+    - {type: case, normal: ['ড', 'ৄ', '৩', '৶'], shiftedManually: ['ঢ']}
+    - {type: case, normal: ['প', '৪', '৳', '৲'], shiftedManually: ['ফ']}
+    - {type: case, normal: ['ট', '৫', '৷'], shiftedManually: ['ঠ']}
+    - {type: case, normal: ['চ', '৬', '৸'], shiftedManually: ['ছ']}
+    - {type: case, normal: ['জ', '৭'], shiftedManually: ['ঝ']}
+    - {type: case, normal: ['হ', 'ঽ', '৮'], shiftedManually: ['ঞ']}
+    - {type: case, normal: ['গ', '৯'], shiftedManually: ['ঘ']}
+    - {type: case, normal: ['ড়', '০'], shiftedManually: ['ঢ়']}
+    - {type: case, normal: ['ই'], shiftedManually: ['ঈ']}
+
+  - letters:
+    - {type: case, normal: ['ৃ', 'ঋ', 'ৠ'], shiftedManually: ['ৌ']}
+    - {type: case, normal: ['ু', 'উ', 'ঊ'], shiftedManually: ['ূ']}
+    - {type: case, normal: ['ি', 'ই', 'ঈ'], shiftedManually: ['ী']}
+    - {type: case, normal: ['ব', 'ৰ', 'ৱ'], shiftedManually: ['ভ']}
+    - {type: case, normal: ['্', '॥'], shiftedManually: ["।"]}
+    - {type: case, normal: ['া', 'আ'], shiftedManually: ['অ']}
+    - {type: case, normal: ['ক', 'ক্ষ'], shiftedManually: ['খ']}
+    - {type: case, normal: ['ত', 'ৎ'], shiftedManually: ['থ']}
+    - {type: case, normal: ['দ', 'ঌ', 'ৡ'], shiftedManually: ['ধ']}
+    - {type: case, normal: ['এ'], shiftedManually: ['ঐ']}
+    - {type: case, normal: ['ও'], shiftedManually: ['ঔ']}
+
+  - letters:
+    - $shift
+    - {type: case, normal: ['ঁ', '৺'], shiftedManually: ['ঃ']}
+    - {type: case, normal: ['ো'], shiftedManually: ['ৌ']}
+    - {type: case, normal: ['ে'], shiftedManually: ['ৈ']}
+    - {type: case, normal: ['র', '৳', 'ৃ', 'ঋ', 'ৰ', 'ৱ', 'ৄ', 'ৠ'], shiftedManually: ['ল']}
+    - {type: case, normal: ['ন', 'ঞ'], shiftedManually: ['ণ']}
+    - {type: case, normal: ['স'], shiftedManually: ['ষ']}
+    - {type: case, normal: ['ম'], shiftedManually: ['শ']}
+    - {type: case, normal: ['়'], shiftedManually: ['আ']}
+    - $delete
+
+  - bottom:
+    - $symbols
+    - {type: case, normal: [','], shiftedManually: ['উ']}
+    - $action
+    - $space
+    - {type: case, normal: ["!icon/zwnj_key|\u200c"], shiftedManually: ["!icon/zwj_key|\u200d"]}
+    - {type: case, normal: ['.'], shiftedManually: ['ঊ']}
+    - $enter
