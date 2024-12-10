@@ -6,7 +6,7 @@ rows:
       - {type: case, normal: ["2", "@"], shifted: "@"}
       - {type: case, normal: ["3", "#"], shifted: "#"}
       - {type: case, normal: ["4", "$"], shifted: "$"}
-      - {type: case, normal: ["5", "%"], shifted: "%"}
+      - {type: case, normal: ["5", "%|%"], shifted: "%"}
       - {type: case, normal: ["6", "^"], shifted: "^"}
       - {type: case, normal: ["7", "&"], shifted: "&"}
       - {type: case, normal: ["8", "*"], shifted: "*"}
