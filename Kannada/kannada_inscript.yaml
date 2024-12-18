@@ -4,36 +4,36 @@ minimumFunctionalKeyWidth: 0.0
 useZWNJKey: true
 rows:
   - letters: # rowkeys_kannada1.xml
-    - {type: case, normal: ['ೌ', '೧'], shifted: ['ಔ']}
-    - {type: case, normal: ['ೈ', '೨'], shifted: ['ಐ']}
-    - {type: case, normal: ['ಾ', '೩'], shifted: ['ಆ']}
-    - {type: case, normal: ['ೀ', '೪'], shifted: ['ಈ']}
-    - {type: case, normal: ['ೂ', '೫'], shifted: ['ಊ']}
-    - {type: case, normal: ['ಬ', '೬'], shifted: ['ಭ']}
-    - {type: case, normal: ['ಹ', '೭'], shifted: ['ಙ']}
-    - {type: case, normal: ['ಗ', '೮'], shifted: ['ಘ']}
-    - {type: case, normal: ['ದ', '೯'], shifted: ['ಧ']}
-    - {type: case, normal: ['ಜ', '೦'], shifted: ['ಝ']}
-    - {type: case, normal: ['ಡ'], shifted: ['ಢ']}
+    - {type: case, normal: ['ೌ', '೧'], shiftedManually: ['ಔ']}
+    - {type: case, normal: ['ೈ', '೨'], shiftedManually: ['ಐ']}
+    - {type: case, normal: ['ಾ', '೩'], shiftedManually: ['ಆ']}
+    - {type: case, normal: ['ೀ', '೪'], shiftedManually: ['ಈ']}
+    - {type: case, normal: ['ೂ', '೫'], shiftedManually: ['ಊ']}
+    - {type: case, normal: ['ಬ', '೬'], shiftedManually: ['ಭ']}
+    - {type: case, normal: ['ಹ', '೭'], shiftedManually: ['ಙ']}
+    - {type: case, normal: ['ಗ', '೮'], shiftedManually: ['ಘ']}
+    - {type: case, normal: ['ದ', '೯'], shiftedManually: ['ಧ']}
+    - {type: case, normal: ['ಜ', '೦'], shiftedManually: ['ಝ']}
+    - {type: case, normal: ['ಡ'], shiftedManually: ['ಢ']}
   - letters: # rowkeys_kannada2.xml
-    - {type: case, normal: ['ೋ'], shifted: ['ಓ']}
-    - {type: case, normal: ['ೇ'], shifted: ['ಏ']}
-    - {type: case, normal: ['್'], shifted: ['ಅ']}
-    - {type: case, normal: ['ಿ'], shifted: ['ಇ']}
-    - {type: case, normal: ['ು'], shifted: ['ಉ']}
-    - {type: case, normal: ['ಪ'], shifted: ['ಫ']}
-    - {type: case, normal: ['ರ', 'ೃ', '್ರ'], shifted: ['ಱ']}
-    - {type: case, normal: ['ಕ'], shifted: ['ಖ']}
-    - {type: case, normal: ['ತ'], shifted: ['ಥ']}
-    - {type: case, normal: ['ಚ'], shifted: ['ಛ']}
-    - {type: case, normal: ['ಟ'], shifted: ['ಠ']}
+    - {type: case, normal: ['ೋ'], shiftedManually: ['ಓ']}
+    - {type: case, normal: ['ೇ'], shiftedManually: ['ಏ']}
+    - {type: case, normal: ['್'], shiftedManually: ['ಅ']}
+    - {type: case, normal: ['ಿ'], shiftedManually: ['ಇ']}
+    - {type: case, normal: ['ು'], shiftedManually: ['ಉ']}
+    - {type: case, normal: ['ಪ'], shiftedManually: ['ಫ']}
+    - {type: case, normal: ['ರ', 'ೃ', '್ರ'], shiftedManually: ['ಱ']}
+    - {type: case, normal: ['ಕ'], shiftedManually: ['ಖ']}
+    - {type: case, normal: ['ತ'], shiftedManually: ['ಥ']}
+    - {type: case, normal: ['ಚ'], shiftedManually: ['ಛ']}
+    - {type: case, normal: ['ಟ'], shiftedManually: ['ಠ']}
   - letters: # rowkeys_kannada3.xml
-    - {type: case, normal: ['ೊ'], shifted: ['ಒ']}
-    - {type: case, normal: ['ೆ'], shifted: ['ಎ']}
-    - {type: case, normal: ['ಂ'], shifted: ['ಞ']}
-    - {type: case, normal: ['ಮ', 'ೃ', 'ೄ'], shifted: ['ೃ', 'ೄ']}
-    - {type: case, normal: ['ನ'], shifted: ['ಣ']}
-    - {type: case, normal: ['ವ', 'ಋ', 'ೠ'], shifted: ['ಋ', 'ೠ']}
-    - {type: case, normal: ['ಲ'], shifted: ['ಳ']}
-    - {type: case, normal: ['ಸ'], shifted: ['ಶ']}
-    - {type: case, normal: ['ಯ', 'ಜ್ಞ', 'ಕ್ಷ'], shifted: ['ಷ']}
+    - {type: case, normal: ['ೊ'], shiftedManually: ['ಒ']}
+    - {type: case, normal: ['ೆ'], shiftedManually: ['ಎ']}
+    - {type: case, normal: ['ಂ'], shiftedManually: ['ಞ']}
+    - {type: case, normal: ['ಮ', 'ೃ', 'ೄ'], shiftedManually: ['ೃ', 'ೄ']}
+    - {type: case, normal: ['ನ'], shiftedManually: ['ಣ']}
+    - {type: case, normal: ['ವ', 'ಋ', 'ೠ'], shiftedManually: ['ಋ', 'ೠ']}
+    - {type: case, normal: ['ಲ'], shiftedManually: ['ಳ']}
+    - {type: case, normal: ['ಸ'], shiftedManually: ['ಶ']}
+    - {type: case, normal: ['ಯ', 'ಜ್ಞ', 'ಕ್ಷ'], shiftedManually: ['ಷ']}
