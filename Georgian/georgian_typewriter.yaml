@@ -1,0 +1,40 @@
+name: Georgian Typewriter
+languages: ka_GE
+attributes: {shiftable: false} # Automatic shifting breaks many of the characters
+rows:
+  - letters:
+    - 'ღ'
+    - 'ჯ'
+    - 'უ'
+    - 'კ'
+    - ['ე', 'ჱ']
+    - ['ნ', 'ჼ']
+    - ['გ', 'ჹ']
+    - 'შ'
+    - 'წ'
+    - 'ზ'
+    - ['ხ', 'ჴ']
+    - 'ც'
+  - letters:
+    - ['ფ', 'ჶ']
+    - 'ძ'
+    - ['ვ', 'ჳ']
+    - 'თ'
+    - ['ა', 'ჺ']
+    - 'პ'
+    - 'რ'
+    - 'ო'
+    - 'ლ'
+    - 'დ'
+    - 'ჟ'
+  - letters:
+    - 'ჭ'
+    - 'ჩ'
+    - ['ყ', 'ჸ']
+    - 'ს'
+    - 'მ'
+    - ['ი', 'ჲ']
+    - 'ტ'
+    - 'ქ'
+    - 'ბ'
+    - ['ჰ', 'ჵ']
