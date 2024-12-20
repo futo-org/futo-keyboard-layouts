@@ -43,7 +43,14 @@ languages:
     - bulgarian_bds
   bn_BD:
     - bengali_akkhor
+    - bengali_probhat
+    - bengali_inscript
+    - bengali_jatiyo
   bn_IN:
+    - bengali_inscript
+    - bengali_probhat
+    - bengali_akkhor
+    - bengali_jatiyo
     - bengali
   ca:
     - spanish
