@@ -1,0 +1,68 @@
+name: Tajik
+languages: tg
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - {
+      type: base,
+      spec: "ё",
+      attributes: {
+        width: Grow
+      }
+    }
+    - {
+      type: base,
+      spec: "ғ",
+      attributes: {
+        width: Grow
+      }
+    }
+    - {
+      type: base,
+      spec: "ӯ",
+      attributes: {
+        width: Grow
+      }
+    }
+    - {
+      type: base,
+      spec: "ъ",
+      attributes: {
+        width: Grow
+      },
+      moreKeys: ["ь", "ы"]
+    }
+  - letters:
+    - й
+    - ['қ', 'ц']
+    - у
+    - к
+    - е
+    - н
+    - г
+    - ['ш', 'щ']
+    - ['ҳ', 'щ']
+    - з
+    - х
+  - letters:
+    - ф
+    - ['ҷ', 'ы']
+    - в
+    - а
+    - п
+    - р
+    - о
+    - л
+    - д
+    - ж
+    - э
+  - letters:
+    - я
+    - ч
+    - ['с', 'ц']
+    - м
+    - ['и', 'ы']
+    - т
+    - ['ӣ', 'ь']
+    - б
+    - ю
