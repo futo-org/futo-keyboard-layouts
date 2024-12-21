@@ -521,6 +521,7 @@ languages:
     - pcqwerty
     - nordic
   ro:
+    - romanian
     - qwerty
     - qwertz
     - dvorak
