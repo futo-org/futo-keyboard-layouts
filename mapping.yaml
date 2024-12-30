@@ -308,6 +308,7 @@ languages:
     - pcqwerty
     - nordic
   hr:
+    - croatian_qwertz
     - serbian_qwertz
     - qwertz
     - qwerty
