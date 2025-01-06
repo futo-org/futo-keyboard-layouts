@@ -1,0 +1,35 @@
+name: 단모음 (Danmoeum)
+languages: ko
+combiners:
+  - KoreanCombineInitials
+attributes: {shiftable: false}
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - {type: case, normal: ["ㅂ", "ㅃ"], shiftedManually: ["ㅃ"]}
+    - {type: case, normal: ["ㅈ", "ㅉ"], shiftedManually: ["ㅉ"]}
+    - {type: case, normal: ["ㄷ", "ㄸ"], shiftedManually: ["ㄸ"]}
+    - {type: case, normal: ["ㄱ", "ㄲ"], shiftedManually: ["ㄲ"]}
+    - {type: case, normal: ["ㅅ", "ㅆ"], shiftedManually: ["ㅆ"]}
+    - {type: case, normal: ["ㅗ", "ㅛ"], shiftedManually: ["ㅛ"]}
+    - {type: case, normal: ["ㅐ", "ㅒ"], shiftedManually: ["ㅒ"]}
+    - {type: case, normal: ["ㅔ", "ㅖ"], shiftedManually: ["ㅖ"]}
+
+  - letters:
+    - [ㅁ, 1]
+    - ㄴ
+    - ㅇ
+    - ㄹ
+    - ㅎ
+    - {type: case, normal: ["ㅓ", "ㅕ"], shiftedManually: ["ㅕ"]}
+    - {type: case, normal: ["ㅏ", "ㅑ"], shiftedManually: ["ㅑ"]}
+    - [ㅣ, 0]
+
+  - letters:
+    - ㅋ
+    - ㅌ
+    - ㅊ
+    - ㅍ
+    - {type: case, normal: ["ㅜ", "ㅠ"], shiftedManually: ["ㅠ"]}
+    - ㅡ
+
