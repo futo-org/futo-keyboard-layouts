@@ -1,0 +1,29 @@
+name: Maltese
+languages: mt
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - q
+    - w
+    - [e, è]
+    - r
+    - t
+    - y
+    - [u, ù]
+    - [i, ì]
+    - [o, ò]
+    - p
+    - ġ
+  - letters:
+    - [a, à]
+    - s
+    - d
+    - f
+    - g
+    - h
+    - j
+    - k
+    - l
+    - ħ
+    - \-
+  - letters: z x c v b n m ż ċ
