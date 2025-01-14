@@ -1,0 +1,19 @@
+name: 두벌식 (Dubeolsik)
+languages: ko
+combiners:
+  - Korean
+attributes: {shiftable: false}
+rows:
+  - letters:
+    - {type: case, normal: ["ㅂ"], shiftedManually: ["ㅃ"]}
+    - {type: case, normal: ["ㅈ"], shiftedManually: ["ㅉ"]}
+    - {type: case, normal: ["ㄷ"], shiftedManually: ["ㄸ"]}
+    - {type: case, normal: ["ㄱ"], shiftedManually: ["ㄲ"]}
+    - {type: case, normal: ["ㅅ"], shiftedManually: ["ㅆ"]}
+    - ㅛ
+    - ㅕ
+    - ㅑ
+    - {type: case, normal: ["ㅐ"], shiftedManually: ["ㅒ"]}
+    - {type: case, normal: ["ㅔ"], shiftedManually: ["ㅖ"]}
+  - letters: ㅁ ㄴ ㅇ ㄹ ㅎ ㅗ ㅓ ㅏ ㅣ
+  - letters: ㅋ ㅌ ㅊ ㅍ ㅠ ㅜ ㅡ
