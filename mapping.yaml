@@ -40,6 +40,9 @@ languages:
     - russian_student
     - russian_yavert
     - russian_yazhert
+  be_Latn:
+    - belarusian_latin
+    - belarusian_latin2
   bg:
     - bulgarian
     - bulgarian_bds
