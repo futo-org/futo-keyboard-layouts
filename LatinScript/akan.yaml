@@ -1,0 +1,35 @@
+name: Akan
+languages: ak
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - q
+    - w
+    - [e, é, è, ẽ, ě, ĕ, ė]
+    - r
+    - t
+    - [y, ý, ỳ]
+    - [u, ú, ù, ũ, ǔ, ŭ]
+    - [i, í, ì, ĩ, ǐ, ĭ]
+    - [o, ó, ò, õ, ǒ, ŏ, ṍ]
+    - p
+  - letters:
+    - [a, á, à, ã, ǎ, ã́]
+    - s
+    - d
+    - f
+    - g
+    - h
+    - j
+    - k
+    - l
+    - [ɔ, ɔ́, ɔ̀, ɔ̃, ɔ̄]
+  - letters:
+    - z
+    - x
+    - c
+    - v
+    - b
+    - [n, ń, ñ]
+    - [m, m̀]
+    - [ɛ, ɛ́, ɛ̀]

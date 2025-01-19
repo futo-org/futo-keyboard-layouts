@@ -10,6 +10,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  ak:
+    - akan
   alt:
     - altai
   ar:
