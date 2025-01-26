@@ -498,6 +498,7 @@ languages:
   ne_NP:
     - nepali_romanized
     - nepali_traditional
+    - nepali_traditional_mpp
   nl:
     - qwerty
     - qwertz
