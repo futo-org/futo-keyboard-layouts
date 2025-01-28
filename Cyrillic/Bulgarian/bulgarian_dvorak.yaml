@@ -1,0 +1,36 @@
+name: Bulgarian (Dvorak)
+languages: bg
+rows:
+  - letters:
+    - {type: case, normal: "'", shifted: "\""}
+    - {type: case, normal: ",", shifted: "<"}
+    - {type: case, normal: ".", shifted: ">"}
+    - ['п']
+    - ['ъ']
+    - ['ф']
+    - ['г']
+    - ['ц']
+    - ['р']
+    - ['л']
+  - letters:
+    - ['а']
+    - ['о']
+    - ['е']
+    - ['у']
+    - ['и']
+    - ['д']
+    - ['х']
+    - ['т']
+    - ['н']
+    - ['с']
+    - ['ю']
+  - letters:
+    - ['я']
+    - ['й']
+    - ['к']
+    - ['ь']
+    - ['б']
+    - ['м']
+    - ['в']
+    - ['ж']
+    - ['з']
