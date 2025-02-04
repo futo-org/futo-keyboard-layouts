@@ -1,0 +1,45 @@
+name: Newa Romanized
+languages: new-NP
+useZWNJKey: true
+rows:
+  - numbers: [["𑑑", "𑑊"], "𑑒", "𑑓", "𑑔", "𑑕", "𑑖", "𑑗", "𑑘", "𑑙", "𑑐"]
+  - letters: 
+    - {type: case, normal: ["𑐚", "𑑏"], shifted: ["𑐛"]}  #Q
+    - {type: case, normal: ["𑑁"], shifted: ["𑐍"]}  #W
+    - {type: case, normal: ["𑐾", "𑐊"], shifted: ["𑐿", "𑐋"]}  #E
+    - {type: case, normal: ["𑐬", "𑐭"], shifted: ["𑐺", "𑐻"]}  #R
+    - {type: case, normal: ["𑐟", "𑐚"], shifted: ["𑐠", "𑐛"]}  #T
+    - {type: case, normal: ["𑐫"], shifted: ["𑐘", "𑐙"]}  #Y
+
+    - {type: case, normal: ["𑐸", "𑐄"], shifted: ["𑐹", "𑐅"]}  #U
+    - {type: case, normal: ["𑐶", "𑐂"], shifted: ["𑐷", "𑐃"]}  #I
+    - {type: case, normal: ["𑑀"], shifted: ["𑐌"]}  #O
+    - {type: case, normal: ["𑐥"], shifted: ["𑐦"]}  #P
+    - {type: case, normal: ["𑐂"], shifted: ["𑐃"]}  #
+
+    
+  - letters: 
+    - {type: case, normal: ["𑐵"], shifted: ["𑐁"]}  #A
+    - {type: case, normal: ["𑐳", "𑐲"], shifted: ["𑐱"]} #S
+    - {type: case, normal: ["𑐡", "𑐜"], shifted: ["𑐢", "𑐝"]}  #D
+    - {type: case, normal: ["𑐦"], shifted: ["𑐄", "𑐅"]}  #F
+    - {type: case, normal: ["𑐐"], shifted: ["𑐑"]}  #G
+
+    - {type: case, normal: ["𑐴"], shifted: ["𑐀"]}  #H
+    - {type: case, normal: ["𑐖"], shifted: ["𑐗"]}  #J
+    - {type: case, normal: ["𑐎"], shifted: ["𑐏"]}   #K
+    - {type: case, normal: ["𑐮", "𑐯"], shifted: ["𑑌"]}  #L
+    - {type: case, normal: ["𑐊"], shifted: ["𑐋"]}
+    - {type: case, normal: ["𑑉"], shifted: ["𑑅"]}
+
+  - letters:
+    - {type: case, normal: ["𑐲"], shifted: ["𑐆", "𑐇"]}  #Z
+    - {type: case, normal: ["𑐕"], shifted: ["𑐝"]}   #X
+    - {type: case, normal: ["𑐔"], shifted: ["𑐕"]}   #C
+    - {type: case, normal: ["𑐰"], shifted: ["𑑃"]}   #V
+    
+    - {type: case, normal: ["𑐧"], shifted: ["𑐨"]}   #B
+    - {type: case, normal: ["𑐣", "𑐤"], shifted: ["𑐞"]}  #N
+    - {type: case, normal: ["𑐩", "𑐪"], shifted: ["𑑄", "𑑈", "𑑆"]}  #M
+    - {type: case, normal: ["𑑍", "?"], shifted: ["𑐬𑐸"]}    #,
+    - {type: case, normal: ["𑑂", "𑑇"], shifted: ["𑐒", "𑐓"]}   #/

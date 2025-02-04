@@ -1,0 +1,45 @@
+name: Newa Traditional
+description: Prachalit traditional layout for Nepal Bhasa
+languages: new-NP
+useZWNJKey: true
+rows:
+  - numbers: [["𑑑", "𑑊"], "𑑒", "𑑓", "𑑔", "𑑕", "𑑖", "𑑗", "𑑘", "𑑙", "𑑐"]  # remove after Newa locale (new.json) is supported in make-keyboard-text
+  - letters: 
+    - {type: case, normal: ["𑐘", "𑐖𑑂𑐘", "𑐟𑑂𑐬", "𑐙"], shifted: ["𑐊", "𑐋", "𑑇", "𑐟𑑂𑐟"]}
+    - {type: case, normal: ["𑐢", "𑐃"], shifted: ["𑐄", "𑐅"]}
+    - {type: case, normal: ["𑐨"], shifted: ["𑐑"]}
+    - {type: case, normal: ["𑐔"], shifted: ["𑐕"]}
+    - {type: case, normal: ["𑐟", "𑐟𑑂𑐬", "𑐟𑑂𑐟"], shifted: ["𑐚"]}
+    - {type: case, normal: ["𑐠"], shifted: ["𑐛"]}
+
+    - {type: case, normal: ["𑐐"], shifted: ["𑐜"]}
+    - {type: case, normal: ["𑐲", "𑐎𑑂𑐲"], shifted: ["𑐝"]}
+    - {type: case, normal: ["𑐫"], shifted: ["𑐞"]}
+    - {type: case, normal: ["𑐺", "𑐻"], shifted: ["𑐂", "𑐃"]}
+    - {type: case, normal: ["𑐾", "𑐊"], shifted: ["𑐿", "𑐋"]}
+    
+  - letters: 
+    - {type: case, normal: ["𑐧"], shifted: ["𑐁"]}
+    - {type: case, normal: ["𑐎", "𑐎𑑂𑐲"], shifted: ["𑐎𑑂"]}
+    - {type: case, normal: ["𑐩", "𑐪"], shifted: ["𑐩𑑂"]}
+    - {type: case, normal: ["𑐵"], shifted: ["𑑃"]}
+    - {type: case, normal: ["𑐣", "𑐤"], shifted: ["𑐣𑑂"]}
+
+    - {type: case, normal: ["𑐖", "𑐖𑑂𑐘"], shifted: ["𑐗"]}
+    - {type: case, normal: ["𑐰"], shifted: ["𑑀", "𑐌"]}
+    - {type: case, normal: ["𑐥"], shifted: ["𑐦"]}
+    - {type: case, normal: ["𑐶", "𑐂"], shifted: ["𑐷", "𑐃"]}
+    - {type: case, normal: ["𑐳"], shifted: ["𑐳𑑂"]}
+    - {type: case, normal: ["𑐸", "𑐄"], shifted: ["𑐹", "𑐅"]}
+
+  - letters:
+    - {type: case, normal: ["𑐱"], shifted: ["𑐱𑑂𑐬"]}
+    - {type: case, normal: ["𑐴"], shifted: ["𑐴𑑂"]}
+    - {type: case, normal: ["𑐀"], shifted: ["𑐆", "𑐇"]}
+    - {type: case, normal: ["𑐏"], shifted: ["𑑉"]}
+    
+    - {type: case, normal: ["𑐡"], shifted: ["𑐡𑑂𑐫"]}
+    - {type: case, normal: ["𑐮", "𑐯"], shifted: ["𑑁", "𑐍"]}
+    - {type: case, normal: ["𑑄", "𑑈", "𑑆", "𑑏"], shifted: ["𑑅"]}
+    - {type: case, normal: ["𑑂"], shifted: ["𑐒", "𑐓"]}
+    - {type: case, normal: ["𑐬", "𑐭", "𑑋"], shifted: ["𑐬𑐸"]}
