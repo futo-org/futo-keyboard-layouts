@@ -703,7 +703,9 @@ languages:
     - amazigh_basic
     - amazigh_extended
   zgh-latn:
-    - amazigh_latin
+    - azerty_amazigh
+    - qwerty_amazigh
+    - qwertz_amazigh
   zu:
     - qwerty
     - qwertz

@@ -1,0 +1,33 @@
+name: AZERTY (Amazigh-Latin)
+languages: zgh-latn
+rows:
+  - letters: # rowkeys_amazigh1.xml
+    - ['a']
+    - ['z', 'ẓ']
+    - ['e']
+    - ['r', 'ṛ']
+    - ['t', 'ṭ']
+    - ['y']
+    - ['u']
+    - ['i']
+    - ['ɛ']
+    - ['ḥ']
+  - letters: # rowkeys_amazigh2.xml
+    - ['q']
+    - ['s', 'ṣ']
+    - ['d', 'ḍ']
+    - ['f', 'v']
+    - ['g', 'ǧ']
+    - ['h', 'ḥ']
+    - ['j']
+    - ['k']
+    - ['l']
+    - ['m']
+  - letters: # rowkeys_amazigh3.xml
+    - ['w']
+    - ['x']
+    - ['c', 'č']
+    - ['ɣ']
+    - ['b', 'p']
+    - ['n']
+    - ['ʷ']

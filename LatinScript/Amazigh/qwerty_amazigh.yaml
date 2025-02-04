@@ -1,0 +1,33 @@
+name: QWERTY (Amazigh-Latin)
+languages: zgh-latn
+rows:
+  - letters: # rowkeys_amazigh1.xml
+    - ['q']
+    - ['w', 'ʷ']
+    - ['e']
+    - ['r', 'ṛ']
+    - ['t', 'ṭ']
+    - ['y']
+    - ['u']
+    - ['i']
+    - ['ɛ']
+    - ['ḥ']
+  - letters: # rowkeys_amazigh2.xml
+    - ['a']
+    - ['s', 'ṣ']
+    - ['d', 'ḍ']
+    - ['f', 'v']
+    - ['g', 'ǧ']
+    - ['h', 'ḥ']
+    - ['j']
+    - ['k']
+    - ['l']
+    - ['ʷ']
+  - letters: # rowkeys_amazigh3.xml
+    - ['z', 'ẓ']
+    - ['x']
+    - ['c', 'č']
+    - ['ɣ']
+    - ['b', 'p']
+    - ['n']
+    - ['m']
