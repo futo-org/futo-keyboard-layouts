@@ -48,12 +48,14 @@ languages:
     - bengali_probhat
     - bengali_inscript
     - bengali_jatiyo
+    - bengali_unijoy
   bn_IN:
     - bengali_inscript
     - bengali_probhat
     - bengali_akkhor
     - bengali_jatiyo
     - bengali
+    - bengali_unijoy
   ca:
     - spanish
     - qwerty
