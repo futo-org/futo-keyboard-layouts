@@ -1,0 +1,15 @@
+name: Workman
+rows:
+  - letters: 
+    - q
+    - d
+    - r
+    - w
+    - b
+    - j
+    - f
+    - u 
+    - p
+    - {type: case, normal: ";", shifted: ":"}
+  - letters: a s h t g y n e o i
+  - letters: z x m c v k l
