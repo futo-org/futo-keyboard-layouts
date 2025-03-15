@@ -622,6 +622,7 @@ languages:
   sr_Latn:
     - serbian_qwertz
   sv:
+    - qwerty
     - nordic
   sw:
     - qwerty
