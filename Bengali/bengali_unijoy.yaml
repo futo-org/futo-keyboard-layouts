@@ -1,0 +1,43 @@
+name: bengali unijoy
+languages: bn
+description: Optimized Unijoy layout for Android.
+attributes: {moreKeyMode: OnlyExplicit}
+rows:
+  - letters:
+    - {type: case, normal: [ঙ, ং], shiftedManually: [ং]}
+    - {type: case, normal: [য, য়], shiftedManually: [য়]}
+    - {type: case, normal: [ড, ঢ], shiftedManually: [ঢ]}
+    - {type: case, normal: [প, ফ], shiftedManually: [ফ]}
+    - {type: case, normal: [ট, ঠ], shiftedManually: [ঠ]}
+    - {type: case, normal: [চ, ছ], shiftedManually: [ছ]}
+    - {type: case, normal: [জ, ঝ], shiftedManually: [ঝ]}
+    - {type: case, normal: [হ, ঞ], shiftedManually: [ঞ]}
+    - {type: case, normal: [গ, ঘ], shiftedManually: [ঘ]}
+    - {type: case, normal: [ড়, ঢ়], shiftedManually: [ঢ়]}
+  - letters:
+    - {type: case, normal: [ৃ, ঃ], shiftedManually: [ঃ]}
+    - {type: case, normal: [ু, উ], shiftedManually: [ূ, ঊ]}
+    - {type: case, normal: [ি, ই], shiftedManually: [ী, ঈ]}
+    - {type: case, normal: [া, আ, অ], shiftedManually: [অ]}
+    - {type: case, normal: [্, ঁ], shiftedManually: {type: base, spec: "ঁ", moreKeys: ["!autoColumnOrder!6", "়", "ৄ", "ঽ", "ৢ", "ৱ", "ৣ", "ৗ", "ৠ", "৺", "ঌ", "ৰ", "ৡ"]}}
+    - {type: case, normal: [ব, ভ], shiftedManually: [ভ]}
+    - {type: case, normal: [ক, খ], shiftedManually: [খ]}
+    - {type: case, normal: [ত, থ, ৎ], shiftedManually: [থ]}
+    - {type: case, normal: [দ, ধ], shiftedManually: [ধ]}
+  - letters: 
+    - $shift
+    - {type: case, normal: [্র, ্য], shiftedManually: [্য]}
+    - {type: case, normal: [ো, ও], shiftedManually: [ৌ, ঔ]}
+    - {type: case, normal: [ে, এ], shiftedManually: [ৈ, ঐ]}
+    - {type: case, normal: [র, ল, র‍্য], shiftedManually: [ল]}
+    - {type: case, normal: [ন, ণ], shiftedManually: [ণ]}
+    - {type: case, normal: [স, ষ], shiftedManually: [ষ]}
+    - {type: case, normal: [ম, শ], shiftedManually: [শ]}
+    - $delete
+  - bottom:
+      - $symbols
+      - {type: contextual, fallbackKey: ","}
+      - $action
+      - $space
+      - {type: base, spec: "।", attributes: {moreKeyMode: OnlyExplicit},  moreKeys: ["!autoColumnOrder!8", ",", "॥", "?", "!", "!icon/zwnj_key|‌", "!icon/zwj_key|‍", "#", "@", "(", ")", "/", ";", ":", "-", "+", "%"]}
+      - $enter
