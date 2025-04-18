@@ -1,6 +1,7 @@
 name: Farsi
 languages: fa
 useZWNJKey: true
+minimumFunctionalKeyWidth: 0.0
 rows:
   - letters: # rowkeys_farsi1.xml
     - ['ض']
