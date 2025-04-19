@@ -1,0 +1,24 @@
+name: Meadow Mari
+languages: mhr
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - { type: base, spec: "ё", attributes: { width: Grow } }
+    - { type: base, spec: "ҥ", attributes: { width: Grow } }
+    - { type: base, spec: "ӧ", attributes: { width: Grow } }
+    - { type: base, spec: "ӱ", attributes: { width: Grow } }
+    - { type: base, spec: "ъ", attributes: { width: Grow } }
+  - letters: й ц у к е н г ш щ з х
+  - letters:
+    - ф
+    - [ы, ӹ]
+    - в
+    - [а, ӓ]
+    - п
+    - р
+    - [о, ө, ӫ]
+    - л
+    - д
+    - ж
+    - э
+  - letters: я ч с м и т ь б ю
