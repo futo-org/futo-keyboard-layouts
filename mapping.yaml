@@ -507,7 +507,8 @@ languages:
     - nordic
   ne_NP:
     - nepali_romanized
-    - nepali_traditional
+    - nepali_traditional_simplified
+    - nepali_traditional_mpp
   new_NP:
     - newa_romanized
     - newa_traditional
