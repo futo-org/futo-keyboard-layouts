@@ -675,6 +675,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  tok:
+    - toki_pona_two_layer
   tr:
     - turkish
     - qwerty
