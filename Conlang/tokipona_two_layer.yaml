@@ -1,0 +1,31 @@
+name: "Toki Pona Dual Layer"
+rows:
+  - letters:
+      - { type: case, normal: "ku", shifted: "ki" }
+      - { type: case, normal: "we", shifted: "w" }
+      - { type: case, normal: "je", shifted: "e" }
+      - { type: case, normal: "lo", shifted: "la" }
+      - { type: case, normal: "te", shifted: "t" }
+      - { type: case, normal: "nu", shifted: "ni" }
+      - { type: case, normal: "ju", shifted: "u" }
+      - { type: case, normal: "mi", shifted: "i" }
+      - { type: case, normal: "jo", shifted: "o" }
+      - { type: case, normal: "pe", shifted: "p" }
+  - letters:
+      - { type: case, normal: "ja", shifted: "a" }
+      - { type: case, normal: "se", shifted: "s" }
+      - { type: case, normal: "to", shifted: "ta" }
+      - { type: case, normal: "po", shifted: "pa" }
+      - { type: case, normal: "ko", shifted: "ka" }
+      - { type: case, normal: "no", shifted: "na" }
+      - { type: case, normal: "li", shifted: "j" }
+      - { type: case, normal: "ke", shifted: "k" }
+      - { type: case, normal: "le", shifted: "l" }
+  - letters:
+      - { type: case, normal: "so", shifted: "sa" }
+      - { type: case, normal: "mo", shifted: "ma" }
+      - { type: case, normal: "su", shifted: "si" }
+      - { type: case, normal: "lu", shifted: "wi" }
+      - { type: case, normal: "pu", shifted: "pi" }
+      - { type: case, normal: "ne", shifted: "n" }
+      - { type: case, normal: "me", shifted: "m" }
