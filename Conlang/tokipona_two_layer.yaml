@@ -1,4 +1,6 @@
 name: "Toki Pona Dual Layer"
+attributes: &globalAttrs
+  shiftable: false
 rows:
   - letters:
       - { type: case, normal: "ku", shifted: "ki" }
