@@ -1,4 +1,5 @@
 name: "Toki Pona Dual Layer"
+language: tok
 attributes: &globalAttrs
   shiftable: false
 rows:
