@@ -676,6 +676,16 @@ languages:
     - pcqwerty
     - nordic
   tok:
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
     - toki_pona_two_layer
   tr:
     - turkish
