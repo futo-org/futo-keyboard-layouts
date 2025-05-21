@@ -1,0 +1,21 @@
+name: "Smartphone Version of 'jan lentan syllabary'"
+language: tok
+attributes: &globalAttrs
+  shiftable: false
+rows:
+  - letters:
+      - [w, v, f]
+      - [e, "?"]
+      - [f, d]
+      - [u, "'"]
+      - [i, '"']
+      - [o, ":", ";"]
+      - [p, b, h]
+  - letters:
+      - [a, "!", "@"]
+      - [s, c, x, z]
+      - [n, "#"]
+      - [m, "-", "+", "$"]
+      - [j, y]
+      - [k, g, q]
+      - [l, r]

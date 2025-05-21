@@ -1,4 +1,4 @@
-name: "Toki Pona Dual Layer"
+name: "PC version of 'jan lentan syllabary'"
 language: tok
 attributes: &globalAttrs
   shiftable: false
