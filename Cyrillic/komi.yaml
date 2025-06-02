@@ -1,0 +1,12 @@
+name: Komi
+languages: kom koi kpv
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - { type: base, spec: "ё", attributes: { width: Grow } }
+    - { type: base, spec: "і", attributes: { width: Grow } }
+    - { type: base, spec: "ӧ", attributes: { width: Grow } }
+    - { type: base, spec: "ъ", attributes: { width: Grow } }
+  - letters: й ц у к е н г ш щ з х
+  - letters: ф ы в а п р о л д ж э
+  - letters: я ч с м и т ь б ю

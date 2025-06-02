@@ -1,0 +1,13 @@
+name: Bidumsámegiella (Pite Sámi)
+languages: sje
+rows:
+  - letters:
+    - { type: base, spec: "á", attributes: { width: Grow } }
+    - { type: base, spec: "đ", attributes: { width: Grow } }
+    - { type: base, spec: "ŋ", attributes: { width: Grow } }
+    - { type: base, spec: "ŧ", attributes: { width: Grow } }
+    - { type: base, spec: "å", attributes: { width: Grow } }
+    - { type: base, spec: "ä", attributes: { width: Grow } }
+  - letters: [q, w, e, r, t, y, u, i, [o, ö, ø], p]
+  - letters: [[a, æ], s, d, f, g, h, j, k, l]
+  - letters: z x c v b n m

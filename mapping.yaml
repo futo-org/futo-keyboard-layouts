@@ -169,6 +169,10 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  enf:
+    - enets
+  enh:
+    - enets
   eo:
     - spanish
     - qwerty
@@ -403,6 +407,9 @@ languages:
   iw:
     - hebrew
     - hebrew-staggered
+  izh:
+    - izhorian
+    - qwerty
   kab:
     - kabyle
     - azerty
@@ -437,6 +444,13 @@ languages:
     - korean_dubeolsik
     - korean_dubeolsik_combineinitials
     - korean_danmoeum
+  koi:
+    - komi
+  kpv:
+    - komi
+  krl:
+    - karelian
+    - qwerty
   ku_Latn:
     - kurdish_latin
   ky:
@@ -459,6 +473,9 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  lud:
+    - ludic_veps
+    - qwerty
   lv:
     - qwerty
     - qwertz
@@ -470,6 +487,10 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  mhr:
+    - mari_meadow
+  mrj:
+    - mari_hill
   mk:
     - south_slavic
   ml_IN:
@@ -533,6 +554,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  nio:
+    - nganasan
   pl:
     - qwerty
     - qwertz
@@ -587,6 +610,18 @@ languages:
     - russian_yazhert
   sah:
     - yakut
+  se:
+    - sami_northern
+  sje:
+    - sami_pite
+  sju:
+    - sami_ume
+  sma:
+    - sami_southern
+  smj:
+    - sami_lule
+  smn:
+    - sami_inari
   si_LK:
     - sinhala
   sk:
@@ -691,6 +726,8 @@ languages:
     - tatar
   tyv:
     - kyrgyz
+  udm:
+    - udmurt
   ug:
     - uyghur
   uk:
@@ -703,6 +740,9 @@ languages:
     - urdu_phonetic
   uz_UZ:
     - uzbek
+  vep:
+    - ludic_veps
+    - qwerty
   vi:
     - qwerty
     - qwertz
@@ -714,6 +754,11 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  vot:
+    - votic
+    - qwerty
+  yrk:
+    - nenets
   zgh:
     - amazigh_basic
     - amazigh_extended

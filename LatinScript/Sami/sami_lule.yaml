@@ -1,0 +1,7 @@
+name: Julevsámigiella (Lule Sámi)
+languages: smj
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters: [q, w, e, r, t, y, u, i, [o, ö, ø], p, å]
+  - letters: [[a, æ], s, d, f, g, h, j, k, l, á, ä]
+  - letters: z x c v b n m ŋ

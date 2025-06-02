@@ -1,0 +1,15 @@
+name: Votic
+languages: vot
+rows:
+  - letters:
+    - { type: base, spec: "č", attributes: { width: Grow } }
+    - { type: base, spec: "š", attributes: { width: Grow } }
+    - { type: base, spec: "ž", attributes: { width: Grow } }
+    - { type: base, spec: "õ", attributes: { width: Grow } }
+    - { type: base, spec: "ü", attributes: { width: Grow } }
+    - { type: base, spec: "ä", attributes: { width: Grow } }
+    - { type: base, spec: "ö", attributes: { width: Grow } }
+    - { type: base, spec: "'", attributes: { width: Grow } }
+  - letters: q w e r t y u i o p
+  - letters: a s d f g h j k l
+  - letters: z x c v b n m

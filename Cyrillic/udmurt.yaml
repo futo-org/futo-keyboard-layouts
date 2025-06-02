@@ -1,0 +1,15 @@
+name: Udmurt
+languages: udm
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - { type: base, spec: "ё", attributes: { width: Grow } }
+    - { type: base, spec: "ӵ", attributes: { width: Grow } }
+    - { type: base, spec: "ӥ", attributes: { width: Grow } }
+    - { type: base, spec: "ӧ", attributes: { width: Grow } }
+    - { type: base, spec: "ӝ", attributes: { width: Grow } }
+    - { type: base, spec: "ӟ", attributes: { width: Grow } }
+    - { type: base, spec: "ъ", attributes: { width: Grow } }
+  - letters: й ц у к е н г ш щ з х
+  - letters: ф ы в а п р о л д ж э
+  - letters: я ч с м и т ь б ю
