@@ -158,6 +158,9 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  en_Shaw:
+    - shavian
+    - shavian_two_layer
   en_US:
     - qwerty
     - qwertz
