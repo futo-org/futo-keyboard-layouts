@@ -1,0 +1,7 @@
+name: Åarjelsaemien gïele (Southern Sámi)
+languages: sma
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters: [q, w, e, r, t, y, u, i, [o, ø], p, å]
+  - letters: [[a, ä], s, d, f, g, h, j, k, l, ö, æ]
+  - letters: z x c v b n m ï

@@ -1,0 +1,7 @@
+name: Anarâškielâ (Inari Sámi)
+languages: smn
+rows:
+  - letters: á â ä č đ ŋ š ž
+  - letters: [q, w, e, r, t, y, u, i, [o, ö], p]
+  - letters: [[a, å], s, d, f, g, h, j, k, l]
+  - letters: z x c v b n m

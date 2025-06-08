@@ -1,0 +1,7 @@
+name: Davvisámegiella (Northern Sámi)
+languages: se
+rows:
+  - letters: á č đ ŋ š ŧ ž
+  - letters: [q, w, [e, æ], r, t, y, u, i, [o, ö, ø], p]
+  - letters: [[a, ä, æ], s, d, f, g, h, j, k, l]
+  - letters: z x c v b n m

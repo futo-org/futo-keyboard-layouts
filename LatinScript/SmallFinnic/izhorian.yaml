@@ -1,0 +1,12 @@
+name: Izhorian
+languages: izh
+rows:
+  - letters:
+    - { type: base, spec: "š", attributes: { width: Grow } }
+    - { type: base, spec: "ž", attributes: { width: Grow } }
+    - { type: base, spec: "ь", attributes: { width: Grow } }
+    - { type: base, spec: "ä", attributes: { width: Grow } }
+    - { type: base, spec: "ö", attributes: { width: Grow } }
+  - letters: [q, w, e, r, t, y, u, i, o, p]
+  - letters: [a, [s, ş], d, f, g, h, j, k, l]
+  - letters: [[z, ƶ], x, [c, ç], v, b, n, m]
