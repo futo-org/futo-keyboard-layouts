@@ -477,6 +477,7 @@ languages:
   mn_MN:
     - mongolian
   mr_IN:
+    - marathi_compact
     - marathi
   ms_MY:
     - qwerty
