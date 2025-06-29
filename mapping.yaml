@@ -90,6 +90,8 @@ languages:
     - nordic
   cv:
     - chuvash
+  cy:
+    - welsh_qwerty
   da:
     - nordic
     - qwerty

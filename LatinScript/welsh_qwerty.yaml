@@ -1,0 +1,32 @@
+name: Welsh QWERTY
+languages: cy
+rows:
+  - letters: 
+    - q
+    - ['w', 'ŵ']
+    - ['e', 'ê']
+    - ['r', 'rh']
+    - ['t', 'th']
+    - ['y', 'ŷ']
+    - u
+    - ['i', 'î', 'ï']
+    - ['o', 'ô']
+    - ['p', 'ph']
+  - letters:
+    - ['a', 'â']
+    - s
+    - ['d', 'dd']
+    - ['f', 'ff']
+    - g
+    - h
+    - j
+    - k
+    - ['l', 'll']
+  - letters:
+    - z
+    - x
+    - ['c', 'ch']
+    - v
+    - b
+    - n
+    - m
