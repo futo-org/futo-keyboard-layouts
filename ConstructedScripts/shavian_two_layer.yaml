@@ -1,0 +1,32 @@
+name: "Shavian 2-layer"
+rows:
+  - letters:
+      - { type: case, normal: "𐑵", shifted: "𐑿" }
+      - { type: case, normal: "𐑧", shifted: "𐑱" }
+      - { type: case, normal: "𐑨", shifted: "𐑲" }
+      - { type: case, normal: "𐑭", shifted: "𐑸" }
+      - { type: case, normal: "𐑬", shifted: "𐑶" }
+      - { type: case, normal: "·", shifted: "⸰" }
+      - { type: case, normal: "𐑝", shifted: "𐑓" }
+      - { type: case, normal: "𐑢", shifted: "𐑘" }
+      - { type: case, normal: "𐑞", shifted: "𐑔" }
+      - { type: case, normal: "𐑣", shifted: "𐑙" }
+  - letters:
+      - { type: case, normal: "𐑤", shifted: "𐑮" }
+      - { type: case, normal: "𐑦", shifted: "𐑰" }
+      - { type: case, normal: "𐑩", shifted: "𐑾" }
+      - { type: case, normal: "𐑯", shifted: "𐑥" }
+      - { type: case, normal: "𐑷", shifted: "𐑹" }
+      - { type: case, normal: "𐑖", shifted: "𐑠" }
+      - { type: case, normal: "𐑑", shifted: "𐑛" }
+      - { type: case, normal: "𐑕", shifted: "𐑟" }
+      - { type: case, normal: "𐑒", shifted: "𐑜" }
+      - { type: case, normal: "𐑐", shifted: "𐑚" }
+  - letters:
+      - { type: case, normal: "𐑪", shifted: "𐑺" }
+      - { type: case, normal: "𐑳", shifted: "𐑻" }
+      - { type: case, normal: "𐑼", shifted: "𐑽" }
+      - { type: case, normal: "𐑴", shifted: "𐑫" }
+      - { type: case, normal: "«", shifted: "‹" }
+      - { type: case, normal: "»", shifted: "›" }
+      - { type: case, normal: "𐑗", shifted: "𐑡" }
