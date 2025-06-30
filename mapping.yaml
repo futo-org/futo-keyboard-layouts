@@ -712,6 +712,19 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  tok:
+    - toki_pona_lentan_syllabary
+    - toki_pona_lentan_syllabary_pc
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
   tr:
     - turkish
     - qwerty
