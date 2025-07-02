@@ -1,0 +1,18 @@
+name: Ukrainian G
+languages: uk
+rows:
+  - letters:
+    - [й]
+    - [ц]
+    - [у]
+    - [к]
+    - [е]
+    - [н]
+    - [г, ґ]
+    - [ш]
+    - [щ]
+    - [з]
+    - [х]
+    - [ї]
+  - letters: ф і в а п р о л д ж є '
+  - letters: я ч с м и т ь б ю

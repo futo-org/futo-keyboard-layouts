@@ -734,6 +734,7 @@ languages:
     - uyghur
   uk:
     - ukrainian
+    - ukrainian_g
     - east_slavic
     - russian_student
     - russian_yavert

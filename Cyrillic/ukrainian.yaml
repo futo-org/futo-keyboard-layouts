@@ -11,4 +11,5 @@ rows:
     - $action
     - $space
     - ["'", '.']
+    - {type: case, normal: ['.'], shiftedManually: [',']}
     - $enter
