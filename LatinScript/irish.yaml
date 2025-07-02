@@ -1,0 +1,9 @@
+name: Irish
+languages: ga
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+  - letters: q w e r t y u i o p
+  - letters: ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', "´|\u0301"]
+  - letters: z x c v b n m

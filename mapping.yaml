@@ -303,6 +303,8 @@ languages:
     - pcqwerty
     - nordic
     - bepo_inclusive
+  ga:
+    - irish
   gag:
     - gagauz
   gl_ES:
