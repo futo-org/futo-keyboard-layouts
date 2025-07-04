@@ -149,6 +149,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - ortholinear_workman
   en_IN:
     - qwerty
     - qwertz
@@ -160,6 +161,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - ortholinear_workman
   en_US:
     - qwerty
     - qwertz
@@ -171,6 +173,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - ortholinear_workman
   enf:
     - enets
   enh:
