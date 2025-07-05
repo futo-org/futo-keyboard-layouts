@@ -1,0 +1,54 @@
+name: Colemark DH Ortholinear
+rows:
+  - letters:
+    - q
+    - w
+    - f
+    - p
+    - b
+    - j
+    - l
+    - u
+    - y
+    - type: base
+      spec: "!icon/delete_key|!code/key_delete"
+      attributes:
+        width: Regular
+        style: Functional
+  - letters: 
+    - a
+    - r
+    - s
+    - t
+    - g
+    - m
+    - n
+    - e
+    - i
+    - [o,\]
+  - letters:
+    - z
+    - x
+    - c
+    - d
+    - v
+    - k
+    - h
+    - [".",","]
+    - ["?","/"]
+    - type: base
+      spec: "!icon/shift_key|!code/key_shift"
+      attributes: 
+        width: Regular
+        style: Functional
+  - bottom:
+    - $symbols
+    - type: base
+      spec: "!icon/action_emoji|!code/action_emoji"
+    - $space
+    - type: base
+      spec: "!icon/enter_key|!code/key_enter"
+      moreKeys: "!icon/action_settings|!code/action_settings"
+      attributes:
+        width: FunctionalKey
+        style: Action
