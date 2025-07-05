@@ -319,6 +319,8 @@ languages:
     - nordic
   ha:
     - hausa
+  haw:
+    - hawaiian
   hi:
     - hindi
     - hindi_compact

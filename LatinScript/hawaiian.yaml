@@ -1,0 +1,13 @@
+name: Hawaiian
+languages: haw
+minimumFunctionalKeyWidth: 0.0
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+ - letters: q w e r t y u i o p
+ # U+02BB ʻ MODIFIER LETTER TURNED COMMA
+ - letters: a s d f g h j k l ʻ
+ # U+00AF ¯ MACRON
+ # U+0304 COMBINING MACRON
+ - letters: ['z', 'x', 'c', 'v', 'b', 'n', 'm', "¯|\u0304"]
