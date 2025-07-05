@@ -1,4 +1,4 @@
-name: Ortholinear Workman
+name: Workman Ortholinear
 rows:
   - letters:
     - q
@@ -34,8 +34,8 @@ rows:
     - v
     - k
     - l
-    - ","
-    - [".","?",/]
+    - [".",","]
+    - ["?","/"]
     - type: base
       spec: "!icon/shift_key|!code/key_shift"
       attributes: 
