@@ -149,6 +149,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - qwerty_ortholinear
+    - coleman_dh_ortholinear
     - workman_ortholinear
   en_IN:
     - qwerty
@@ -161,6 +163,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - qwerty_ortholinear
+    - coleman_dh_ortholinear
     - workman_ortholinear
   en_US:
     - qwerty
@@ -173,6 +177,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - qwerty_ortholinear
+    - coleman_dh_ortholinear
     - workman_ortholinear
   enf:
     - enets
