@@ -1,0 +1,54 @@
+name: Qwerty Ortholinear
+rows:
+  - letters:
+    - q
+    - w
+    - e
+    - r
+    - t
+    - y
+    - u
+    - i
+    - o
+    - p
+  - letters: 
+    - a
+    - s
+    - d
+    - f
+    - g
+    - h
+    - j
+    - k
+    - l
+    - type: base
+      spec: "!icon/delete_key|!code/key_delete"
+      attributes:
+        width: Regular
+        style: Functional
+  - letters:
+    - z
+    - x
+    - c
+    - v
+    - b
+    - n
+    - m
+    - [".",","]
+    - ["?","/"]
+    - type: base
+      spec: "!icon/shift_key|!code/key_shift"
+      attributes: 
+        width: Regular
+        style: Functional
+  - bottom:
+    - $symbols
+    - type: base
+      spec: "!icon/action_emoji|!code/action_emoji"
+    - $space
+    - type: base
+      spec: "!icon/enter_key|!code/key_enter"
+      moreKeys: "!icon/action_settings|!code/action_settings"
+      attributes:
+        width: FunctionalKey
+        style: Action
