@@ -1,0 +1,60 @@
+name: Colemak Ortholinear
+attributes:
+  moreKeyMode: OnlyFromLetter
+rows:
+  - letters:
+    - [q,1]
+    - [w,2]
+    - [f,3]
+    - [p,4]
+    - [g,5]
+    - [j,6]
+    - [l,7]
+    - [u,8]
+    - [y,9]
+    - type: base
+      spec: "!icon/delete_key|!code/key_delete"
+      moreKeys: 0
+      attributes:
+        width: Regular
+        style: Functional
+  - letters:
+    - [a,'@']
+    - [r,'#']
+    - [s,$]
+    - [t,'%|%']
+    - [d,'^']
+    - [h,'&']
+    - [n,'-',–,—,_]
+    - [e,=,+]
+    - [i,(,'[','{','<']
+    - [o,),']','}','>']
+  - letters:
+    - [z,"!icon/settings_key|!code/key_settings"]
+    - [x,'*']
+    - [c,'"']
+    - [v,"'"]
+    - [b,':']
+    - [k,';']
+    - [m,'!']
+    - [',','?',/]
+    - ['.','\','|']
+    - type: base
+      spec: "!icon/shift_key|!code/key_shift"
+      attributes: 
+        width: Regular
+        style: Functional
+  - bottom:
+    - type: base
+      spec: "?123|!code/key_switch_alpha_symbol"
+      attributes:
+        width: Regular
+        style: Functional
+    - $action
+    - $space
+    - type: base
+      spec: "!icon/enter_key|!code/key_enter"
+      moreKeys: "!icon/action_clipboard_history|!code/action_clipboard_history,!icon/action_redo|!code/action_redo,!icon/action_undo|!code/action_undo"
+      attributes:
+        width: FunctionalKey
+        style: Action
