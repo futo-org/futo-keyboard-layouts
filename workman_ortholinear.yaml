@@ -1,0 +1,48 @@
+name: Workman Ortholinear
+rows:
+  - letters:
+    - q
+    - d
+    - r
+    - w
+    - b
+    - j
+    - f
+    - u
+    - p
+    - type: base
+      spec: "!icon/delete_key|!code/key_delete"
+      attributes:
+        width: Regular
+        style: Functional
+  - letters:
+    - a
+    - s
+    - h
+    - t
+    - g
+    - y
+    - n
+    - e
+    - o
+    - i
+  - letters:
+    - z
+    - x
+    - m
+    - c
+    - v
+    - k
+    - l
+    - ','
+    - '.'
+    - type: base
+      spec: "!icon/shift_key|!code/key_shift"
+      attributes: 
+        width: Regular
+        style: Functional
+  - bottom:
+    - $symbols
+    - $action
+    - $space
+    - $enter
