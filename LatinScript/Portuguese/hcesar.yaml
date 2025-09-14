@@ -1,0 +1,26 @@
+name: HCESAR
+rows:
+  - letters:
+    - h
+    - c
+    - e
+    - s
+    - a
+    - r
+    - o
+    - p
+    - z
+    - {type: case, normal: ",", shifted: "«"}
+  - letters:
+    - q
+    - t
+    - d
+    - i
+    - n
+    - u
+    - l
+    - m
+    - x
+    - {type: case, normal: ".", shifted: "»"}
+  - letters: $shift ç j b f v g k $delete
+  - bottom:  $symbols y $action $space w $enter

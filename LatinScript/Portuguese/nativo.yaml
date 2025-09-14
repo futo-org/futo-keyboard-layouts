@@ -1,0 +1,16 @@
+name: Nativo
+rows:
+  - letters:
+    - {type: case, normal: "'", shifted: "\""}
+    - {type: case, normal: ",", shifted: "<"}
+    - {type: case, normal: ".", shifted: ">"}
+    - h
+    - x
+    - w
+    - l
+    - t
+    - c
+    - p
+  - letters: i e a o u m d s r n 
+  - letters: $shift ç j b k q v g f $delete
+  - bottom:  $symbols y $action $space z $enter
