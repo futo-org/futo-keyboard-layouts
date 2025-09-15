@@ -477,6 +477,8 @@ languages:
     - korean_danmoeum
   koi:
     - komi
+  kp:
+    - koashur_simple
   kpv:
     - komi
   krl:

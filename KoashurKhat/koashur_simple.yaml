@@ -1,0 +1,34 @@
+name: Koashur Extended
+languages: kp
+rows:
+  - letters: 
+    - ['è', 'ē', 'q']
+    - ['ÿ', 'w']
+    - ['e', 'ě']
+    - r
+    - ['t', 'ṭ']
+    - ['y', 'ë']
+    - u
+    - i
+    - o
+    - p
+  - letters:
+    - ['a', 'ā']
+    - s
+    - ['d', 'ḍ']
+    - f
+    - g
+    - h
+    - j
+    - k
+    - l
+    - ['ó', 'ö']
+  - letters:
+    - z
+    - x
+    - c
+    - v
+    - b
+    - ['n', 'ñ']
+    - m
+    - č
