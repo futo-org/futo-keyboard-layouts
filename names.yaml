@@ -8,9 +8,21 @@ hi_Latn:
   en: Hinglish
   hi: "हिंग्लिश"
   hi_Latn: Hinglish
+lbj:
+  bod: ལ་དྭགས་སྐད་
+  en: Ladakhi
+  lbj: ལ་དྭགས་སྐད་
+sip:
+  bod: འབྲས་ལྗོངས་སྐད་
+  en: Sikkimese Bhutia
+  sip: འབྲས་ལྗོངས་སྐད་
 tok:
   en: Toki Pona
   tok: toki pona
+xsr:
+  bod: ཤར་པའི་སྐད་
+  en: Sherpa
+  xsr: ཤར་པའི་སྐད་
 zgh_Latn:
   en: Amazigh
   zgh_Latn: Tamaziɣt

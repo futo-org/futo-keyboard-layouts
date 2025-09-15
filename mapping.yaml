@@ -70,6 +70,8 @@ languages:
     - bengali_jatiyo
     - bengali
     - bengali_unijoy
+  bod:
+    - tibetan_wylie
   ca:
     - spanish
     - qwerty
@@ -140,6 +142,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  dz:
+    - tibetan_wylie
   el:
     - greek
     - qwerty
@@ -492,6 +496,8 @@ languages:
     - russian_yazhert
   lbe:
     - north_caucasian
+  lbj:
+    - tibetan_wylie
   lez:
     - north_caucasian
   lo_LA:
@@ -663,6 +669,8 @@ languages:
     - sami_inari
   si_LK:
     - sinhala
+  sip:
+    - tibetan_wylie
   sk:
     - qwerty
     - qwertz
@@ -803,6 +811,8 @@ languages:
   vot:
     - votic
     - qwerty
+  xsr:
+    - tibetan_wylie
   yrk:
     - nenets
   zgh:

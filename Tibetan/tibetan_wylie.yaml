@@ -1,0 +1,47 @@
+name: Extended Wylie
+description: Uses THL Extended Wylie transliteration, details at https://texts.mandala.library.virginia.edu/text/thl-extended-wylie-transliteration-scheme
+languages: bod dz lbj sip xsr
+combiners:
+  - Wylie
+autoShift: false
+rows:
+  - numbers: ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩ ༠
+  - letters:
+    - q
+    - w
+    - e
+    - r
+    - t
+    - y
+    - u
+    - i
+    - o
+    - p
+  - letters:
+    - ['a', '྅|&']
+    - s
+    - d
+    - { type: case, normal: ['+', 'f'], shiftedManually: ['f'] }
+    - g
+    - h
+    - j
+    - k
+    - l
+  - letters:
+    - $shift
+    - z
+    - { type: case, normal: ['-', 'x'], shiftedManually: ['~'] }
+    - c
+    - { type: case, normal: ["'", 'v'], shiftedManually: ["`", 'v'] }
+    - b
+    - n
+    - m
+    - $delete
+  - bottom:
+    - $symbols
+    - ['།', '༎', '༏', '༑', '༈', '༔', '༐', '༒', '༴', '྾', '྿', '༶', '༓', '༁', '༂', '༃', '༄', '༅', '༆', '༇', '༺', '༻', '༼', '༽']
+    - $action
+    - $space
+    - { type: base, spec: "་", attributes: { width: Grow } }
+    - { type: case, normal: ['.'], shiftedManually: ['◌྄|?'] }
+    - $enter
