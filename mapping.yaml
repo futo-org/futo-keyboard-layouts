@@ -756,6 +756,7 @@ languages:
     - pcqwerty
     - nordic
   tr:
+    - turkish_big
     - turkish
     - qwerty
     - qwertz
