@@ -1,0 +1,27 @@
+name: Lakota
+languages: lkt
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+  - letters:
+    - { type: base, spec: "č", attributes: { width: Grow } }
+    - { type: base, spec: "ǧ", attributes: { width: Grow } }
+    # U+00B4 ´ ACUTE ACCENT
+    # U+0301 ◌́ COMBINING ACUTE ACCENT
+    - { type: base, spec: "´|\u0301", attributes: { width: Grow } }
+    - { type: base, spec: "ȟ", attributes: { width: Grow } }
+    - { type: base, spec: "ŋ", attributes: { width: Grow } }
+    - { type: base, spec: "š", attributes: { width: Grow } }
+    - { type: base, spec: "ž", attributes: { width: Grow } }
+  - letters: q w e r t y u i o p
+  - letters: a s d f g h j k l
+  - letters: $shift z x c v b n m $delete
+  - bottom:
+    - $symbols
+    - ','
+    - $action
+    - $space
+    - ["'", '"']
+    - '.'
+    - $enter

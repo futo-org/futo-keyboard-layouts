@@ -494,6 +494,8 @@ languages:
     - north_caucasian
   lez:
     - north_caucasian
+  lkt:
+    - lakota
   lo_LA:
     - lao
   lt:
