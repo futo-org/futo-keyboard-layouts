@@ -17,9 +17,13 @@ rows:
       - "&"
       # U+2013: "–" EN DASH
       # U+2014: "—" EM DASH
+      # U+207B: "⁻" SUPERSCRIPT MINUS
+      # U+208B: "₋" SUBSCRIPT MINUS
       # U+00B7: "·" MIDDLE DOT
-      - ["-", "_", "\u2013", "\u2014", "\u00B7"]
-      - "+"
+      - ["-", "_", "\u2013", "\u2014", "\u207B", "\u208B", "\u00B7"]
+      # U+207A: "⁺" SUPERSCRIPT PLUS
+      # U+208A: "⁺" SUBSCRIPT PLUS
+      - ["+", "\u207A", "\u208A"]
       - "("
       - ")"
   - letters:
