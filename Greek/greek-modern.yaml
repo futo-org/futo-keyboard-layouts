@@ -1,0 +1,36 @@
+name: Modern
+languages: el
+rows:
+  - letters:
+    -  {type: case, normal: [';', '%', ':', '·'], shiftLocked: [';', '%', ':', '·'], shiftedManually: [':', '%', ';', '·']}
+    # ̈́  Combining Greek Dialytika Tonos (U+0344)
+    -  {type: case, normal: 'ς', shiftLocked: 'Σ', shiftedManually: "\u0344"}
+    - ['ε', '%', 'έ']
+    - ['ρ']
+    - ['τ']
+    - ['υ', '%', 'ύ', 'ϋ', 'ΰ']
+    - ['θ']
+    - ['ι', '%', 'ί', 'ϊ', 'ΐ']
+    - ['ο', '%', 'ό']
+    - ['π']
+  - letters:
+    - ['α', '%', 'ά']
+    - ['σ']
+    - ['δ']
+    - ['φ']
+    - ['γ']
+    - ['η', '%', 'ή']
+    - ['ξ']
+    - ['κ', '%', '«']
+    - ['λ', '%', '»']
+    # ́  Combining Acute Accent (U+0301)
+    # ̈  Combining Diaeresis (U+0308)
+    - {type: case, normal: "\u0301", shiftLocked: "\u0301", shiftedManually: "\u0308"}
+  - letters:
+    - ['ζ']
+    - ['χ']
+    - ['ψ']
+    - ['ω', '%', 'ώ']
+    - ['β']
+    - ['ν']
+    - ['μ']
