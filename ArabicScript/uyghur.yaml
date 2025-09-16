@@ -1,4 +1,4 @@
-name: Uyghur (Arabic)
+name: Uyghur (Arabic) G
 languages: ug
 minimumFunctionalKeyWidth: 0.0
 rows:
@@ -18,18 +18,18 @@ rows:
   - letters:
     - 'ھ'
     - 'س'
-    - {type: case, normal: 'د', shiftedManually: 'ژ'}
+    - 'د'
 
     # U+0627 "ا" ARABIC LETTER ALEF
     # U+0622 "آ" ARABIC LETTER ALEF WITH MADDA ABOVE
     # U+0625 "إ" ARABIC LETTER ALEF WITH HAMZA BELOW
     # U+0623 "أ" ARABIC LETTER ALEF WITH HAMZA ABOVE
     # U+0654 "ٔ" ARABIC HAMZA ABOVE
-    - ["\u0627", "\u0622", "\u0625", "\u0623", "\u0654"]
+    - {type: base, spec: "\u0627", moreKeys: ["\u0622", "\u0625", "\u0623", "\u0654"], hint: "\u0622"}
 
     # U+06D5 "ە" ARABIC LETTER AE
     # U+0641 "ف" ARABIC LETTER FEH
-    - ["\u06d5", "\u0641"]
+    - {type: base, spec: "\u06d5", moreKeys: ["\u0641"], hint: "\u0641"}
 
     - 'ى'
     - 'ق'
@@ -56,6 +56,7 @@ rows:
     - ['،', ',']
     - $action
     - $space
+    - "!icon/zwnj_key|\u200c"
 
     # U+061F "؟" ARABIC QUESTION MARK
     # U+0654 "ٔ" ARABIC HAMZA ABOVE
