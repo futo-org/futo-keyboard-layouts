@@ -475,6 +475,7 @@ languages:
     - korean_dubeolsik
     - korean_dubeolsik_combineinitials
     - korean_danmoeum
+    - korean_phonetic
   koi:
     - komi
   kpv:
