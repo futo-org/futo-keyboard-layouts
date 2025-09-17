@@ -1,0 +1,36 @@
+name: Koashur
+languages: ks_Latn
+minimumFunctionalKeyWidth: 0.0
+combiners:
+ - Koashur
+rows:
+ - letters: q w e r t y u i o p
+# U+0027 ' APOSTROPHE - Dead key for ṭ ḍ è ó
+ - letters: ["a", "s", "d", "f", "g", "h", "j", "k", "l", "\u00B4",]
+# U+02C7 ˇ CARON - Dead key for ë ē ě ö ÿ
+# U+030C COMBINING CARON  
+ - letters: ['z', 'x', 'c', 'v', 'b', 'n', 'm', "ˇ|\u030C"]
+
+# # Dead key combinations
+# deadKeyMappings:
+#   # Apostrophe dead key combinations
+#   "'\u0074": "ṭ"  # ' + t = ṭ (U+1E6D)
+#   "'\u0054": "Ṭ"  # ' + T = Ṭ (U+1E6C)
+#   "'\u0064": "ḍ"  # ' + d = ḍ (U+1E0D)
+#   "'\u0044": "Ḍ"  # ' + D = Ḍ (U+1E0C)
+#   "'\u0065": "è"  # ' + e = è (U+00E8)
+#   "'\u0045": "È"  # ' + E = È (U+00C8)
+#   "'\u006F": "ó"  # ' + o = ó (U+00F3)
+#   "'\u004F": "Ó"  # ' + O = Ó (U+00D3)
+  
+#   # Caron dead key combinations
+#   "ˇ\u0065": "ë"  # ˇ + e = ë (U+00EB)
+#   "ˇ\u0045": "Ë"  # ˇ + E = Ë (U+00CB)
+#   "ˇ\u006F": "ö"  # ˇ + o = ö (U+00F6)
+#   "ˇ\u004F": "Ö"  # ˇ + O = Ö (U+00D6)
+#   "ˇ\u0079": "ÿ"  # ˇ + y = ÿ (U+00FF)
+#   "ˇ\u0059": "Ÿ"  # ˇ + Y = Ÿ (U+0178)
+#   "ˇ\u0072": "ē"  # ˇ + r = ē (U+0113)
+#   "ˇ\u0052": "Ē"  # ˇ + R = Ē (U+0112)
+#   "ˇ\u0077": "ě"  # ˇ + w = ě (U+011B)
+#   "ˇ\u0057": "Ě"  # ˇ + W = Ě (U+011A)

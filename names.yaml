@@ -16,7 +16,9 @@ zgh_Latn:
   zgh_Latn: Tamaziɣt
 zz:
   en: No language (Alphabet)
-
+ks_Latn: 
+  en: Kashmiri
+  ks_Latn: Kóshur
 # Uralic languages ( https://github.com/futo-org/futo-keyboard-layouts/pull/172 )
 koi:
   en: Komi-Permyak
