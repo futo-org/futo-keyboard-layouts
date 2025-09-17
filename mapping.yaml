@@ -163,6 +163,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - workman
   en_IN:
     - qwerty
     - qwertz
@@ -174,6 +175,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - workman
   en_Shaw:
     - shavian
     - shavian_two_layer
@@ -188,6 +190,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - workman
   enf:
     - enets
   enh:
@@ -563,6 +566,7 @@ languages:
     - nordic
   ne_NP:
     - nepali_romanized
+    - nepali_traditional_simplified
     - nepali_traditional
   new_NP:
     - newa_romanized

@@ -1,0 +1,46 @@
+name: Nepali Traditional Simplified
+description: Nepali traditional layout similar to Preeti-like non-Unicode Nepali fonts
+languages: ne-NP
+attributes: {shiftable: false}
+autoShift: false
+useZWNJKey: true
+rows:
+  - letters:
+    - {type: case, normal: ["ञ", "%", "ज्ञ", "त्र"], shiftedManually: ["ए", "ऐ", "ऽ", "त्त"]}
+    - {type: case, normal: ["ध", "%", "ई"], shiftedManually: ["उ", "ऊ"]}
+    - {type: case, normal: ["भ"], shiftedManually: ["घ"]}
+    - {type: case, normal: ["च"], shiftedManually: ["छ"]}
+    - {type: case, normal: ["त", "%", "त्र", "त्त"], shiftedManually: ["ट"]}
+    - {type: case, normal: ["थ"], shiftedManually: ["ठ"]}
+
+    - {type: case, normal: ["ग"], shiftedManually: ["ड"]}
+    - {type: case, normal: ["ष", "%", "क्ष"], shiftedManually: ["ढ"]}
+    - {type: case, normal: ["य"], shiftedManually: ["ण"]}
+    - {type: case, normal: ["ृ", "%", "ॄ"], shiftedManually: ["इ", "ई"]}
+    - {type: case, normal: ["े", "ए"], shiftedManually: ["ै", "ऐ"]}
+    
+  - letters:
+    - {type: case, normal: ["ब"], shiftedManually: ["आ"]}
+    - {type: case, normal: ["क", "क्ष"], shiftedManually: ["क्"]}
+    - {type: case, normal: ["म"], shiftedManually: ["म्"]}
+    - {type: case, normal: ["ा"], shiftedManually: ["ँ"]}
+    - {type: case, normal: ["न"], shiftedManually: ["न्"]}
+
+    - {type: case, normal: ["ज", "ज्ञ"], shiftedManually: ["झ"]}
+    - {type: case, normal: ["व"], shiftedManually: ["ो", "ओ"]}
+    - {type: case, normal: ["प"], shiftedManually: ["फ"]}
+    - {type: case, normal: ["ि", "इ"], shiftedManually: ["ी", "ई"]}
+    - {type: case, normal: ["स"], shiftedManually: ["स्"]}
+    - {type: case, normal: ["ु", "उ"], shiftedManually: ["ू", "ऊ"]}
+
+  - letters:
+    - {type: case, normal: ["श"], shiftedManually: ["श्र"]}
+    - {type: case, normal: ["ह"], shiftedManually: ["ह्"]}
+    - {type: case, normal: ["अ"], shiftedManually: ["ऋ", "ॠ"]}
+    - {type: case, normal: ["ख"], shiftedManually: ["ॐ"]}
+    
+    - {type: case, normal: ["द"], shiftedManually: ["द्य"]}
+    - {type: case, normal: ["ल"], shiftedManually: ["ौ", "औ"]}
+    - {type: case, normal: ["ं", "़", "॰"], shiftedManually: ["ः"]}
+    - {type: case, normal: ["्"], shiftedManually: ["ङ"]}
+    - {type: case, normal: ["र", "।"], shiftedManually: ["र्‍|ऱ्"]}

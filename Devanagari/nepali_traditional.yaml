@@ -1,4 +1,5 @@
-name: Nepali (Traditional)
+name: Nepali Traditional
+description: '[Legacy] Use Traditional Simplified instead. Original Nepali Traditional Layout by Madan Puraskar Pratisthan.'
 languages: ne-NP
 attributes: {shiftable: false}
 autoShift: false
