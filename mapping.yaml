@@ -482,6 +482,8 @@ languages:
   krl:
     - karelian
     - qwerty
+  ks_Latn: 
+    - koashur
   ku_Latn:
     - kurdish_latin
   ky:
