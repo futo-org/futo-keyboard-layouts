@@ -782,6 +782,7 @@ languages:
   udm:
     - udmurt
   ug:
+    - uyghur_phonetic
     - uyghur
   uk:
     - ukrainian
