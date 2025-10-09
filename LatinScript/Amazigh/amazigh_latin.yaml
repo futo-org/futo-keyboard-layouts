@@ -4,7 +4,7 @@ rows:
   - letters: # rowkeys_amazigh1.xml
     - ['a']
     - ['z', 'ẓ']
-    - ['e']
+    - ['e', 'ǝ', 'é']
     - ['r', 'ṛ']
     - ['t', 'ṭ']
     - ['y']
