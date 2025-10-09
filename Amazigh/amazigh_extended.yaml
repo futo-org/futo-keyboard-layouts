@@ -22,7 +22,7 @@ rows:
     - ['ⵊ', 'ⵌ', 'ⵋ']
     - ['ⴽ', 'ⴾ', 'ⴿ']
     - ['ⵍ', '⵰']
-    - ['ⵎ', '⵿']
+    - ['ⵎ', '\u2D7F'] #2D7F Tifinagh consonant joiner
   - letters: # rowkeys_amazigh3.xml
     - ['ⵡ']
     - ['ⵅ', 'ⵆ']
