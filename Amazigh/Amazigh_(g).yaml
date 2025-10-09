@@ -1,4 +1,4 @@
-name: Amazigh (Gb-Ext)
+name: Amazigh (g)
 languages: zgh
 rows:
   - letters: # rowkeys_amazigh1.xml
@@ -9,7 +9,7 @@ rows:
     - ['ⵓ', 'ⵧ']
     - ['ⵀ', 'ⵁ', 'ⵂ']
     - ['ⴹ', 'ⴺ']
-    - ['ⵎ']
+    - ['ⵎ', '\2D7F'] #2D7F Tifinagh consonant joiner
     - ['ⵕ', '⵰']
     - ['ⵃ']
     - ['ⴻ', 'ⵦ']
@@ -22,11 +22,11 @@ rows:
     - ['ⵥ', 'ⵌ']
     - ['ⵢ']
     - ['ⴱ', 'ⵒ', 'ⴲ']
-    - ['ⴼ']
-    - ['ⵖ', 'ⵗ']
+    - ['ⴼ', 'ⵠ']
+    - ['ⵖ', 'ⵗ', 'ⵘ']
     - ['ⵊ', 'ⵋ', 'ⵌ']
   - letters: # rowkeys_amazigh3.xml
-    - ['ⵣ', 'ⵥ']
+    - ['ⵣ', 'ⵥ', 'ⵤ']
     - ['ⴷ', 'ⴸ']
     - ['ⵔ', 'ⵕ']
     - ['ⵉ']
