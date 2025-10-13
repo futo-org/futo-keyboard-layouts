@@ -1,0 +1,32 @@
+name: German QWERTZ
+languages: de
+rows:
+  - letters:
+    - q
+    - w
+    - e
+    - r
+    - t
+    - z
+    - ['u', 'ü']
+    - ['i', '>']
+    - ['o', 'ö']
+    - p
+  - letters:
+    - ['a', 'ä']
+    - ['s', 'ß']
+    - d
+    - f
+    - g
+    - h
+    - j
+    - k
+    - l
+  - letters:
+    - y
+    - x
+    - ['c', "'"]
+    - v
+    - b
+    - ['n', '!']
+    - m

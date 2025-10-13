@@ -119,7 +119,7 @@ languages:
     - north_caucasian
   de:
     - german
-    - qwertz
+    - german_qwertz
     - swiss
     - qwerty
     - dvorak
