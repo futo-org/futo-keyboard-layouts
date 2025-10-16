@@ -145,7 +145,8 @@ languages:
   dz:
     - tibetan_wylie
   el:
-    - greek
+    - modern
+    - polytonic
     - qwerty
     - qwertz
     - dvorak
