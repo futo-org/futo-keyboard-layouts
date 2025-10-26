@@ -71,6 +71,7 @@ languages:
     - bengali
     - bengali_unijoy
   bod:
+    - tibetan
     - tibetan_wylie
   ca:
     - spanish
