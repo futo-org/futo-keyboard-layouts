@@ -1,0 +1,11 @@
+name: Føroyskt
+languages: fo
+minimumFunctionalKeyWidth: 0.0
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+ - letters: q w e r t y u i o p ð
+ - letters: [['a', 'å'], 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'æ', 'ø']
+ # U+0301: ◌́ COMBINING ACUTE ACCENT
+ - letters: ['z', 'x', 'c', 'v', 'b', 'n', 'm', "´|\u0301"]
