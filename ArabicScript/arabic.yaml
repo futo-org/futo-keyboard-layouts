@@ -129,3 +129,11 @@ rows:
       - "\u062F"
 
       - "$delete"
+   
+  - bottom:
+    - $symbols
+    - ","
+    - "!icon/action_switch_language|!code/action_switch_language"
+    - $space
+    - "."
+    - $enter
