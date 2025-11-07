@@ -196,6 +196,7 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - sangaline
   enf:
     - enets
   enh:
