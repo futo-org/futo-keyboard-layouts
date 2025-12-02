@@ -1,5 +1,6 @@
 name: Bengali (Old)
 languages: bn
+useZWNJKey: true
 rows:
   - letters: # rowkeys_bengali1.xml
     - ['ঔ', 'ৌ', '১']
