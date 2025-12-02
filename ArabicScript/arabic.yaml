@@ -14,13 +14,13 @@ rows:
 
       # U+0642: "ق" ARABIC LETTER QAF
       # U+06A8: "ڨ" ARABIC LETTER QAF WITH THREE DOTS ABOVE
-      - ["\u0642", "\u06A8"]
+      - ["\u0642", "%", "\u06A8"]
 
       # U+0641: "ف" ARABIC LETTER FEH
       # U+06A4: "ڤ" ARABIC LETTER VEH
       # U+06A2: "ڢ" ARABIC LETTER FEH WITH DOT MOVED BELOW
       # U+06A5: "ڥ" ARABIC LETTER FEH WITH THREE DOTS BELOW -->
-      - ["\u0641", "\u06A4", "\u06A2", "\u06A5"]
+      - ["\u0641", "\u06A4", "%", "\u06A2", "\u06A5"]
 
       # U+063A: "غ" ARABIC LETTER GHAIN
       - "\u063A"
@@ -31,7 +31,7 @@ rows:
       # U+0647: "ه" ARABIC LETTER HEH
       # U+FEEB: "ﻫ" ARABIC LETTER HEH INITIAL FORM
       # U+0647 U+200D: ARABIC LETTER HEH + ZERO WIDTH JOINER
-      - ["\u0647", "\uFEEB|\u0647\u200D"]
+      - ["\u0647", "%", "\uFEEB|\u0647\u200D"]
 
       # U+062E: "خ" ARABIC LETTER KHAH
       - "\u062E"
