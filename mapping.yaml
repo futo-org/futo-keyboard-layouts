@@ -825,6 +825,7 @@ languages:
   zgh:
     - amazigh_basic
     - amazigh_extended
+    - amazigh_g
   zgh-latn:
     - amazigh_latin
     - qwerty_amazigh
