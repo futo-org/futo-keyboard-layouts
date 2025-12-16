@@ -1,0 +1,12 @@
+name: Koashur
+languages: ks_Latn
+minimumFunctionalKeyWidth: 0.0
+combiners:
+ - Koashur
+rows:
+ - letters: q w e r t y u i o p
+# U+0027 ' APOSTROPHE - Dead key for ṭ ḍ è ó
+ - letters: ["a", "s", "d", "f", "g", "h", "j", "k", "l", "\u00B4",]
+# U+02C7 ˇ CARON - Dead key for ë ē ě ö ÿ
+# U+030C COMBINING CARON  
+ - letters: ['z', 'x', 'c', 'v', 'b', 'n', 'm', "ˇ|\u030C"]
