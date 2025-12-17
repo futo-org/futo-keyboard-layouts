@@ -114,11 +114,10 @@ rows:
       - type: case
         normal:
           type: flick
-          # TODO: Icon
-          primary: " |*"
-          left: "゛|["
+          primary: "!icon/japanese_key|*"
+          left: "◌゙|["
           up: "あぁ|`"
-          right: "゜|]"
+          right: "◌゚|]"
         shifted:
           type: base
           spec: "!icon/action_switch_language|!code/action_switch_language"
