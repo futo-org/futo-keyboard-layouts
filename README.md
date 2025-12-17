@@ -46,4 +46,3 @@ some standards for inclusion of layouts.
 
 If you're unable to express a layout under the current system, let us know by opening an issue.
 Some limitations currently exist due to the non-triviality of implementing the necessary features
-(e.g. Japanese flick keys are unsupported).
