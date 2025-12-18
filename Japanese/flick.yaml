@@ -107,7 +107,7 @@ rows:
     splittable: false
   - bottom:
       - type: base
-        spec: "カナ|_"
+        spec: "ア|_"
         code: -21
         attributes: *functional
 
@@ -379,7 +379,7 @@ subKeyboards:
         splittable: false
       - bottom:
           - type: base
-            spec: "ABC|_"
+            spec: "A|_"
             code: -20
             attributes: *functional
 
