@@ -282,10 +282,7 @@ subKeyboards:
 
   # Katakana
   Alphabet2:
-    attributes:
-      labelFlags:
-        followKeyLabelRatio: true
-        autoXScale: true
+    attributes: *globalAttrs
     rows:
       - letters:
           - type: base
