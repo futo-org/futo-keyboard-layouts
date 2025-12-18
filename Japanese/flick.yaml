@@ -107,8 +107,8 @@ rows:
     splittable: false
   - bottom:
       - type: base
-        spec: "ABC|_"
-        code: -20
+        spec: "ア|_"
+        code: -21
         attributes: *functional
 
       - type: case
@@ -278,4 +278,136 @@ subKeyboards:
           shiftable: false
           labelFlags:
             followKeyLabelRatio: true
+        splittable: false
+
+  # Katakana
+  Alphabet2:
+    attributes: *globalAttrs
+    rows:
+      - letters:
+          - type: base
+            spec: "!icon/action_undo|!code/action_undo"
+            attributes: *functional
+
+          - type: flick
+            primary: "ア"
+            left: "イ"
+            up: "ウ"
+            right: "エ"
+            down: "オ"
+
+          - type: flick
+            primary: "カ"
+            left: "キ"
+            up: "ク"
+            right: "ケ"
+            down: "コ"
+
+          - type: flick
+            primary: "サ"
+            left: "シ"
+            up: "ス"
+            right: "セ"
+            down: "ソ"
+
+          - type: base
+            spec: "!icon/delete_key|!code/key_delete"
+            attributes: *repeatable
+        splittable: false
+      - letters:
+          - type: base
+            spec: "!icon/action_left|!code/action_left"
+            attributes: *repeatable
+
+          - type: flick
+            primary: "タ"
+            left: "チ"
+            up: "ツ"
+            right: "テ"
+            down: "ト"
+
+          - type: flick
+            primary: "ナ"
+            left: "ニ"
+            up: "ヌ"
+            right: "ネ"
+            down: "ノ"
+
+          - type: flick
+            primary: "ハ"
+            left: "ヒ"
+            up: "フ"
+            right: "ヘ"
+            down: "ホ"
+
+          - type: base
+            spec: "!icon/action_right|!code/action_right"
+            attributes: *repeatable
+        splittable: false
+      - letters:
+          - type: base
+            spec: "!icon/action_emoji|!code/action_emoji"
+            attributes: *functional
+
+          - type: flick
+            primary: "マ"
+            left: "ミ"
+            up: "ム"
+            right: "メ"
+            down: "モ"
+
+          - type: flick
+            primary: "ヤ"
+            up: "ユ"
+            down: "ヨ"
+            left: "("
+            right: ")"
+
+          - type: flick
+            primary: "ラ"
+            left: "リ"
+            up: "ル"
+            right: "レ"
+            down: "ロ"
+
+          - type: base
+            spec: "!icon/space_key_for_number_layout|!code/key_space"
+            attributes: { style: Functional, labelFlags: {}, longPressEnabled: true }
+        splittable: false
+      - bottom:
+          - type: base
+            spec: "A|_"
+            code: -20
+            attributes: *functional
+
+          - type: case
+            normal:
+              type: flick
+              primary: "!icon/japanese_key|*"
+              left: "◌゙|["
+              up: "アァ|`"
+              right: "◌゚|]"
+            shifted:
+              type: base
+              spec: "!icon/action_switch_language|!code/action_switch_language"
+              attributes: { longPressEnabled: true }
+
+          - type: flick
+            primary: "ワ"
+            left: "ヲ"
+            up: "ン"
+            right: "ー"
+            down: "〜"
+
+          - type: flick
+            primary: "、"
+            left: "。"
+            up: "？"
+            right: "！"
+            down: "…"
+
+          - type: enter
+            attributes:
+              width: Grow
+        attributes: *globalAttrs
         splittable: false
