@@ -290,25 +290,25 @@ subKeyboards:
             attributes: *functional
 
           - type: flick
-            primary: "ア|1"
-            left: "イ|_"
-            up: "ウ|;"
-            right: "エ|:"
-            down: "オ|@"
+            primary: "ア"
+            left: "イ"
+            up: "ウ"
+            right: "エ"
+            down: "オ"
 
           - type: flick
-            primary: "カ|2"
-            left: "キ|a"
-            up: "ク|b"
-            right: "ケ|c"
-            down: "コ||"
+            primary: "カ"
+            left: "キ"
+            up: "ク"
+            right: "ケ"
+            down: "コ"
 
           - type: flick
-            primary: "サ|3"
-            left: "シ|d"
-            up: "ス|e"
-            right: "セ|f"
-            down: "ソ|~"
+            primary: "サ"
+            left: "シ"
+            up: "ス"
+            right: "セ"
+            down: "ソ"
 
           - type: base
             spec: "!icon/delete_key|!code/key_delete"
@@ -320,25 +320,25 @@ subKeyboards:
             attributes: *repeatable
 
           - type: flick
-            primary: "タ|4"
-            left: "チ|g"
-            up: "ツ|h"
-            right: "テ|i"
-            down: "ト|$"
+            primary: "タ"
+            left: "チ"
+            up: "ツ"
+            right: "テ"
+            down: "ト"
 
           - type: flick
-            primary: "ナ|5"
-            left: "ニ|j"
-            up: "ヌ|k"
-            right: "ネ|l"
-            down: "ノ|%"
+            primary: "ナ"
+            left: "ニ"
+            up: "ヌ"
+            right: "ネ"
+            down: "ノ"
 
           - type: flick
-            primary: "ハ|6"
-            left: "ヒ|m"
-            up: "フ|n"
-            right: "ヘ|o"
-            down: "ホ|&"
+            primary: "ハ"
+            left: "ヒ"
+            up: "フ"
+            right: "ヘ"
+            down: "ホ"
 
           - type: base
             spec: "!icon/action_right|!code/action_right"
@@ -350,25 +350,25 @@ subKeyboards:
             attributes: *functional
 
           - type: flick
-            primary: "マ|7"
-            left: "ミ|p"
-            up: "ム|q"
-            right: "メ|r"
-            down: "モ|s"
+            primary: "マ"
+            left: "ミ"
+            up: "ム"
+            right: "メ"
+            down: "モ"
 
           - type: flick
-            primary: "ヤ|8"
-            up: "ユ|u"
-            down: "ヨ|^"
+            primary: "ヤ"
+            up: "ユ"
+            down: "ヨ"
             left: "("
             right: ")"
 
           - type: flick
-            primary: "ラ|9"
-            left: "リ|w"
-            up: "ル|x"
-            right: "レ|y"
-            down: "ロ|z"
+            primary: "ラ"
+            left: "リ"
+            up: "ル"
+            right: "レ"
+            down: "ロ"
 
           - type: base
             spec: "!icon/space_key_for_number_layout|!code/key_space"
@@ -393,18 +393,18 @@ subKeyboards:
               attributes: { longPressEnabled: true }
 
           - type: flick
-            primary: "ワ|0"
-            left: "ヲ|+"
-            up: "ン|/"
-            right: "ー|-"
-            down: "〜|<"
+            primary: "ワ"
+            left: "ヲ"
+            up: "ン"
+            right: "ー"
+            down: "〜"
 
           - type: flick
-            primary: "、|#"
-            left: "。|,"
-            up: "?|?"
-            right: "!|!"
-            down: "…|>"
+            primary: "、"
+            left: "。"
+            up: "？"
+            right: "！"
+            down: "…"
 
           - type: enter
             attributes:
