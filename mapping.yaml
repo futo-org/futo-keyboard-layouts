@@ -344,6 +344,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  gu:
+    - gujarati_inscript
   ha:
     - hausa
   haw:
