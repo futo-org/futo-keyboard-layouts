@@ -1,0 +1,30 @@
+name: Danish QWERTY
+languages: da
+rows:
+  - numbers: "1 2 3 4 5 6 7 8 9 0"
+  - letters:
+      - q
+      - w
+      - e
+      - r
+      - t
+      - y
+      - u
+      - i
+      - [o, 9]
+      - p
+      - [å, "="]
+  - letters:
+      - [a, "@", "ä", "á", "à", "â", "ã"]
+      - s
+      - [d, "kr.", "$", "€", "£", "¥", "¢", "₽"]
+      - [f, "_"]
+      - g
+      - h
+      - j
+      - k
+      - l
+      - [æ, "/", "ä", "á", "à", "â", "ã"]
+      - [ø, "~", "ö", "ó", "ò", "ô", "õ"]
+  - letters: $shift z x c v b n m $delete
+  - bottom:  $symbols , $action $space . $enter
