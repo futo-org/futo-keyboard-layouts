@@ -90,6 +90,7 @@ languages:
     - kurdish
     - central_kurdish_arabic_g
   cs:
+    - czech_qwertz
     - qwertz
     - qwerty
     - dvorak
@@ -677,6 +678,7 @@ languages:
   sip:
     - tibetan_wylie
   sk:
+    - czech_qwertz
     - qwerty
     - qwertz
     - dvorak
