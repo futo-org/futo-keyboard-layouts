@@ -1,33 +1,52 @@
 name: Greek
 languages: el
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
 rows:
-  - letters: # rowkeys_greek1.xml
-    - {type: case, normal: [';', '%', ':', '·'], shifted: [':', '%', ';', '·']}
-    - {type: base, spec: 'ς', attributes: {shiftable: false}} # This specific character must not be shifted
-    - ['ε', 'έ', '%', 'ὲ', 'ἐ', 'ἑ', 'ἔ', 'ἕ', 'ἒ', 'ἓ']
-    - ['ρ', '%', 'ῥ']
+  - letters:
+    - {type: case, normal: [';', '%', ':', '·'], shiftLocked: [';', '%', ':', '·'], shiftedManually: [':', '%', ';', '·']}
+    - {type: case, normal: 'ς', shiftLocked: 'Σ'}
+    - ['ε', '%', 'έ']
+    - ['ρ']
     - ['τ']
-    - ['υ', 'ύ', '%', 'ϋ', 'ΰ', 'ὺ', 'ῦ', 'ὐ', 'ὑ', 'ὔ', 'ὕ', 'ὒ', 'ὓ', 'ὖ', 'ὗ', 'ῢ', 'ῧ']
+    - ['υ', '%', 'ύ', 'ϋ', 'ΰ']
     - ['θ']
-    - ['ι', 'ί', '%', 'ϊ', 'ΐ', 'ὶ', 'ῖ', 'ἰ', 'ἱ', 'ἴ', 'ἵ', 'ἲ', 'ἳ', 'ἶ', 'ἷ', 'ῒ', 'ῗ']
-    - ['ο', 'ό', '%', 'ὸ', 'ὀ', 'ὁ', 'ὄ', 'ὅ', 'ὂ', 'ὃ']
+    - ['ι', '%', 'ί', 'ϊ', 'ΐ']
+    - ['ο', '%', 'ό']
     - ['π']
-  - letters: # rowkeys_greek2.xml
-    - {type: case, normal: ['α', 'ά', 'ὰ', 'ᾶ', 'ἀ', 'ἁ', 'ἄ', 'ἅ', 'ἂ', 'ἃ', 'ἆ', 'ἇ', 'ᾳ', 'ᾴ', 'ᾲ', 'ᾷ', 'ᾀ', 'ᾁ', 'ᾄ', 'ᾅ', 'ᾂ', 'ᾃ', 'ᾆ', 'ᾇ'], shifted: ['Α', 'Ά', 'Ὰ', 'Ἀ', 'Ἁ', 'ἄ', 'ἅ', 'Ἂ', 'Ἃ', 'Ἆ', 'Ἇ']}
+  - letters:
+    - ['α', '%', 'ά']
     - ['σ']
     - ['δ']
     - ['φ']
     - ['γ']
-    - {type: case, normal: ['η', 'ή', 'ὴ', 'ῆ', 'ἠ', 'ἡ', 'ἤ', 'ἥ', 'ἢ', 'ἣ', 'ἦ', 'ἧ', 'ῃ', 'ῄ', 'ῂ', 'ῇ', 'ᾐ', 'ᾑ', 'ᾔ', 'ᾕ', 'ᾒ', 'ᾓ', 'ᾖ', 'ᾗ'], shifted: ['Η', 'Ή', 'Ὴ', 'Ἠ', 'Ἡ', 'Ἤ', 'Ἥ', 'Ἢ', 'Ἣ', 'Ἦ', 'Ἧ']}
+    - ['η', '%', 'ή']
     - ['ξ']
-    - ['κ']
-    - ['λ']
-  - letters: # rowkeys_greek3.xml
+    - ['κ', '%', '«']
+    - ['λ', '%', '»']
+    # U+00B4 ´ ACUTE ACCENT (for key label)
+    # U+00A8 ¨ DIAERESIS (for key label)
+    # U+0385 ΅ GREEK DIALYTIKA TONOS (for key label)
+    # U+0301 ◌́ COMBINING ACUTE ACCENT
+    # U+0308 ◌̈ COMBINING DIAERESIS
+    # U+0344 ◌̈́ COMBINING GREEK DIALYTIKA TONOS
+    # U+0342 ◌͂ COMBINING GREEK PERISPOMENI
+    # U+0300 ◌̀ COMBINING GRAVE ACCENT
+    # U+0314 ◌̔ COMBINING REVERSED COMMA ABOVE (rough breathing mark)
+    # U+0313 ◌̓ COMBINING COMMA ABOVE (smooth breathing mark)
+    # U+0345 ◌ͅ COMBINING GREEK YPOGEGRAMMENI
+    # U+0304 ◌̄ COMBINING MACRON
+    # U+0306 ◌̆ COMBINING BREVE
+    # U+0323 ◌̣ COMBINING DOT BELOW
+    # U+0387 · GREEK ANO TELEIA
+    # U+2014 — EM DASH
+    - {type: case, normal: ["´|\u0301", "΅|\u0344", "˜|\u0342", "`|\u0300", "◌̔|\u0314", "◌̓|\u0313", "ͺ|\u0345", "¯|\u0304", "˘|\u0306", "◌̣|\u0323", "·", "—"], shiftedManually: ["¨|\u0308", "΅|\u0344", "˜|\u0342", "`|\u0300", "◌̔|\u0314", "◌̓|\u0313", "ͺ|\u0345", "¯|\u0304", "˘|\u0306", "◌̣|\u0323", "·", "—"]}
+  - letters:
     - ['ζ']
     - ['χ']
     - ['ψ']
-    - {type: case, normal: ['ω', 'ώ', 'ὼ', 'ῶ', 'ὠ', 'ὡ', 'ὤ', 'ὥ', 'ὢ', 'ὣ', 'ὦ', 'ὧ', 'ῳ', 'ῴ', 'ῲ', 'ῷ', 'ᾠ', 'ᾡ', 'ᾤ', 'ᾥ', 'ᾢ', 'ᾣ', 'ᾦ', 'ᾧ'], shifted: ['ω', 'Ώ', 'Ὼ', 'Ὠ', 'Ὡ', 'Ὤ', 'Ὥ', 'Ὢ', 'Ὣ', 'Ὦ', 'Ὧ']}
+    - ['ω', '%', 'ώ']
     - ['β']
     - ['ν']
     - ['μ']
-# detected 3 rows
