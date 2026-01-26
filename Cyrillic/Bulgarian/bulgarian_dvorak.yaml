@@ -2,35 +2,40 @@ name: Bulgarian (Dvorak)
 languages: bg
 rows:
   - letters:
-    - {type: case, normal: "'", shifted: "\""}
-    - {type: case, normal: ",", shifted: "<"}
-    - {type: case, normal: ".", shifted: ">"}
-    - ['п']
-    - ['ъ']
-    - ['ф']
-    - ['г']
-    - ['ц']
-    - ['р']
-    - ['л']
+    - { type: base, spec: "ч", attributes: { width: Grow } }
+    - { type: base, spec: "ш", attributes: { width: Grow } }
+    - { type: base, spec: "щ", attributes: { width: Grow } }
+    - { type: base, spec: "ю", attributes: { width: Grow } }
   - letters:
-    - ['а']
-    - ['о']
-    - ['е']
-    - ['у']
-    - ['и']
-    - ['д']
-    - ['х']
-    - ['т']
-    - ['н']
-    - ['с']
-    - ['ю']
+    - { type: case, normal: "'", shifted: '"' }
+    - { type: case, normal: ",", shifted: "<" }
+    - { type: case, normal: ".", shifted: ">" }
+    - ["п"]
+    - ["ъ"]
+    - ["ф"]
+    - ["г"]
+    - ["ц"]
+    - ["р"]
+    - ["л"]
+    - ["/"]
   - letters:
-    - ['я']
-    - ['й']
-    - ['к']
-    - ['ь']
-    - ['б']
-    - ['м']
-    - ['в']
-    - ['ж']
-    - ['з']
+    - ["а"]
+    - ["о"]
+    - ["е"]
+    - ["у"]
+    - ["и"]
+    - ["д"]
+    - ["х"]
+    - ["т"]
+    - ["н"]
+    - ["с"]
+  - letters:
+    - ["я"]
+    - ["й"]
+    - ["к"]
+    - ["ь"]
+    - ["б"]
+    - ["м"]
+    - ["в"]
+    - ["ж"]
+    - ["з"]
