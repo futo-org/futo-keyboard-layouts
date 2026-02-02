@@ -1,4 +1,16 @@
 languages:
+  aa: # Afar
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   abq:
     - north_caucasian
   ady:
@@ -363,6 +375,18 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  hmn: # Hmong
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   hr:
     - serbian_qwertz
     - qwertz
@@ -471,6 +495,18 @@ languages:
     - russian_yazhert
   kk_Latn:
     - kazakh_latin
+  kl: # Greenlandic (Kalaallisut)
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   km_KH:
     - khmer
   kn_IN:
@@ -490,6 +526,18 @@ languages:
     - qwerty
   ku_Latn:
     - kurdish_latin
+  kw: # Cornish (Kernewek)
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   ky:
     - kyrgyz
     - east_slavic
@@ -572,6 +620,18 @@ languages:
     - myanmar_g
   nb:
     - nordic
+  nd: # Ndebele
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   ne_NP:
     - nepali_romanized
     - nepali_traditional_simplified
@@ -603,6 +663,18 @@ languages:
     - nordic
   nio:
     - nganasan
+  om: # Oromo
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   pa_IN:
     - gurmukhi
   pl:
@@ -659,6 +731,18 @@ languages:
     - russian_yazhert
   rut:
     - north_caucasian
+  rw: # Kinyarwanda
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   sah:
     - yakut
   se:
@@ -701,6 +785,32 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  sm: # Samoan
+    - hawaiian
+  sn: # Shona
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
+  so: # Somali
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   sq:
     - albanian
     - qwertz
@@ -718,6 +828,30 @@ languages:
   sr_Latn:
     - serbian_qwertz
     - south_slavic_qwertz_12
+  ss: # Swazi
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
+  st: # Sotho
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   sv:
     - qwerty
     - nordic
@@ -769,6 +903,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  to: # Tongan
+    - hawaiian
   tr:
     - turkish
     - qwerty
@@ -781,6 +917,18 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  ts: # Tsonga
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   tt:
     - tatar
   tyv:
@@ -818,6 +966,18 @@ languages:
   vot:
     - votic
     - qwerty
+  xh: # Xhosa
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   xsr:
     - tibetan_wylie
   yrk:

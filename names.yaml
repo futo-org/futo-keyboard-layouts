@@ -2,12 +2,21 @@
 # You should include at least an English name and its own name. You can include another name if
 # it makes sense (e.g. Hindi name for Hinglish)
 
+aa:
+  aa: Qafar
+  en: Afar
 ipa:
   en: International Phonetic Alphabet
 hi_Latn:
   en: Hinglish
   hi: "हिंग्लिश"
   hi_Latn: Hinglish
+hmn:
+  en: Hmong
+  hmn: Hmoob
+kaa:
+  en: Karakalpak
+  kaa: Qaraqalpaq tili
 lbj:
   bod: ལ་དྭགས་སྐད་
   en: Ladakhi
@@ -16,9 +25,18 @@ sip:
   bod: འབྲས་ལྗོངས་སྐད་
   en: Sikkimese Bhutia
   sip: འབྲས་ལྗོངས་སྐད་
+sm:
+  en: Samoan
+  sm: Gagana Sāmoa
 tok:
   en: Toki Pona
   tok: toki pona
+ts:
+  en: Tsonga
+  ts: Xitsonga
+tyv:
+  en: Tuvan
+  tyv: Тыва дыл
 xsr:
   bod: ཤར་པའི་སྐད་
   en: Sherpa
