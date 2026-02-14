@@ -85,6 +85,18 @@ languages:
   bod:
     - tibetan
     - tibetan_wylie
+  brx_Latn: # Bodo/Boro (India)
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   ca:
     - spanish
     - qwerty
@@ -688,6 +700,18 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  prk: # Wa/Parauk
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   pt_BR:
     - spanish
     - qwerty
@@ -917,6 +941,18 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  trp: # Kokborok/Tripuri
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   ts: # Tsonga
     - qwerty
     - qwertz
@@ -982,6 +1018,18 @@ languages:
     - tibetan_wylie
   yrk:
     - nenets
+  za: # Zhuang
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - workman
   zgh:
     - amazigh_basic
     - amazigh_extended

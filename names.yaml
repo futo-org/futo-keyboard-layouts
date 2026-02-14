@@ -5,6 +5,11 @@
 aa:
   aa: Qafar
   en: Afar
+brx_Latn:
+  en: Boro (Latin)
+  as: "বড়ো (লেটিন)"
+  brx_Latn: Boro
+  hi: "बोड़ो (लैटिन)"
 ipa:
   en: International Phonetic Alphabet
 hi_Latn:
@@ -21,6 +26,9 @@ lbj:
   bod: ལ་དྭགས་སྐད་
   en: Ladakhi
   lbj: ལ་དྭགས་སྐད་
+prk:
+  en: Wa
+  prk: Vax
 sip:
   bod: འབྲས་ལྗོངས་སྐད་
   en: Sikkimese Bhutia
@@ -31,6 +39,12 @@ sm:
 tok:
   en: Toki Pona
   tok: toki pona
+trp:
+  en: Kokborok
+  as: "ককবৰক"
+  bn: "ককবরক"
+  hi: "ककबरक"
+  trp: Kokborok
 ts:
   en: Tsonga
   ts: Xitsonga
@@ -100,13 +114,13 @@ agx:
   agx: агъул
 av:
   en: Avar
-  av: магӏарул мацӏ
+  av: магӀарул мацӀ
 dar:
   en: Dargwa
   dar: дарган
 inh:
   en: Ingush
-  inh: гӏалгӏай
+  inh: гӀалгӀай
 kbd:
   en: Kabardian
   kbd: адыгэбзэ
