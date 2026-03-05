@@ -5,57 +5,204 @@ autoShift: false
 minimumFunctionalKeyWidth: 0.0
 rows:
   - letters:
-    - {type: case, normal: ["ဈ", "ဍ္ဎ"], shiftedManually: ["၁"]}
-    - {type: case, normal: ["ဝ", "ကျပ်"], shiftedManually: ["၂"]}
-    - {type: case, normal: ["ဋ", "ဋ္ဌ"], shiftedManually: ["၃"]}
-    - {type: case, normal: ["ုံ", "င်္"], shiftedManually: ["၄"]}
-    - {type: case, normal: ["ော", "ေါ"], shiftedManually: ["၅"]}
-    - {type: case, normal: ["ဪ", "ဩ"], shiftedManually: ["၆"]}
-    - {type: case, normal: ["ရ", "ၒ", "ၓ"], shiftedManually: ["၇"]}
-    - {type: case, normal: ["ဂ", "ၔ", "ၕ"], shiftedManually: ["၈"]}
-    - {type: case, normal: ["ဟ", "ၐ", "ၑ"], shiftedManually: ["၉"]}
-    - {type: case, normal: ["၏"], shiftedManually: ["၀"]}
+    # U+1008: ဈ MYANMAR LETTER JHA
+    # U+100D: ဍ MYANMAR LETTER DDA
+    # U+1039: ္ MYANMAR SIGN VIRAMA
+    # U+100E: ဎ MYANMAR LETTER DDHA
+    # U+1041: ၁ MYANMAR DIGIT ONE
+    - {type: case, normal: ["\u1008", "\u100d\u1039\u100e"], shiftedManually: ["\u1041"]}
+
+    # U+101D: ဝ MYANMAR LETTER WA
+    # U+1000: က MYANMAR LETTER KA
+    # U+103B: ျ MYANMAR CONSONANT SIGN MEDIAL YA
+    # U+1015: ပ MYANMAR LETTER PA
+    # U+103A: ် MYANMAR SIGN ASAT
+    # U+1042: ၂ MYANMAR DIGIT TWO
+    - {type: case, normal: ["\u101d", "\u1000\u103b\u1015\u103a"], shiftedManually: ["\u1042"]}
+
+    # U+100B: ဋ MYANMAR LETTER TTA
+    # U+1039: ္ MYANMAR SIGN VIRAMA
+    # U+100C: ဌ MYANMAR LETTER TTHA
+    # U+1043: ၃ MYANMAR DIGIT THREE
+    - {type: case, normal: ["\u100b", "\u100b\u1039\u100c"], shiftedManually: ["\u1043"]}
+
+    # U+102F: ု MYANMAR VOWEL SIGN U
+    # U+1036: ံ MYANMAR SIGN ANUSVARA
+    # U+1004: င MYANMAR LETTER NGA
+    # U+103A: ် MYANMAR SIGN ASAT
+    # U+1039: ္ MYANMAR SIGN VIRAMA
+    # U+1044: ၄ MYANMAR DIGIT FOUR
+    - {type: case, normal: ["\u102f\u1036", "\u1004\u103a\u1039"], shiftedManually: ["\u1044"]}
+
+    # U+1031: ေ MYANMAR VOWEL SIGN E
+    # U+102C: ာ MYANMAR VOWEL SIGN AA
+    # U+102B: ါ MYANMAR VOWEL SIGN TALL AA
+    # U+1045: ၅ MYANMAR DIGIT FIVE
+    - {type: case, normal: ["\u1031\u102c", "\u1031\u102b"], shiftedManually: ["\u1045"]}
+
+    # U+102A: ဪ MYANMAR LETTER AU
+    # U+1029: ဩ MYANMAR LETTER O
+    # U+1046: ၆ MYANMAR DIGIT SIX
+    - {type: case, normal: ["\u102a", "\u1029"], shiftedManually: ["\u1046"]}
+
+    # U+101B: ရ MYANMAR LETTER RA
+    # U+1052: ၒ MYANMAR LETTER VOCALIC R
+    # U+1053: ၓ MYANMAR LETTER VOCALIC RR
+    # U+1047: ၇ MYANMAR DIGIT SEVEN
+    - {type: case, normal: ["\u101b", "\u1052", "\u1053"], shiftedManually: ["\u1047"]}
+
+    # U+1002: ဂ MYANMAR LETTER GA
+    # U+1054: ၔ MYANMAR LETTER VOCALIC L
+    # U+1055: ၕ MYANMAR LETTER VOCALIC LL
+    # U+1048: ၈ MYANMAR DIGIT EIGHT
+    - {type: case, normal: ["\u1002", "\u1054", "\u1055"], shiftedManually: ["\u1048"]}
+
+    # U+101F: ဟ MYANMAR LETTER HA
+    # U+1050: ၐ MYANMAR LETTER SHA
+    # U+1051: ၑ MYANMAR LETTER SSA
+    # U+1049: ၉ MYANMAR DIGIT NINE
+    - {type: case, normal: ["\u101f", "\u1050", "\u1051"], shiftedManually: ["\u1049"]}
+
+    # U+104F: ၏ MYANMAR SYMBOL GENITIVE
+    # U+1040: ၀ MYANMAR DIGIT ZERO
+    - {type: case, normal: ["\u104f"], shiftedManually: ["\u1040"]}
+
 
   - letters:
-    - {type: case, normal: ["ဆ"], shiftedManually: ["ဍ"]}
-    - {type: case, normal: ["တ"], shiftedManually: ["ဏ္ဍ"]}
-    - {type: case, normal: ["န"], shiftedManually: ["ဣ"]}
-    - {type: case, normal: ["မ"], shiftedManually: ["၎င်း"]}
-    - {type: case, normal: ["အ"], shiftedManually: ["ဤ"]}
-    - {type: case, normal: ["ပ"], shiftedManually: ["၌"]}
-    - {type: case, normal: ["က"], shiftedManually: ["ဥ"]}
-    - {type: case, normal: ["င"], shiftedManually: ["၍"]}
-    - {type: case, normal: ["သ"], shiftedManually: ["ဿ"]}
-    - {type: case, normal: ["စ"], shiftedManually: ["ဏ"]}
+    # U+1006: ဆ MYANMAR LETTER CHA
+    # U+100D: ဍ MYANMAR LETTER DDA
+    - {type: case, normal: ["\u1006"], shiftedManually: ["\u100d"]}
+
+    # U+1010: တ MYANMAR LETTER TA
+    # U+100F: ဏ MYANMAR LETTER NNA
+    # U+1039: ္ MYANMAR SIGN VIRAMA
+    # U+100D: ဍ MYANMAR LETTER DDA
+    - {type: case, normal: ["\u1010"], shiftedManually: ["\u100f\u1039\u100d"]}
+
+    # U+1014: န MYANMAR LETTER NA
+    # U+1023: ဣ MYANMAR LETTER I
+    - {type: case, normal: ["\u1014"], shiftedManually: ["\u1023"]}
+
+    # U+1019: မ MYANMAR LETTER MA
+    # U+104E: ၎ MYANMAR SYMBOL AFOREMENTIONED
+    # U+1004: င MYANMAR LETTER NGA
+    # U+103A: ် MYANMAR SIGN ASAT
+    # U+1038: း MYANMAR SIGN VISARGA
+    - {type: case, normal: ["\u1019"], shiftedManually: ["\u104e\u1004\u103a\u1038"]}
+
+    # U+1021: အ MYANMAR LETTER A
+    # U+1024: ဤ MYANMAR LETTER II
+    - {type: case, normal: ["\u1021"], shiftedManually: ["\u1024"]}
+
+    # U+1015: ပ MYANMAR LETTER PA
+    # U+104C: ၌ MYANMAR SYMBOL LOCATIVE
+    - {type: case, normal: ["\u1015"], shiftedManually: ["\u104c"]}
+
+    # U+1000: က MYANMAR LETTER KA
+    # U+1025: ဥ MYANMAR LETTER U
+    - {type: case, normal: ["\u1000"], shiftedManually: ["\u1025"]}
+
+    # U+1004: င MYANMAR LETTER NGA
+    # U+104D: ၍ MYANMAR SYMBOL COMPLETED
+    - {type: case, normal: ["\u1004"], shiftedManually: ["\u104d"]}
+
+    # U+101E: သ MYANMAR LETTER SA
+    # U+103F: ဿ MYANMAR LETTER GREAT SA
+    - {type: case, normal: ["\u101e"], shiftedManually: ["\u103f"]}
+
+    # U+1005: စ MYANMAR LETTER CA
+    # U+100F: ဏ MYANMAR LETTER NNA
+    - {type: case, normal: ["\u1005"], shiftedManually: ["\u100f"]}
+
 
   - letters:
-    - {type: case, normal: ["‌ေ"], shiftedManually: ["ဗ"]}
-    - {type: case, normal: ["ျ"], shiftedManually: ["ှ"]}
-    - {type: case, normal: ["ိ"], shiftedManually: ["ီ"]}
-    - {type: case, normal: ["်"], shiftedManually: ["္"]}
-    - {type: case, normal: ["ါ"], shiftedManually: ["ွ"]}
-    - {type: case, normal: ["့"], shiftedManually: ["ံ"]}
-    - {type: case, normal: ["ြ"], shiftedManually: ["ဲ"]}
-    - {type: case, normal: ["ု"], shiftedManually: ["ဒ"]}
-    - {type: case, normal: ["ူ"], shiftedManually: ["ဓ"]}
-    - {type: case, normal: ["း"], shiftedManually: ["ဏ္ဌ"]}
+    # U+1031: ေ MYANMAR VOWEL SIGN E
+    # U+1017: ဗ MYANMAR LETTER BA
+    - {type: case, normal: ["\u1031"], shiftedManually: ["\u1017"]}
+
+    # U+103B: ျ MYANMAR CONSONANT SIGN MEDIAL YA
+    # U+103E: ှ MYANMAR CONSONANT SIGN MEDIAL HA
+    - {type: case, normal: ["\u103b"], shiftedManually: ["\u103e"]}
+
+    # U+102D: ိ MYANMAR VOWEL SIGN I
+    # U+102E: ီ MYANMAR VOWEL SIGN II
+    - {type: case, normal: ["\u102d"], shiftedManually: ["\u102e"]}
+
+    # U+103A: ် MYANMAR SIGN ASAT
+    # U+1039: ္ MYANMAR SIGN VIRAMA
+    - {type: case, normal: ["\u103a"], shiftedManually: ["\u1039"]}
+
+    # U+102B: ါ MYANMAR VOWEL SIGN TALL AA
+    # U+103D: ွ MYANMAR CONSONANT SIGN MEDIAL WA
+    - {type: case, normal: ["\u102b"], shiftedManually: ["\u103d"]}
+
+    # U+1037: ့ MYANMAR SIGN DOT BELOW
+    # U+1036: ံ MYANMAR SIGN ANUSVARA
+    - {type: case, normal: ["\u1037"], shiftedManually: ["\u1036"]}
+
+    # U+103C: ြ MYANMAR CONSONANT SIGN MEDIAL RA
+    # U+1032: ဲ MYANMAR VOWEL SIGN AI
+    - {type: case, normal: ["\u103c"], shiftedManually: ["\u1032"]}
+
+    # U+102F: ု MYANMAR VOWEL SIGN U
+    # U+1012: ဒ MYANMAR LETTER DA
+    - {type: case, normal: ["\u102f"], shiftedManually: ["\u1012"]}
+
+    # U+1030: ူ MYANMAR VOWEL SIGN UU
+    # U+1013: ဓ MYANMAR LETTER DHA
+    - {type: case, normal: ["\u1030"], shiftedManually: ["\u1013"]}
+
+    # U+1038: း MYANMAR SIGN VISARGA
+    # U+100F: ဏ MYANMAR LETTER NNA
+    # U+1039: ္ MYANMAR SIGN VIRAMA
+    # U+100C: ဌ MYANMAR LETTER TTHA
+    - {type: case, normal: ["\u1038"], shiftedManually: ["\u100f\u1039\u100c"]}
+
 
   - letters:
     - $shift
-    - {type: case, normal: ["ဖ"], shiftedManually: ["ဇ"]}
-    - {type: case, normal: ["ထ"], shiftedManually: ["ဌ"]}
-    - {type: case, normal: ["ခ"], shiftedManually: ["ဃ"]}
-    - {type: case, normal: ["လ"], shiftedManually: ["ဠ"]}
-    - {type: case, normal: ["ဘ"], shiftedManually: ["ဎ"]}
-    - {type: case, normal: ["ည"], shiftedManually: ["ဉ"]}
-    - {type: case, normal: ["ာ"], shiftedManually: ["ဦ"]}
-    - {type: case, normal: ["ယ"], shiftedManually: ["ဧ"]}
+    # U+1016: ဖ MYANMAR LETTER PHA
+    # U+1007: ဇ MYANMAR LETTER JA
+    - {type: case, normal: ["\u1016"], shiftedManually: ["\u1007"]}
+
+    # U+1011: ထ MYANMAR LETTER THA
+    # U+100C: ဌ MYANMAR LETTER TTHA
+    - {type: case, normal: ["\u1011"], shiftedManually: ["\u100c"]}
+
+    # U+1001: ခ MYANMAR LETTER KHA
+    # U+1003: ဃ MYANMAR LETTER GHA
+    - {type: case, normal: ["\u1001"], shiftedManually: ["\u1003"]}
+
+    # U+101C: လ MYANMAR LETTER LA
+    # U+1020: ဠ MYANMAR LETTER LLA
+    - {type: case, normal: ["\u101c"], shiftedManually: ["\u1020"]}
+
+    # U+1018: ဘ MYANMAR LETTER BHA
+    # U+100E: ဎ MYANMAR LETTER DDHA
+    - {type: case, normal: ["\u1018"], shiftedManually: ["\u100e"]}
+
+    # U+100A: ည MYANMAR LETTER NNYA
+    # U+1009: ဉ MYANMAR LETTER NYA
+    - {type: case, normal: ["\u100a"], shiftedManually: ["\u1009"]}
+
+    # U+102C: ာ MYANMAR VOWEL SIGN AA
+    # U+1026: ဦ MYANMAR LETTER UU
+    - {type: case, normal: ["\u102c"], shiftedManually: ["\u1026"]}
+
+    # U+101A: ယ MYANMAR LETTER YA
+    # U+1027: ဧ MYANMAR LETTER E
+    - {type: case, normal: ["\u101a"], shiftedManually: ["\u1027"]}
+
     - $delete
 
   - bottom:
     - $symbols
-    - {type: case, normal: ["၊"], shiftedManually: [","]}
+    # U+104A: ၊ MYANMAR SIGN LITTLE SECTION
+    - {type: case, normal: ["\u104a"], shiftedManually: [","]}
+
     - $action
     - $space
-    - {type: case, normal: ["။"], shiftedManually: ["."]}
+    # U+104B: ။ MYANMAR SIGN SECTION
+    - {type: case, normal: ["\u104b"], shiftedManually: ["."]}
+
     - $enter

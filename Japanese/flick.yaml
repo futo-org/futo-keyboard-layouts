@@ -1,0 +1,281 @@
+name: Japanese 12-Key Flick Layout
+languages: ja
+numberRowMode: AlwaysDisabled
+bottomRowHeightMode: Flexible
+imeHint: 12key
+attributes: &globalAttrs
+  width: Grow
+  showPopup: false
+  moreKeyMode: OnlyExplicit
+  useKeySpecShortcut: false
+  style: Normal
+  shiftable: false
+  labelFlags:
+    alignLabelOffCenter: false
+    hasHintLabel: false
+rowHeightMode: FillHeight
+rows:
+  - letters:
+      - type: base
+        spec: "!icon/action_undo|!code/action_undo"
+        attributes: &functional { style: Functional, labelFlags: {} }
+
+      - type: flick
+        primary: "あ|1"
+        left: "い|_"
+        up: "う|;"
+        right: "え|:"
+        down: "お|@"
+
+      - type: flick
+        primary: "か|2"
+        left: "き|a"
+        up: "く|b"
+        right: "け|c"
+        down: "こ||"
+
+      - type: flick
+        primary: "さ|3"
+        left: "し|d"
+        up: "す|e"
+        right: "せ|f"
+        down: "そ|~"
+
+      - type: base
+        spec: "!icon/delete_key|!code/key_delete"
+        attributes: &repeatable { style: Functional, labelFlags: {}, repeatableEnabled: true }
+    splittable: false
+  - letters:
+      - type: base
+        spec: "!icon/action_left|!code/action_left"
+        attributes: *repeatable
+
+      - type: flick
+        primary: "た|4"
+        left: "ち|g"
+        up: "つ|h"
+        right: "て|i"
+        down: "と|$"
+
+      - type: flick
+        primary: "な|5"
+        left: "に|j"
+        up: "ぬ|k"
+        right: "ね|l"
+        down: "の|%"
+
+      - type: flick
+        primary: "は|6"
+        left: "ひ|m"
+        up: "ふ|n"
+        right: "へ|o"
+        down: "ほ|&"
+
+      - type: base
+        spec: "!icon/action_right|!code/action_right"
+        attributes: *repeatable
+    splittable: false
+  - letters:
+      - type: base
+        spec: "!icon/action_emoji|!code/action_emoji"
+        attributes: *functional
+
+      - type: flick
+        primary: "ま|7"
+        left: "み|p"
+        up: "む|q"
+        right: "め|r"
+        down: "も|s"
+
+      - type: flick
+        primary: "や|8"
+        up: "ゆ|u"
+        down: "よ|^"
+        left: "("
+        right: ")"
+
+      - type: flick
+        primary: "ら|9"
+        left: "り|w"
+        up: "る|x"
+        right: "れ|y"
+        down: "ろ|z"
+
+      - type: base
+        spec: "!icon/space_key_for_number_layout|!code/key_space"
+        attributes: { style: Functional, labelFlags: {}, longPressEnabled: true }
+    splittable: false
+  - bottom:
+      - type: base
+        spec: "ABC|_"
+        code: -20
+        attributes: *functional
+
+      - type: case
+        normal:
+          type: flick
+          primary: "!icon/japanese_key|*"
+          left: "◌゙|["
+          up: "あぁ|`"
+          right: "◌゚|]"
+        shifted:
+          type: base
+          spec: "!icon/action_switch_language|!code/action_switch_language"
+          attributes: { longPressEnabled: true }
+
+      - type: flick
+        primary: "わ|0"
+        left: "を|+"
+        up: "ん|/"
+        right: "ー|-"
+        down: "〜|<"
+
+      - type: flick
+        primary: "、|#"
+        left: "。|,"
+        up: "?|?"
+        right: "!|!"
+        down: "…|>"
+
+      - type: enter
+        attributes:
+          width: Grow
+    attributes: *globalAttrs
+    splittable: false
+subKeyboards:
+  # ABC
+  Alphabet1:
+    attributes:
+      labelFlags:
+        followKeyLabelRatio: true
+        autoXScale: true
+    rows:
+      - letters:
+          - type: base
+            spec: "!icon/action_undo|!code/action_undo"
+            attributes: *functional
+
+          - type: flick
+            label: "@ - _ /"
+            primary: "@|1"
+            left: "-"
+            up: "_"
+            right: "/"
+            down: "1|@"
+
+          - type: flick
+            label: "ABC"
+            primary: "A|2"
+            left: "B|b"
+            up: "C|c"
+            down: "2||"
+
+          - type: flick
+            label: "DEF"
+            primary: "D|3"
+            left: "E|e"
+            up: "F|f"
+            down: "3|~"
+
+          - type: base
+            spec: "!icon/delete_key|!code/key_delete"
+            attributes: *repeatable
+        splittable: false
+      - letters:
+          - type: base
+            spec: "!icon/action_left|!code/action_left"
+            attributes: *repeatable
+
+          - type: flick
+            label: "GHI"
+            primary: "G|4"
+            left: "H|h"
+            up: "I|i"
+            down: "4|$"
+
+          - type: flick
+            label: "JKL"
+            primary: "J|5"
+            left: "K|k"
+            up: "L|l"
+            down: "5|%"
+
+          - type: flick
+            label: "MNO"
+            primary: "M|6"
+            left: "N|n"
+            up: "O|o"
+            down: "6|&"
+
+          - type: base
+            spec: "!icon/action_right|!code/action_right"
+            attributes: *repeatable
+        splittable: false
+      - letters:
+          - type: base
+            spec: "!text/keylabel_to_symbol|!code/key_switch_alpha_symbol"
+            attributes: *functional
+
+          - type: flick
+            label: "PQRS"
+            primary: "P|7"
+            left: "Q|q"
+            up: "R|r"
+            right: "S|s"
+            down: "7|<"
+
+          - type: flick
+            label: "TUV"
+            primary: "T|8"
+            left: "U|u"
+            up: "V|v"
+            down: "8|^"
+
+          - type: flick
+            label: "WXYZ"
+            primary: "W|9"
+            left: "X|x"
+            up: "Y|y"
+            right: "Z|z"
+            down: "9|>"
+
+          - type: base
+            spec: "!icon/space_key_for_number_layout|!code/key_space"
+            attributes: { style: Functional, labelFlags: { }, longPressEnabled: true }
+        splittable: false
+      - bottom:
+          - type: base
+            spec: "あ|_"
+            code: -19
+            attributes: *functional
+
+          - "a ⇔ A|*"
+
+          - type: flick
+            label: "＇＂：；"
+            primary: "＇|0"
+            left: "＂|\""
+            up: "：|:"
+            right: "；|;"
+            down: "0|#"
+
+          - type: flick
+            label: "．，？！"
+            primary: "．|."
+            left: "，|,"
+            up: "？|?"
+            right: "！|!"
+
+          - type: enter
+            attributes:
+              width: Grow
+        attributes:
+          width: Grow
+          showPopup: false
+          moreKeyMode: OnlyExplicit
+          useKeySpecShortcut: false
+          style: Normal
+          shiftable: false
+          labelFlags:
+            followKeyLabelRatio: true
+        splittable: false

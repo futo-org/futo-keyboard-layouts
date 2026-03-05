@@ -1,0 +1,97 @@
+name: Tibetan
+description: Standard Tibetan
+languages: bod dz lbj sip xsr
+autoShift: false
+attributes:
+  moreKeyMode: OnlyExplicit
+rows:
+  - letters:
+    - "\u0f84"
+    - type: case
+      normal: ["\u0f49", "\u0f99", "\u0fad"]
+      shiftedManually: "\u0f5d"
+    - type: case
+      normal: "\u0f7a"
+      shiftedManually: "\u0f7b"
+    - type: case
+      normal: "\u0f62"
+      shiftedManually: "\u0fb2"
+    - type: case
+      normal: ["\u0f4f", "\u0f9f", "\u0fa0"]
+      shiftedManually: "\u0f50"
+    - type: case
+      normal: "\u0f61"
+      shiftedManually: "\u0fb1"
+    - type: case
+      normal: "\u0f74"
+      shiftedManually: "\u0fad"
+    - type: case
+      normal: "\u0f72"
+      shiftedManually: "\u0f80"
+    - type: case
+      normal: "\u0f7c"
+      shiftedManually: "\u0f7d"
+    - type: case
+      normal: ["\u0f54", "\u0fa5", "\u0fa4"]
+      shiftedManually: "\u0f55"
+
+  - letters:
+    - type: case
+      normal: ["\u0f60", "\u0f71", "\u0fb8"]
+      shiftedManually: "\u0f68"
+    - type: case
+      normal: ["\u0f66", "\u0fb6", "\u0fb4"]
+      shiftedManually: "\u0f64"
+    - type: case
+      normal: ["\u0f51", "\u0fa1", "\u0f9c"]
+      shiftedManually: "\u0f4c"
+    - type: case
+      normal: ["\u0f44", "\u0f94", "\u0f9b"]
+      shiftedManually: "\u0f4b"
+    - type: case
+      normal: ["\u0f42", "\u0f92", "\u0f9a"]
+      shiftedManually: "\u0f4a"
+    - type: case
+      normal: ["\u0f67", "\u0fb7"]
+      shiftedManually: "\u0f7f"
+    - ["\u0f47", "\u0f97"]
+    - type: case
+      normal: ["\u0f40", "\u0f91", "\u0f90"]
+      shiftedManually: "\u0f41"
+    - type: case
+      normal: ["\u0f63", "\u0fb3"]
+      shiftedManually: "\u0fb3"
+
+  - letters:
+    - $shift
+    - type: case
+      normal: ["\u0f5f", "\u0faf", "\u0fae"]
+      shiftedManually: "\u0f5e"
+    - type: case
+      normal: ["\u0f5b", "\u0fab", "\u0fb5"]
+      shiftedManually: "\u0f65"
+    - type: case
+      normal: ["\u0f45", "\u0f95", "\u0f96"]
+      shiftedManually: "\u0f46"
+    - type: case
+      normal: ["\u0f59", "\u0fa9", "\u0faa"]
+      shiftedManually: "\u0f5a"
+    - ["\u0f56", "\u0fa6"]
+    - type: case
+      normal: ["\u0f53", "\u0f9e", "\u0fa3"]
+      shiftedManually: "\u0f4e"
+    - type: case
+      normal: ["\u0f58", "\u0fa8"]
+      shiftedManually: "\u0f73"
+    - $delete
+
+  - bottom:
+    - $symbols
+    - ["?"]
+    - $action
+    - $space
+    - type: base
+      spec: '་'
+      moreKeys: ['།', '༎', '༏', '༑', '༈', '༔', '༐', '༒', '༴', '྾', '྿', '༶', '༓', '༁', '༂', '༃', '༄', '༅', '༆', '༇', '༺', '༻', '༼', '༽']
+      attributes: { moreKeyMode: OnlyExplicit }
+    - $enter

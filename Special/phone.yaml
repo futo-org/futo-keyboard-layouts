@@ -23,7 +23,7 @@ rows:
       - {type: base, spec: "4", hint: "GHI"}
       - {type: base, spec: "5", hint: "JKL"}
       - {type: base, spec: "6", hint: "MNO"}
-      - {type: base, spec: "!icon/space_key_for_number_layout|!code/key_space", attributes: *functional}
+      - {type: base, spec: "!icon/space_key_for_number_layout|!code/key_space", attributes: { style: Functional, labelFlags: {}, longPressEnabled: true }}
     splittable: false
   - letters:
       - {type: base, spec: "7", hint: "PQRS"}

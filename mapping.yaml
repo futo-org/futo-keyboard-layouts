@@ -70,6 +70,9 @@ languages:
     - bengali_jatiyo
     - bengali
     - bengali_unijoy
+  bod:
+    - tibetan
+    - tibetan_wylie
   ca:
     - spanish
     - qwerty
@@ -140,6 +143,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  dz:
+    - tibetan_wylie
   el:
     - greek
     - qwerty
@@ -475,6 +480,7 @@ languages:
     - korean_dubeolsik
     - korean_dubeolsik_combineinitials
     - korean_danmoeum
+    - korean_phonetic
   koi:
     - komi
   kpv:
@@ -494,8 +500,12 @@ languages:
     - russian_yazhert
   lbe:
     - north_caucasian
+  lbj:
+    - tibetan_wylie
   lez:
     - north_caucasian
+  lkt:
+    - lakota
   lo_LA:
     - lao
   lt:
@@ -595,6 +605,8 @@ languages:
     - nordic
   nio:
     - nganasan
+  pa_IN:
+    - gurmukhi
   pl:
     - qwerty
     - qwertz
@@ -665,6 +677,8 @@ languages:
     - sami_inari
   si_LK:
     - sinhala
+  sip:
+    - tibetan_wylie
   sk:
     - qwerty
     - qwertz
@@ -776,6 +790,7 @@ languages:
   udm:
     - udmurt
   ug:
+    - uyghur_phonetic
     - uyghur
   uk:
     - ukrainian
@@ -805,11 +820,14 @@ languages:
   vot:
     - votic
     - qwerty
+  xsr:
+    - tibetan_wylie
   yrk:
     - nenets
   zgh:
     - amazigh_basic
     - amazigh_extended
+    - amazigh_g
   zgh-latn:
     - amazigh_latin
     - qwerty_amazigh
@@ -836,5 +854,9 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  ja:
+    - flick
+    - japanese_qwerty
+    - flick_latin
   ipa:
     - ipa

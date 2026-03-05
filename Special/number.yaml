@@ -40,7 +40,7 @@ rows:
       - "4"
       - "5"
       - "6"
-      - {type: base, spec: "!icon/space_key_for_number_layout|!code/key_space", attributes: *side}
+      - {type: base, spec: "!icon/space_key_for_number_layout|!code/key_space", attributes: { style: Functional, width: FunctionalKey, longPressEnabled: true }}
     splittable: false
   - letters:
       - {type: base, spec: "*", moreKeys: ["/"], attributes: *side}

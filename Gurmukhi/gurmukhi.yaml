@@ -1,0 +1,92 @@
+name: ਪੰਜਾਬੀ (ਗੁਰਮੁਖੀ)
+description: Punjabi language layout using Gurmukhi script by Sanmay Joshi
+languages: pa-IN
+attributes: {moreKeyMode: OnlyExplicit}
+rows:
+  - numbers:
+      - ੧
+      - ੨
+      - ੩
+      - ੪
+      - ੫
+      - ੬
+      - ੭
+      - ੮
+      - ੯
+      - ੦
+  - letters:
+      - type: case
+        normal:
+          - ੍
+          - ' ਃ'
+        shifted: ਅ
+      - type: case
+        normal: ਾ
+        shifted: ਆ
+      - type: case
+        normal: ਿ
+        shifted: ਇ
+      - type: case
+        normal: ੀ
+        shifted: ਈ
+      - type: case
+        normal: ੁ
+        shifted: ਉ
+      - type: case
+        normal: ੂ
+        shifted: ਊ
+      - type: case
+        normal: ੇ
+        shifted: ਏ
+      - type: case
+        normal: ੈ
+        shifted: ਐ
+      - type: case
+        normal: ੋ
+        shifted: ਓ
+      - type: case
+        normal: ੌ
+        shifted: ਔ
+  - letters:
+      - - ੳ
+        - ੴ
+      - ੲ
+      - ਸ
+      - ਹ
+      - ਕ
+      - ਖ
+      - ਗ
+      - ਘ
+      - ੰ
+      - ਂ
+  - letters:
+      - ਚ
+      - ਛ
+      - ਜ
+      - ਝ
+      - ਟ
+      - ਠ
+      - ਡ
+      - ਢ
+      - ਣ
+      - ੱ
+  - letters:
+      - ਤ
+      - ਥ
+      - ਦ
+      - ਧ
+      - ਨ
+      - ਪ
+      - ਫ
+      - ਬ
+      - ਭ
+      - ਮ
+  - letters:
+      - ਯ
+      - ਰ
+      - ਲ
+      - ਵ
+      - ੜ
+      - ੍ਰ
+      - ੍ਹ
+      - ਼

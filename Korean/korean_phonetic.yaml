@@ -1,0 +1,36 @@
+name: 포네틱 (Phonetic)
+languages: ko
+combiners:
+  - Korean
+attributes: {shiftable: false}
+autoShift: false
+rows:
+  - letters:
+    - ㅇ
+    - ㅡ
+    - {type: case, normal: ["ㅔ", "ㅖ"], shiftedManually: ["ㅖ"]}
+    - ㄹ
+    - ㅌ
+    - {type: case, normal: ["ㅐ", "ㅒ"], shiftedManually: ["ㅒ"]}
+    - ㅜ
+    - ㅣ
+    - ㅗ
+    - ㅍ
+  - letters:
+    - ㅏ
+    - {type: case, normal: ["ㅅ", "ㅆ"], shiftedManually: ["ㅆ"]}
+    - {type: case, normal: ["ㄷ", "ㄸ"], shiftedManually: ["ㄸ"]}
+    - ㅑ
+    - {type: case, normal: ["ㄱ", "ㄲ"], shiftedManually: ["ㄲ"]}
+    - ㅎ
+    - {type: case, normal: ["ㅈ", "ㅉ"], shiftedManually: ["ㅉ"]}
+    - ㅋ
+    - ㅛ
+  - letters:
+    - ㅕ
+    - ㅠ
+    - ㅊ
+    - ㅓ
+    - {type: case, normal: ["ㅂ", "ㅃ"], shiftedManually: ["ㅃ"]}
+    - ㄴ
+    - ㅁ
