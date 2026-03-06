@@ -1,0 +1,86 @@
+name: "ClearFlow Symbols"
+numberRowMode: AlwaysDisabled
+bottomRowHeightMode: Flexible
+bottomRowWidthMode: Identical
+attributes:
+  shiftable: false
+  moreKeyMode: OnlyFromLetter
+rows:
+  - letters:
+    - $shift
+    - "!"
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "?"
+    - type: base
+      spec: "!icon/delete_key|!code/key_delete"
+      attributes: { width: FunctionalKey, style: Functional, anchored: true, showPopup: false, moreKeyMode: OnlyExplicit, repeatableEnabled: true, rowSpan: 2 }
+  - letters:
+    - type: base
+      spec: "!icon/action_switch_language|!code/action_switch_language"
+      attributes: { width: FunctionalKey, style: Functional, showPopup: false }
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "0"
+    - type: gap
+      attributes: { width: FunctionalKey }
+  - letters:
+    - type: base
+      spec: "!icon/space_key_for_number_layout|!code/key_space"
+      attributes: { width: Grow, style: Spacebar, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+    - "@"
+    - ["#", "№"]
+    - "$"
+    - "("
+    - ")"
+    - "/"
+    - type: base
+      spec: "!icon/space_key_for_number_layout|!code/key_space"
+      attributes: { width: Grow, style: Spacebar, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+  - letters:
+    - type: gap
+      attributes: { width: Grow }
+    - "_"
+    - "&"
+    # U+2013: "–" EN DASH
+    # U+2014: "—" EM DASH
+    # U+207B: "⁻" SUPERSCRIPT MINUS
+    # U+208B: "₋" SUBSCRIPT MINUS
+    # U+00B7: "·" MIDDLE DOT
+    - ["-", "_", "\u2013", "\u2014", "\u207B", "\u208B", "\u00B7"]
+    # U+207A: "⁺" SUPERSCRIPT PLUS
+    # U+208A: "⁺" SUBSCRIPT PLUS
+    - ["+", "\u207A", "\u208A"]
+    - ":"
+    - ";"
+    - type: gap
+      attributes: { width: Grow }
+  - bottom:
+    - $alphabet
+    - type: contextual
+      fallbackKey:
+        type: base
+        spec: ","
+        attributes: { width: FunctionalKey, style: Normal, moreKeyMode: All }
+      attributes: { width: FunctionalKey, style: Normal, moreKeyMode: All }
+    - type: base
+      spec: "!icon/numpad|!code/key_to_number_layout"
+      attributes: { width: FunctionalKey, style: Normal, showPopup: false }
+    - type: base
+      spec: "*"
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: "\""
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: "'"
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: "."
+      attributes: { width: FunctionalKey, style: Normal, moreKeyMode: All }
+    - $enter
