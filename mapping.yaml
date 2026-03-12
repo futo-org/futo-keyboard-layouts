@@ -6,6 +6,8 @@ languages:
   af:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -30,6 +32,8 @@ languages:
     - azerbaijani
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -77,6 +81,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -93,6 +99,8 @@ languages:
   cs:
     - qwertz
     - qwerty
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -109,6 +117,8 @@ languages:
     - nordic
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -123,6 +133,8 @@ languages:
     - qwertz
     - swiss
     - qwerty
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -135,6 +147,8 @@ languages:
     - swiss
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -149,6 +163,8 @@ languages:
     - greek
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -160,6 +176,8 @@ languages:
   en_GB:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -172,6 +190,8 @@ languages:
   en_IN:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -187,6 +207,8 @@ languages:
   en_US:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -204,6 +226,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -216,6 +240,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -228,6 +254,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -240,6 +268,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -253,6 +283,8 @@ languages:
     - nordic
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -264,6 +296,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -278,6 +312,8 @@ languages:
     - nordic
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -290,6 +326,8 @@ languages:
     - swiss
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - colemak
     - colemak_dh
@@ -304,6 +342,8 @@ languages:
     - qwerty
     - swiss
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -318,6 +358,8 @@ languages:
     - swiss
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -336,6 +378,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -355,6 +399,8 @@ languages:
   hi_Latn:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -368,6 +414,8 @@ languages:
     - qwertz
     - south_slavic_qwertz_12
     - qwerty
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -380,6 +428,8 @@ languages:
     - hungarian
     - qwertz
     - qwerty
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -393,6 +443,8 @@ languages:
   in:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -407,6 +459,8 @@ languages:
     - icelandic
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -418,6 +472,8 @@ languages:
   it:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -430,6 +486,8 @@ languages:
     - swiss
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -444,12 +502,15 @@ languages:
   izh:
     - izhorian
     - qwerty
+    - qwerty_non_staggered
   kab:
     - kabyle
     - azerty
     - swiss
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - colemak
     - colemak_dh
@@ -488,6 +549,7 @@ languages:
   krl:
     - karelian
     - qwerty
+    - qwerty_non_staggered
   ku_Latn:
     - kurdish_latin
   ky:
@@ -510,6 +572,8 @@ languages:
     - lithuanian_qwerty
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -521,9 +585,12 @@ languages:
   lud:
     - ludic_veps
     - qwerty
+    - qwerty_non_staggered
   lv:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -548,6 +615,8 @@ languages:
   ms_MY:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -560,6 +629,8 @@ languages:
     - maltese
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -582,6 +653,8 @@ languages:
   nl:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -594,6 +667,8 @@ languages:
     - azerty
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - colemak
     - colemak_dh
@@ -608,6 +683,8 @@ languages:
   pl:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -620,6 +697,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -632,6 +711,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -644,6 +725,8 @@ languages:
     - romanian
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -680,6 +763,8 @@ languages:
   sk:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -693,6 +778,8 @@ languages:
     - slovenian_qwertz
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -705,6 +792,8 @@ languages:
     - albanian
     - qwertz
     - qwerty
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -720,10 +809,13 @@ languages:
     - south_slavic_qwertz_12
   sv:
     - qwerty
+    - qwerty_non_staggered
     - nordic
   sw:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -761,6 +853,8 @@ languages:
     - spanish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -773,6 +867,8 @@ languages:
     - turkish
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -804,9 +900,12 @@ languages:
   vep:
     - ludic_veps
     - qwerty
+    - qwerty_non_staggered
   vi:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -818,6 +917,7 @@ languages:
   vot:
     - votic
     - qwerty
+    - qwerty_non_staggered
   xsr:
     - tibetan_wylie
   yrk:
@@ -830,9 +930,13 @@ languages:
     - amazigh_latin
     - qwerty_amazigh
     - qwertz_amazigh
+    - qwerty_non_staggered
+    - qwertz_non_staggered
   zu:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
@@ -844,6 +948,8 @@ languages:
   zz:
     - qwerty
     - qwertz
+    - qwerty_non_staggered
+    - qwertz_non_staggered
     - dvorak
     - azerty
     - colemak
