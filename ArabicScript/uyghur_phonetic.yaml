@@ -2,7 +2,8 @@ name: Uyghur (Arabic) Phonetic
 languages: ug
 attributes: {shiftable: false}
 autoShift: false
-symbols: "uyghur_symbols"
+layoutSetOverrides:
+  - symbols: "uyghur_symbols"
 rows:
   - letters:
     # U+062C "ج" ARABIC LETTER JEEM
