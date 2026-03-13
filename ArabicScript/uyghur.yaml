@@ -1,6 +1,7 @@
-name: Uyghur (Arabic) G
+name: Uyghur (Arabic) G2
 languages: ug
 minimumFunctionalKeyWidth: 0.0
+symbols: "uyghur_symbols"
 rows:
   - letters:
     - 'چ'
