@@ -2,6 +2,7 @@ name: "ClearFlow Symbols (Shifted)"
 numberRowMode: AlwaysDisabled
 bottomRowHeightMode: Flexible
 bottomRowWidthMode: Identical
+mirrorInOneHanded: true
 supportsSplit: false
 attributes:
   shiftable: false
