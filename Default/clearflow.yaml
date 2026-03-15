@@ -6,6 +6,7 @@ bottomRowWidthMode: Identical
 layoutSetOverrides:
   symbols: "clearflow_symbols"
   symbolsShifted: "clearflow_symbols_shift"
+supportsSplit: false
 attributes:
   moreKeyMode: OnlyFromLetter
 rows:

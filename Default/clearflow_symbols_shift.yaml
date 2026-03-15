@@ -2,6 +2,7 @@ name: "ClearFlow Symbols (Shifted)"
 numberRowMode: AlwaysDisabled
 bottomRowHeightMode: Flexible
 bottomRowWidthMode: Identical
+supportsSplit: false
 attributes:
   shiftable: false
   moreKeyMode: OnlyFromLetter
