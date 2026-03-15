@@ -1,0 +1,96 @@
+name: "ClearFlow Symbols (Shifted)"
+numberRowMode: AlwaysDisabled
+bottomRowHeightMode: Flexible
+bottomRowWidthMode: Identical
+mirrorInOneHanded: true
+supportsSplit: false
+attributes:
+  shiftable: false
+  moreKeyMode: OnlyFromLetter
+rows:
+  - letters:
+    - $shift
+    - "~"
+    - "`"
+    - "|"
+    # U+2022: "•" BULLET
+    - type: base
+      spec: "\u2022"
+      moreKeys: "!text/morekeys_bullet"
+    # U+221A: "√" SQUARE ROOT
+    - "\u221A"
+    # U+03C0: "π" GREEK SMALL LETTER PI
+    - type: base
+      spec: "\u03C0"
+      moreKeys: ["\u03A0", "μ", "Ω"]
+    - type: base
+      spec: "!icon/delete_key|!code/key_delete"
+      attributes: { width: FunctionalKey, style: Functional, anchored: true, showPopup: false, moreKeyMode: OnlyExplicit, repeatableEnabled: true, rowSpan: 2 }
+  - letters:
+    - type: base
+      spec: "!icon/action_switch_language|!code/action_switch_language"
+      attributes: { width: FunctionalKey, style: Functional, showPopup: false }
+    # U+00F7: "÷" DIVISION SIGN
+    - "\u00F7"
+    # U+00D7: "×" MULTIPLICATION SIGN
+    - "\u00D7"
+    # U+00B6: "¶" PILCROW SIGN
+    - type: base
+      spec: "\u00B6"
+      moreKeys: "\u00A7"
+    # U+2206: "∆" INCREMENT
+    - "\u2206"
+    - type: base
+      spec: "^"
+      moreKeys: "\u2191,\u2193,\u2190,\u2192"
+    # U+00B0: "°" DEGREE SIGN
+    - type: base
+      spec: "\u00B0"
+      moreKeys: "\u2032,\u2033"
+    - type: gap
+      attributes: { width: FunctionalKey }
+  - letters:
+    - type: base
+      spec: "!icon/space_key_for_number_layout|!code/key_space"
+      attributes: { width: Grow, style: Spacebar, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+    - "$currency1"
+    - "$currency2"
+    - "$currency3"
+    - "$currency4"
+    - "="
+    - "\\"
+    - type: base
+      spec: "!icon/space_key_for_number_layout|!code/key_space"
+      attributes: { width: Grow, style: Spacebar, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+  - letters:
+    - type: gap
+      attributes: { width: Grow }
+    - "!text/keyspec_left_curly_bracket"
+    - "!text/keyspec_right_curly_bracket"
+    - "%"
+    - "\u2713"
+    - "!text/keyspec_left_square_bracket"
+    - "!text/keyspec_right_square_bracket"
+    - type: gap
+      attributes: { width: Grow }
+  - bottom:
+    - $alphabet
+    - type: base
+      spec: "<"
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: "!icon/numpad|!code/key_to_number_layout"
+      attributes: { width: FunctionalKey, style: Normal, showPopup: false }
+    - type: base
+      spec: "\u00A9"
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: "\u00AE"
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: "\u2122"
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: ">"
+      attributes: { width: FunctionalKey, style: Normal }
+    - $enter

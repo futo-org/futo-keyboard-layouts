@@ -14,6 +14,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ak:
     - akan
   agx:
@@ -38,6 +39,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ba:
     - bashkir
     - east_slavic
@@ -85,6 +87,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ce:
     - north_caucasian
   ckb:
@@ -101,6 +104,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   cv:
     - chuvash
   cy:
@@ -116,6 +120,7 @@ languages:
     - colemak_dh_ansi
     - bepo
     - pcqwerty
+    - clearflow
   dar:
     - north_caucasian
   de:
@@ -131,6 +136,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   de_CH:
     - swiss
     - qwerty
@@ -143,6 +149,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   dz:
     - tibetan_wylie
   el:
@@ -157,6 +164,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   en_GB:
     - qwerty
     - qwertz
@@ -169,6 +177,7 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - clearflow
   en_IN:
     - qwerty
     - qwertz
@@ -181,6 +190,7 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - clearflow
   en_Shaw:
     - shavian
     - shavian_two_layer
@@ -196,6 +206,7 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - clearflow
   enf:
     - enets
   enh:
@@ -212,6 +223,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   es:
     - spanish
     - qwerty
@@ -236,6 +248,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   es_US:
     - spanish
     - qwerty
@@ -248,6 +261,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   et_EE:
     - estonian
     - nordic
@@ -260,6 +274,7 @@ languages:
     - colemak_dh_ansi
     - bepo
     - pcqwerty
+    - clearflow
   eu_ES:
     - spanish
     - qwerty
@@ -272,6 +287,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   fa:
     - farsi
   fi:
@@ -285,6 +301,7 @@ languages:
     - colemak_dh_ansi
     - bepo
     - pcqwerty
+    - clearflow
   fr:
     - azerty
     - swiss
@@ -300,6 +317,7 @@ languages:
     - nordic
     - azerty_inclusive
     - bepo_inclusive
+    - clearflow
   fr_CA:
     - qwerty
     - swiss
@@ -314,6 +332,7 @@ languages:
     - pcqwerty
     - nordic
     - bepo_inclusive
+    - clearflow
   fr_CH:
     - swiss
     - qwerty
@@ -328,6 +347,7 @@ languages:
     - pcqwerty
     - nordic
     - bepo_inclusive
+    - clearflow
   ga:
     - irish
   gag:
@@ -344,6 +364,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ha:
     - hausa
   haw:
@@ -363,6 +384,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   hr:
     - serbian_qwertz
     - qwertz
@@ -376,6 +398,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   hu:
     - hungarian
     - qwertz
@@ -388,6 +411,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   hy_AM:
     - armenian_phonetic
   in:
@@ -401,6 +425,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   inh:
     - north_caucasian
   is:
@@ -415,6 +440,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   it:
     - qwerty
     - qwertz
@@ -426,6 +452,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   it_CH:
     - swiss
     - qwerty
@@ -438,6 +465,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   iw:
     - hebrew
     - hebrew-staggered
@@ -457,6 +485,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ka_GE:
     - georgian
   kaa:
@@ -518,6 +547,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   lud:
     - ludic_veps
     - qwerty
@@ -532,6 +562,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   mhr:
     - mari_meadow
   mrj:
@@ -556,6 +587,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   mt:
     - maltese
     - qwerty
@@ -568,6 +600,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   my:
     - myanmar_g
   nb:
@@ -590,6 +623,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   nl_BE:
     - azerty
     - qwerty
@@ -601,6 +635,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   nio:
     - nganasan
   pa_IN:
@@ -616,6 +651,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   pt_BR:
     - spanish
     - qwerty
@@ -628,6 +664,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   pt_PT:
     - spanish
     - qwerty
@@ -640,6 +677,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ro:
     - romanian
     - qwerty
@@ -652,6 +690,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ru:
     - east_slavic
     - russian_student
@@ -688,6 +727,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   sl:
     - slovenian_qwerty
     - slovenian_qwertz
@@ -701,6 +741,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   sq:
     - albanian
     - qwertz
@@ -713,6 +754,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   sr:
     - south_slavic
   sr_Latn:
@@ -732,6 +774,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ta_IN:
     - tamil_inscript
     - tamil
@@ -769,6 +812,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   tr:
     - turkish
     - qwerty
@@ -781,6 +825,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   tt:
     - tatar
   tyv:
@@ -815,6 +860,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   vot:
     - votic
     - qwerty
@@ -841,6 +887,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   zz:
     - qwerty
     - qwertz
@@ -852,6 +899,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - clearflow
   ja:
     - flick
     - japanese_qwerty

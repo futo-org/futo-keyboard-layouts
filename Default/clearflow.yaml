@@ -1,0 +1,83 @@
+name: ClearFlow
+description: A high-performance layout optimized for swipe-typing accuracy and speed.
+numberRowMode: AlwaysDisabled
+bottomRowHeightMode: Flexible
+bottomRowWidthMode: Identical
+layoutSetOverrides:
+  symbols: "clearflow_symbols"
+  symbolsShifted: "clearflow_symbols_shift"
+mirrorInOneHanded: true
+supportsSplit: false
+attributes:
+  moreKeyMode: OnlyFromLetter
+rows:
+  - letters:
+    - $shift
+    - "!"
+    - q
+    - w
+    - c
+    - j
+    - "?"
+    - type: base
+      spec: "!icon/delete_key|!code/key_delete"
+      attributes: { width: FunctionalKey, style: Functional, anchored: true, showPopup: false, moreKeyMode: OnlyExplicit, repeatableEnabled: true, rowSpan: 2 }
+  - letters:
+    - type: action
+      attributes: { width: FunctionalKey, style: Functional, showPopup: false }
+    - y
+    - o
+    - h
+    - e
+    - v
+    - u
+    - type: gap
+      attributes: { width: Grow }
+  - letters:
+    - type: base
+      spec: "!icon/space_key_for_number_layout|!code/key_space"
+      attributes: { width: Grow, style: Spacebar, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+    - x
+    - r
+    - t
+    - a
+    - l
+    - b
+    - type: base
+      spec: "!icon/space_key_for_number_layout|!code/key_space"
+      attributes: { width: Grow, style: Spacebar, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+  - letters:
+    - type: gap
+      attributes: { width: Grow }
+    - f
+    - s
+    - i
+    - n
+    - d
+    - z
+    - type: gap
+      attributes: { width: Grow }
+  - bottom:
+    - $symbols
+    - type: contextual
+      fallbackKey:
+        type: base
+        spec: ","
+        attributes: { width: FunctionalKey, style: Normal, moreKeyMode: All }
+      attributes: { width: FunctionalKey, style: Normal, moreKeyMode: All }
+    - type: base
+      spec: p
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: m
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: g
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: k
+      attributes: { width: FunctionalKey, style: Normal }
+    - type: base
+      spec: "."
+      attributes: { width: FunctionalKey, style: Normal, moreKeyMode: All }
+    - $enter
