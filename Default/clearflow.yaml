@@ -19,10 +19,11 @@ rows:
     - c
     - j
     - "?"
-    - $delete
-  - letters:
     - type: base
-      spec: "!icon/action_switch_language|!code/action_switch_language"
+      spec: "!icon/delete_key|!code/key_delete"
+      attributes: { width: FunctionalKey, style: Functional, anchored: true, showPopup: false, moreKeyMode: OnlyExplicit, repeatableEnabled: true, rowSpan: 2 }
+  - letters:
+    - type: action
       attributes: { width: FunctionalKey, style: Functional, showPopup: false }
     - y
     - o
@@ -30,8 +31,8 @@ rows:
     - e
     - v
     - u
-    - type: action
-      attributes: { width: FunctionalKey, style: Functional, showPopup: false }
+    - type: gap
+      attributes: { width: Grow }
   - letters:
     - type: base
       spec: "!icon/space_key_for_number_layout|!code/key_space"
