@@ -769,6 +769,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  tok:
+    - toki_pona
   tr:
     - turkish
     - qwerty
