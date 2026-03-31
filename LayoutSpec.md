@@ -1101,7 +1101,6 @@ Codes: (e.g. `!code/key_tab`)
 
 
 Icons: (e.g. `!icon/go_key`)
-* `undefined`
 * `shift_key`
 * `shift_key_shifted`
 * `delete_key`
@@ -1122,6 +1121,8 @@ Icons: (e.g. `!icon/go_key`)
 * `emoji_normal_key`
 * `numpad`
 * `action_{...}` (e.g. `!icon/action_emoji`)
+
+There is no blank icon, but you can set a key's label to a space.
 
 Actions:
 * `emoji`
