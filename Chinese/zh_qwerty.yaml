@@ -1,6 +1,47 @@
-name: QWERTY
+name: Chinese QWERTY
+languages: zh
+attributes: {moreKeyMode: OnlyExplicit}
+autoShift: false
 imeHint: "qwerty"
 rows:
-  - letters: q w e r t y u i o p
-  - letters: a s d f g h j k l
-  - letters: z x c v b n m
+  - letters:
+    - ['q', '!fixedColumnOrder!3', '1', '~', '`']
+    - ['w', '!fixedColumnOrder!3', '2', '@']
+    - ['e', '!fixedColumnOrder!3', '3', '#']
+    - ['r', '!fixedColumnOrder!3', '4', '$', '￥']
+    - ['t', '!fixedColumnOrder!3', '5', '%|%']
+    - ['y', '!fixedColumnOrder!3', '6', '^']
+    - ['u', '!fixedColumnOrder!3', '7', '&']
+    - ['i', '!fixedColumnOrder!3', '8', '*']
+    - ['o', '!fixedColumnOrder!3', '9', '(']
+    - ['p', '!fixedColumnOrder!3', '0', ')']
+  - letters:
+    - ['a', '!fixedColumnOrder!3', '？', '?']
+    - ['s', '!fixedColumnOrder!3', '！', '!']
+    - ['d', '!fixedColumnOrder!3', '；', ';']
+    - ['f', '!fixedColumnOrder!3', '：', ':']
+    - ['g', '!fixedColumnOrder!3', '、']
+    - ['h', '!fixedColumnOrder!3', '…|……']
+    - ['j', '!fixedColumnOrder!3', '—|——']
+    - ['k', '!fixedColumnOrder!3', '[', '{', '【']
+    - ['l', '!fixedColumnOrder!3', ']', '}', '】']
+  - letters:
+    - $shift
+    - ['z', '!fixedColumnOrder!3', '"', '「', '」']
+    - ['x', '!fixedColumnOrder!3', '''', '『', '』']
+    - ['c', '!fixedColumnOrder!3', '-', '_']
+    - ['v', '!fixedColumnOrder!3', '=', '+']
+    - ['b', '!fixedColumnOrder!3', '<', '《', '〈']
+    - ['n', '!fixedColumnOrder!3', '>', '》', '〉']
+    - ['m', '!fixedColumnOrder!3', '/', '\', '|']
+    - $delete
+  - bottom:
+    - $symbols
+    - ['，']
+    - $action
+    - $space
+    - type: base
+      spec: '。'
+      moreKeys: ['…|……', '？', '！', '；', '：', '—|——']
+      attributes: { moreKeyMode: OnlyExplicit }
+    - $enter
