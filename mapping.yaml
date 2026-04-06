@@ -830,6 +830,12 @@ languages:
     - amazigh_latin
     - qwerty_amazigh
     - qwertz_amazigh
+  zh:
+    - zh_qwerty
+    - zh_stroke
+  zh_Hant:
+    - zh_qwerty
+    - zh_stroke
   zu:
     - qwerty
     - qwertz

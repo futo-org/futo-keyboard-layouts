@@ -1,0 +1,21 @@
+name: "Chinese Stroke input"
+imeHint: "stroke"
+attributes:
+  moreKeyMode: OnlyExplicit
+rows:
+  - letters:
+      - "一|h"
+      - "丨|s"
+      - "丿|p"
+      - "!icon/delete_key|!code/key_delete"
+  - letters:
+      - "丶|n"
+      - "⼄|z"
+      - " "
+      - " "
+  - letters:
+      - "?"
+      - "!"
+      - " "
+      - " "
+  - bottom: "$symbols $action , $space . $enter"
