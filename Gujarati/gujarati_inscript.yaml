@@ -1,0 +1,58 @@
+name: ગુજરાતી
+autoShift: false
+numberRowMode: AlwaysDisabled
+useZWNJKey: true
+attributes:
+  moreKeyMode: OnlyExplicit
+
+rows:
+  - letters:
+    - { type: case, normal: [૧, ઍ], shifted: [ઍ] }
+    - { type: case, normal: [૨,  ૅ], shifted: [ ૅ] }
+    - { type: case, normal: [૩,  ્ર], shifted: [ ્ર] }
+    - { type: case, normal: [૪, ર્, ₹], shifted: [ર્, ₹] }
+    - { type: case, normal: [૫, જ્ઞ], shifted: [જ્ઞ] }
+    - { type: case, normal: [૬, ત્ર], shifted: [ત્ર] }
+    - { type: case, normal: [૭, ક્ષ], shifted: [ક્ષ] }
+    - { type: case, normal: [૮, શ્ર], shifted: [શ્ર] }
+    - { type: case, normal: [૯] }
+    - { type: case, normal: [૦] }
+    - { type: case, normal: [ઃ] }
+    - { type: case, normal: [ૃ, ઋ, ૄ , ૠ], shifted: [ઋ , ૄ , ૠ] }
+
+  - letters:
+    - { type: case, normal: [ૌ, ઔ], shifted: [ઔ] }
+    - { type: case, normal: [ૈ, ઐ], shifted: [ઐ] }
+    - { type: case, normal: [ા, આ], shifted: [આ] }
+    - { type: case, normal: [ી, ઈ, ૣ, ૡ], shifted: [ઈ, ૣ, ૡ] }
+    - { type: case, normal: [ૂ, ઊ], shifted: [ઊ] }
+    - { type: case, normal: [બ, ભ], shifted: [ભ] }
+    - { type: case, normal: [હ, ઙ], shifted: [ઙ] }
+    - { type: case, normal: [ગ, ઘ], shifted: [ઘ] }
+    - { type: case, normal: [દ, ધ], shifted: [ધ] }
+    - { type: case, normal: [જ, ઝ], shifted: [ઝ] }
+    - { type: case, normal: [ડ, ઢ], shifted: [ઢ] }
+    - { type: case, normal: [઼, ઞ], shifted: [ઞ] }
+
+  - letters:
+    - { type: case, normal: [ો, ઓ], shifted: [ઓ] }
+    - { type: case, normal: [ે, એ], shifted: [એ] }
+    - { type: case, normal: [્, અ], shifted: [અ] }
+    - { type: case, normal: [િ, ઇ, ૢ, ઌ], shifted: [ઇ, ૢ, ઌ] }
+    - { type: case, normal: [ુ, ઉ], shifted: [ઉ] }
+    - { type: case, normal: [પ, ફ], shifted: [ફ] }
+    - { type: case, normal: [ર] }
+    - { type: case, normal: [ક, ખ], shifted: [ખ] }
+    - { type: case, normal: [ત, થ], shifted: [થ] }
+    - { type: case, normal: [ચ, છ], shifted: [છ] }
+    - { type: case, normal: [ટ, ઠ], shifted: [ઠ] }
+    - { type: case, normal: [ૉ, ઑ], shifted: [ઑ] }
+  - letters:
+    - { type: case, normal: [ં, ઁ, ૐ], shifted: [ઁઁ, ૐ] }
+    - { type: case, normal: [મ, ણ], shifted: [ણ] }
+    - { type: case, normal: [ન] }
+    - { type: case, normal: [વ] }
+    - { type: case, normal: [લ, ળ], shifted: [ળ] }
+    - { type: case, normal: [સ, શ], shifted: [શ] }
+    - { type: case, normal: [ષ, ૱, ૰] }
+    - { type: case, normal: [ય, ।, ॥, ઽ] }
