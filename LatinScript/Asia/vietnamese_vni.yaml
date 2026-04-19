@@ -2,6 +2,7 @@ name: VNI
 languages: vi
 combiners:
   - VNI
+numberRowMode: AlwaysDisabled
 rows:
   - letters: １ ２ ３ ４ ５ ６ ７ ８ ９ ０ # Fullwidth digits are used to add diacritics and tone marks, while the normal ASCII digits are left untouched by the combiner
   - letters: q w e r t y u i o p
