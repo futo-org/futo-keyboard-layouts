@@ -807,16 +807,8 @@ languages:
     - ludic_veps
     - qwerty
   vi:
-    - qwerty
-    - qwertz
-    - dvorak
-    - azerty
-    - colemak
-    - colemak_dh
-    - colemak_dh_ansi
-    - bepo
-    - pcqwerty
-    - nordic
+    - vietnamese_telex
+    - vietnamese_vni
   vot:
     - votic
     - qwerty
