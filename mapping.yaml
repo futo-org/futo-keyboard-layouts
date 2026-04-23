@@ -865,7 +865,6 @@ languages:
     - japanese_qwerty
     - flick_latin
   ipa:
-    - ipa
     - ipa_qwerty
     - ipa_qwerty_more
     - ipa_qwerty_google

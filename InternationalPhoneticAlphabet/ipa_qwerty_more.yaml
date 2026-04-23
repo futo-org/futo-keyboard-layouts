@@ -1,7 +1,7 @@
 # This layout is an extension of the ipa_qwerty layout
 # but with superscript for almost all characters in the IPA.
 
-name: International Phonetic Alphabet QWERTY More
+name: QWERTY More
 numberRowMode: AlwaysDisabled # first row is the number row
 autoShift: false # IPA is not bicameral
 attributes:

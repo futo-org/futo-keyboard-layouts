@@ -14,7 +14,7 @@
 # 11. Added ⟨ˣ⟩ to "X" since it is already in "K".
 # 12. Replace duplicate ⟨◌̃⟩ in altPages[1] with dotted circle ⟨◌⟩.
 
-name: International Phonetic Alphabet QWERTY
+name: QWERTY
 numberRowMode: AlwaysDisabled # first row is the number row
 autoShift: false # IPA is not bicameral
 attributes:

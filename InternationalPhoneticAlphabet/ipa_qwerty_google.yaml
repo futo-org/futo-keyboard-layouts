@@ -8,7 +8,7 @@
 # 2. The character for the voiced velar plosive used is ⟨ɡ⟩ (U+0261) instead of
 #    the normal ⟨g⟩ (U+0067).
 
-name: International Phonetic Alphabet QWERTY Google
+name: QWERTY Google
 numberRowMode: AlwaysDisabled # first row is the number row
 autoShift: false # IPA is not bicameral
 attributes:

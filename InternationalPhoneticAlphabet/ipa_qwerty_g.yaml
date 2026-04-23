@@ -1,7 +1,7 @@
 # This layout changes the script ⟨g⟩ (U+0261) and ⟨ᶢ⟩ (U+1DA2) used by the IPA
 # to the ASCII ⟨g⟩ (U+0067) and its corresponding superscript ⟨ᵍ⟩ (U+1D4D).
 
-name: International Phonetic Alphabet QWERTY ASCII G
+name: QWERTY (ASCII G)
 numberRowMode: AlwaysDisabled # first row is the number row
 autoShift: false # IPA is not bicameral
 attributes:
