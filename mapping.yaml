@@ -147,6 +147,8 @@ languages:
     - tibetan_wylie
   el:
     - greek
+    - greek_modern
+    - greek_hoplite_polytonic
     - qwerty
     - qwertz
     - dvorak
