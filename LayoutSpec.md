@@ -406,6 +406,21 @@ The `Keyboard` data class represents a keyboard layout definition, serving as th
 * **Optional**: Yes
 * **Default Value**: true
 
+#### `imeHint`
+
+* **Description**: (optional) Hint for the IME engine to request specific behavior. Only has effect if the language is set to Chinese or Japanese.
+* **Type**: `string?`
+* **Optional**: Yes
+* **Default Value**: null
+
+Valid values for Japanese are "12key" or "qwerty" to specify how the keys should be interpreted.
+
+Valid values for Chinese are "stroke" or "qwerty" to specify which schema should be used.
+
+When the imeHint is not qwerty, the key codes are remapped to something else. For example, "1" will type "あ" in 12key Japanese, and "a" will type "き", despite no phonetic relation between these letters. Whereas in Chinese, "h" types "一" in stroke input. You will need to heavily reference these layouts if you want to use a non-qwerty imeHint:
+* [Chinese stroke](https://github.com/futo-org/futo-keyboard-layouts/blob/main/Chinese/zh_stroke.yaml)
+* [Japanese 12key](https://github.com/futo-org/futo-keyboard-layouts/blob/main/Japanese/flick.yaml)
+
 ## Row
 
 ### Overview
