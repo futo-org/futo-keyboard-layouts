@@ -170,6 +170,7 @@ You can use the following template keys:
 * `$space` - spacebar
 * `$enter` - enter/search/next/prev/go key
 * `$symbols` - switch to symbols menu
+* `$period` - period key
 * `$alphabet` - switch back to alphabet (only used in symbols layout)
 * `$action` - action key, user-defined, may be empty
 * `$number` - switch to numpad mode
@@ -457,6 +458,7 @@ One of `numbers`, `letters` or `bottom` must be defined.
 *   **Default Value**: `null`
 *   **Behavior**:
     *   If defined, this is a bottom row. Bottom row should typically contain: `$symbols , $action $space $optionalzwnj . $enter`
+    *   Bottom row does not inherit the keyboard's attributes by default, so the global `moreKeyMode` will be ignored there. Attributes must be specified either for the individual key or for the bottom row itself.
 
 The default bottom row is the following:
 ```yaml
