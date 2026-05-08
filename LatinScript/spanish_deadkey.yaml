@@ -1,0 +1,20 @@
+name: Español
+languages: es
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters: q w e r t y u i o p
+  - letters: a s d f g h j k l ñ
+  - letters:
+    - z
+    - x
+    - c
+    - v
+    - b
+    - n
+    - m
+    # U+0301 ◌́ COMBINING ACUTE ACCENT
+    # U+0308 ◌̈ COMBINING DIAERESIS
+    - {type: case, normal: ["´|\u0301"], shiftedManually: ["¨|\u0308"]}
