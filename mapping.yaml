@@ -116,6 +116,7 @@ languages:
     - colemak_dh_ansi
     - bepo
     - pcqwerty
+    - danish_qwerty
   dar:
     - north_caucasian
   de:
