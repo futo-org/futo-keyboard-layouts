@@ -1,0 +1,7 @@
+# Swype optimized layout based on the brilliant work of Evan Sangaline.
+# Research and info found here: https://sangaline.com/post/finding-an-optimal-keyboard-layout-for-swype/
+name: "Sangaline"
+rows:
+  - letters: d g h p a s j r k n
+  - letters: i q v u w c l x m
+  - letters: t y b e z f o
