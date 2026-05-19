@@ -12,7 +12,12 @@ attributes:
   moreKeyMode: OnlyFromLetter
 rows:
   - letters:
-    - $shift
+    - type: actionKeySelect
+      enabled:
+        type: shift
+      none:
+        type: shift
+        attributes: { rowSpan: 2 }
     - "!"
     - q
     - w
@@ -25,6 +30,9 @@ rows:
   - letters:
     - type: action
       attributes: { width: FunctionalKey, style: Functional, showPopup: false }
+      fallbackKey:
+        type: gap
+        attributes: { width: FunctionalKey }
     - y
     - o
     - h
