@@ -1,0 +1,83 @@
+name: KASROZ
+description: Another high-performance layout optimized for swipe-typing accuracy and speed.
+numberRowMode: AlwaysDisabled
+bottomRowHeightMode: Flexible
+bottomRowWidthMode: Identical
+layoutSetOverrides:
+  symbols: "clearflow_symbols"
+  symbolsShifted: "clearflow_symbols_shift"
+mirrorInOneHanded: true
+supportsSplit: false
+attributes:
+  moreKeyMode: OnlyFromLetter
+rows:
+  - letters:
+      - type: actionKeySelect
+        enabled:
+          type: shift
+        none:
+          type: shift
+          attributes: { rowSpan: 2 }
+      - "!"
+      - g
+      - d
+      - n
+      - m
+      - "?"
+      - type: delete
+        attributes: { rowSpan: 2 }
+  - letters:
+      - type: action
+        attributes: { width: FunctionalKey, style: Functional, showPopup: false }
+        fallbackKey:
+          type: gap
+          attributes: { width: FunctionalKey }
+      - k
+      - a
+      - s
+      - r
+      - o
+      - z
+      - type: gap
+        attributes: { width: Grow }
+  - letters:
+      - type: base
+        spec: "!icon/space_key_for_number_layout|!code/key_space"
+        attributes: { width: Grow, style: Functional, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+      - h
+      - e
+      - t
+      - i
+      - u
+      - f
+      - type: base
+        spec: "!icon/space_key_for_number_layout|!code/key_space"
+        attributes: { width: Grow, style: Functional, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+  - letters:
+      - type: gap
+        attributes: { width: Grow }
+      - y
+      - c
+      - l
+      - p
+      - b
+      - q
+      - type: gap
+        attributes: { width: Grow }
+  - attributes: { width: FunctionalKey, style: Normal }
+    bottom:
+      - $symbols
+      - type: contextual
+        fallbackKey:
+          type: base
+          spec: ","
+          attributes: { moreKeyMode: All }
+        attributes: { moreKeyMode: All }
+      - w
+      - v
+      - x
+      - j
+      - type: base
+        spec: "."
+        attributes: { width: FunctionalKey, style: Normal, moreKeyMode: All }
+      - $enter

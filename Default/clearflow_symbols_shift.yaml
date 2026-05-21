@@ -52,7 +52,7 @@ rows:
   - letters:
     - type: base
       spec: "!icon/space_key_for_number_layout|!code/key_space"
-      attributes: { width: Grow, style: Spacebar, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+      attributes: { width: Grow, style: Functional, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
     - "$currency1"
     - "$currency2"
     - "$currency3"
@@ -61,7 +61,7 @@ rows:
     - "\\"
     - type: base
       spec: "!icon/space_key_for_number_layout|!code/key_space"
-      attributes: { width: Grow, style: Spacebar, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
+      attributes: { width: Grow, style: Functional, showPopup: false, longPressEnabled: true, moreKeyMode: OnlyExplicit, rowSpan: 2 }
   - letters:
     - type: gap
       attributes: { width: Grow }
