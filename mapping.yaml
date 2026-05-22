@@ -891,6 +891,7 @@ languages:
     - russian_yazhert
   ur:
     - urdu_phonetic
+    - urdu_phonetic_pak_urdu
   uz_UZ:
     - uzbek
   vep:

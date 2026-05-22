@@ -4,9 +4,9 @@ attributes: {shiftable: false}
 numberRowMode: AlwaysEnabled
 rows:
   - numbers:
-      # ` 1 2 3 4 5 6 7 8 9 0 - =
-      - {type: case, normal: ["\u064B", "\u06DE", "\u00A2"], shiftedManually: ["\u064B"]} # TODO verify backquote shift/base assignment from source image
-      - {type: case, normal: ["\u06F1", "!", "\u0661", "\u00F7"], shiftedManually: ["!"]}
+      # Compact mobile number row: 1 2 3 4 5 6 7 8 9 0 (no extra physical keys)
+      # Removed PC-only keys (` - =) are exposed via long-press popups on this row.
+      - {type: case, normal: ["\u06F1", "!", "\u0661", "\u00F7", "\u064B", "\u06DE", "\u00A2"], shiftedManually: ["!"]}
       - {type: case, normal: ["\u06F2", "\u060C", "\u0662", "@"], shiftedManually: ["\u060C"]}
       - {type: case, normal: ["\u06F3", "\u060D", "\u0663", "#"], shiftedManually: ["\u060D"]}
       - {type: case, normal: ["\u06F4", "\u0621", "\u0664", "$"], shiftedManually: ["\u0621"]}
@@ -14,55 +14,47 @@ rows:
       - {type: case, normal: ["\u06F6", "\uFDFA", "\u0666", "^"], shiftedManually: ["\uFDFA"]} # TODO verify if shift should be U+0610 instead
       - {type: case, normal: ["\u06F7", "\u0654", "\u0667", "&"], shiftedManually: ["\u0654"]}
       - {type: case, normal: ["\u06F8", "\u064C", "\u0668", "*"], shiftedManually: ["\u064C"]}
-      - {type: case, normal: ["\u06F9", "(", "\u0669", "\u066D"], shiftedManually: ["("]}
-      - {type: case, normal: ["\u06F0", ")", "\u0660", "\u2026"], shiftedManually: [")"]} # TODO verify codepoint for "dotted line"
-      - {type: case, normal: ["\u0623", "\u0651", "-", "_"], shiftedManually: ["\u0651"]}
-      - {type: case, normal: ["\u0624", "\u0622", "=", "+"], shiftedManually: ["\u0622"]}
+      - {type: case, normal: ["\u06F9", "(", "\u0669", "\u066D", "\u0624", "\u0622", "=", "+"], shiftedManually: ["("]}
+      - {type: case, normal: ["\u06F0", ")", "\u0660", "\u2026", "\u0623", "\u0651", "-", "_"], shiftedManually: [")"]} # TODO verify codepoint for "dotted line"
 
   - letters:
-      # q w e r t y u i o p [ ] \
+      # Compact mobile top row: q w e r t y u i o p
+      # Removed PC-only keys ([ ] \) are exposed via long-press popups on t/y/p.
       - {type: case, normal: ["\u0642", "\u0652", "\u06DA", "\u066F"], shiftedManually: ["\u0652"]}
       - {type: case, normal: ["\u0648", "\uFDFA", "\u06E5", "\u06DB"], shiftedManually: ["\uFDFA"]}
       - {type: case, normal: ["\u0639", "\u0611", "\u060F", "\u06E0"], shiftedManually: ["\u0611"]} # TODO verify codepoint for "high dots"
       - {type: case, normal: ["\u0631", "\u0691", "\u06E8", "\u00AE"], shiftedManually: ["\u0691"]}
-      - {type: case, normal: ["\u062A", "\u0679", "\u0655", "\u2122"], shiftedManually: ["\u0679"]}
-      - {type: case, normal: ["\u06D2", "\u0601", "\u06E6", "\u00A5"], shiftedManually: ["\u0601"]}
+      - {type: case, normal: ["\u062A", "\u0679", "\u0655", "\u2122", "[", "\uFD3E", "{"], shiftedManually: ["\u0679"]} # TODO verify base/shift bracket glyph style
+      - {type: case, normal: ["\u06D2", "\u0601", "\u06E6", "\u00A5", "]", "\uFD3F", "}"], shiftedManually: ["\u0601"]} # TODO verify base/shift bracket glyph style
       - {type: case, normal: ["\u0626", "\u0657", "\u0678", "\u06D7"], shiftedManually: ["\u0657"]} # TODO verify codepoint for "Hamza Yeh sign"
       - {type: case, normal: ["\u06CC", "\u0670", "\u06E7", "\u06D6"], shiftedManually: ["\u0670"]}
       - {type: case, normal: ["\u06C1", "\u06C3", "\u0647", "\u0629"], shiftedManually: ["\u06C3"]}
-      - {type: case, normal: ["\u067E", "\u064F", "\u066A", "\u00A3"], shiftedManually: ["\u064F"]}
-      - {type: case, normal: ["[", "\uFD3E", "{"], shiftedManually: ["\uFD3E"]} # TODO verify base/shift bracket glyph style
-      - {type: case, normal: ["]", "\uFD3F", "}"], shiftedManually: ["\uFD3F"]} # TODO verify base/shift bracket glyph style
-      - {type: case, normal: ["\u060E", "\u0614", "\u0600", "\\"], shiftedManually: ["\u0614"]}
+      - {type: case, normal: ["\u067E", "\u064F", "\u066A", "\u00A3", "\u060E", "\u0614", "\u0600", "\\"], shiftedManually: ["\u064F"]}
 
   - letters:
-      # a s d f g h j k l ; '
+      # Compact mobile middle row: a s d f g h j k l
+      # Removed PC-only keys (; ') are exposed via long-press popups on j/l.
       - {type: case, normal: ["\u0627", "\u0653", "\u0671", "\uFDF2"], shiftedManually: ["\u0653"]}
       - {type: case, normal: ["\u0633", "\u0635", "\u0603", "\uFDF0"], shiftedManually: ["\u0635"]} # TODO verify "Sala/Safa sign" pairing
       - {type: case, normal: ["\u062F", "\u0688", "\u06DC", "\u00B0"], shiftedManually: ["\u0688"]}
       - {type: case, normal: ["\u0641", "\u0656", "\u06E3", "\u06A1"], shiftedManually: ["\u0656"]}
       - {type: case, normal: ["\u06AF", "\u063A", "\u0643", "\u00BC"], shiftedManually: ["\u063A"]}
       - {type: case, normal: ["\u062D", "\u06BE", "\u00BD"], shiftedManually: ["\u06BE"]}
-      - {type: case, normal: ["\u062C", "\u0636", "\uFDFB", "\u00BE"], shiftedManually: ["\u0636"]}
+      - {type: case, normal: ["\u062C", "\u0636", "\uFDFB", "\u00BE", "\u061B", ":", ";", "\u06E4"], shiftedManually: ["\u0636"]}
       - {type: case, normal: ["\u06A9", "\u062E", "\u06AA", "\uFDF1"], shiftedManually: ["\u062E"]}
-      - {type: case, normal: ["\u0644", "\u0612", "\u06D9", "\u0644\u0627"], shiftedManually: ["\u0612"]} # TODO verify "Laamalif ligature" codepoint preference
-      - {type: case, normal: ["\u061B", ":", ";", "\u06E4"], shiftedManually: [":"]}
-      - {type: case, normal: ["\u06D4", "\u0640", "'", "\""], shiftedManually: ["\u0640"]}
-      - $delete
+      - {type: case, normal: ["\u0644", "\u0612", "\u06D9", "\u0644\u0627", "\u06D4", "\u0640", "'", "\""], shiftedManually: ["\u0612"]} # TODO verify "Laamalif ligature" codepoint preference
 
   - letters:
-      # z x c v b n m , . /
+      # Compact mobile bottom row: $shift z x c v b n m $delete
+      # Removed PC-only keys (, . /) are exposed via long-press popups on n/m/b.
       - $shift
       - {type: case, normal: ["\u0632", "\u0630", "\u06E2", "\u06A4"], shiftedManually: ["\u0630"]}
       - {type: case, normal: ["\u0634", "\u0698", "\u06ED", "\u06E9"], shiftedManually: ["\u0698"]}
       - {type: case, normal: ["\u0686", "\u062B", "\u06D8", "\u00A9"], shiftedManually: ["\u062B"]}
       - {type: case, normal: ["\u0637", "\u0638", "\u0615", "\uFDFC"], shiftedManually: ["\u0638"]}
-      - {type: case, normal: ["\u0628", "\u0613", "\uFDFD", "\u066E"], shiftedManually: ["\u0613"]}
-      - {type: case, normal: ["\u0646", "\u06BA", "\u0602", "\u06DD"], shiftedManually: ["\u06BA"]}
-      - {type: case, normal: ["\u0645", "\u0625", "\uFDF4", "\u00D7"], shiftedManually: ["\u0625"]}
-      - {type: case, normal: ["\u060C", "\u0650", ",", "<"], shiftedManually: ["\u0650"]}
-      - {type: case, normal: ["\u06D4", "\u064E", ".", ">"], shiftedManually: ["\u064E"]}
-      - {type: case, normal: ["\u0652", "\u061F", "/", "?"], shiftedManually: ["\u061F"]}
-      - $shift
+      - {type: case, normal: ["\u0628", "\u0613", "\uFDFD", "\u066E", "\u0652", "\u061F", "/", "?"], shiftedManually: ["\u0613"]}
+      - {type: case, normal: ["\u0646", "\u06BA", "\u0602", "\u06DD", "\u060C", "\u0650", ",", "<"], shiftedManually: ["\u06BA"]}
+      - {type: case, normal: ["\u0645", "\u0625", "\uFDF4", "\u00D7", "\u06D4", "\u064E", ".", ">"], shiftedManually: ["\u0625"]}
+      - $delete
 
-  - bottom: ["$symbols", "$space", "$enter"]
+  - bottom: ["$symbols", ",", "$space", ".", "$enter"]
