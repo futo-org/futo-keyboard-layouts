@@ -51,9 +51,10 @@ rows:
       - {type: case, normal: ["\u0634", "\u0698", "\u06ED", "\u06E9"], shiftedManually: ["\u0698", "\u0634", "\u06ED", "\u06E9"]}
       - {type: case, normal: ["\u0686", "\u062B", "\u06D8", "\u00A9"], shiftedManually: ["\u062B", "\u0686", "\u06D8", "\u00A9"]}
       - {type: case, normal: ["\u0637", "\u0638", "\u0615", "\uFDFC"], shiftedManually: ["\u0638", "\u0637", "\u0615", "\uFDFC"]}
-      - {type: case, normal: ["\u0628", "\u0613", "\uFDFD", "\u066E", "\u061F", "/", "?"], shiftedManually: ["\u0613", "\u0628", "\uFDFD", "\u066E", "\u061F", "/", "?"]}
+      - {type: case, normal: ["\u0628", "\u0613", "\uFDFD", "\u066E", "/"], shiftedManually: ["\u0613", "\u0628", "\uFDFD", "\u066E", "/"]}
       - {type: case, normal: ["\u0646", "\u06BA", "\u0602", "\u06DD", "\u0650", ","], shiftedManually: ["\u06BA", "\u0646", "\u0602", "\u06DD", "\u0650", ","]}
       - {type: case, normal: ["\u0645", "\u0625", "\uFDF4", "\u00D7", "\u06D4", "\u064E", ".", ">"], shiftedManually: ["\u0625", "\u0645", "\uFDF4", "\u00D7", "\u06D4", "\u064E", ".", ">"]}
       - $delete
+    attributes: {moreKeyMode: OnlyExplicit}
 
-  - bottom: ["$symbols", ",", "$space", [".", "\u060C", "\u0652"], "$enter"]
+  - bottom: ["$symbols", ",", "$space", [".", "\u060C", "\u0652", "\u061F", "?"], "$enter"]
