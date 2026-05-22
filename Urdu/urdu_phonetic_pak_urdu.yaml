@@ -1,7 +1,7 @@
 name: "Urdu Phonetic (Pak Urdu) Keyboard"
 languages: ur
 attributes: {shiftable: false}
-numberRowMode: AlwaysEnabled
+numberRowMode: UserConfigurable
 rows:
   - numbers:
       # Compact mobile number row: 1 2 3 4 5 6 7 8 9 0 (no extra physical keys)
@@ -19,16 +19,16 @@ rows:
 
   - letters:
       # Compact mobile top row: q w e r t y u i o p
-      - {type: case, normal: ["\u0642", "\u06DA", "\u066F"], shiftedManually: ["\u0652", "\u0642", "\u06DA", "\u066F"]}
-      - {type: case, normal: ["\u0648", "\uFDFA", "\u06E5", "\u06DB"], shiftedManually: ["\uFDFA", "\u0648", "\u06E5", "\u06DB"]}
-      - {type: case, normal: ["\u0639", "\u0611", "\u060F", "\u06E0"], shiftedManually: ["\u0611", "\u0639", "\u060F", "\u06E0"]} # TODO verify codepoint for "high dots"
-      - {type: case, normal: ["\u0631", "\u0691", "\u06E8", "\u00AE"], shiftedManually: ["\u0691", "\u0631", "\u06E8", "\u00AE"]}
-      - {type: case, normal: ["\u062A", "\u0679", "\u0655", "\u2122", "\uFD3E"], shiftedManually: ["\u0679", "\u062A", "\u0655", "\u2122", "\uFD3E"]} # TODO verify base/shift bracket glyph style
-      - {type: case, normal: ["\u06D2", "\u0601", "\u06E6", "\u00A5", "\uFD3F"], shiftedManually: ["\u0601", "\u06D2", "\u06E6", "\u00A5", "\uFD3F"]} # TODO verify base/shift bracket glyph style
-      - {type: case, normal: ["\u0626", "\u0657", "\u0678", "\u06D7"], shiftedManually: ["\u0657", "\u0626", "\u0678", "\u06D7"]} # TODO verify codepoint for "Hamza Yeh sign"
-      - {type: case, normal: ["\u06CC", "\u0670", "\u06E7", "\u06D6"], shiftedManually: ["\u0670", "\u06CC", "\u06E7", "\u06D6"]}
-      - {type: case, normal: ["\u06C1", "\u06C3", "\u0647", "\u0629"], shiftedManually: ["\u06C3", "\u06C1", "\u0647", "\u0629"]}
-      - {type: case, normal: ["\u067E", "\u064F", "\u066A", "\u00A3", "\u060E", "\u0614", "\u0600", "\\"], shiftedManually: ["\u064F", "\u067E", "\u066A", "\u00A3", "\u060E", "\u0614", "\u0600", "\\"]}
+      - {type: case, normal: ["\u0642", "\u06DA", "\u066F", "\u06F1"], shiftedManually: ["\u0652", "\u0642", "\u06DA", "\u066F", "\u06F1"]}
+      - {type: case, normal: ["\u0648", "\uFDFA", "\u06E5", "\u06DB", "\u06F2"], shiftedManually: ["\uFDFA", "\u0648", "\u06E5", "\u06DB", "\u06F2"]}
+      - {type: case, normal: ["\u0639", "\u0611", "\u060F", "\u06E0", "\u06F3"], shiftedManually: ["\u0611", "\u0639", "\u060F", "\u06E0", "\u06F3"]} # TODO verify codepoint for "high dots"
+      - {type: case, normal: ["\u0631", "\u0691", "\u06E8", "\u00AE", "\u06F4"], shiftedManually: ["\u0691", "\u0631", "\u06E8", "\u00AE", "\u06F4"]}
+      - {type: case, normal: ["\u062A", "\u0679", "\u0655", "\u2122", "\uFD3E", "\u06F5"], shiftedManually: ["\u0679", "\u062A", "\u0655", "\u2122", "\uFD3E", "\u06F5"]} # TODO verify base/shift bracket glyph style
+      - {type: case, normal: ["\u06D2", "\u0601", "\u06E6", "\u00A5", "\uFD3F", "\u06F6"], shiftedManually: ["\u0601", "\u06D2", "\u06E6", "\u00A5", "\uFD3F", "\u06F6"]} # TODO verify base/shift bracket glyph style
+      - {type: case, normal: ["\u0626", "\u0657", "\u0678", "\u06D7", "\u06F7"], shiftedManually: ["\u0657", "\u0626", "\u0678", "\u06D7", "\u06F7"]} # TODO verify codepoint for "Hamza Yeh sign"
+      - {type: case, normal: ["\u06CC", "\u0670", "\u06E7", "\u06D6", "\u06F8"], shiftedManually: ["\u0670", "\u06CC", "\u06E7", "\u06D6", "\u06F8"]}
+      - {type: case, normal: ["\u06C1", "\u06C3", "\u0647", "\u0629", "\u06F9"], shiftedManually: ["\u06C3", "\u06C1", "\u0647", "\u0629", "\u06F9"]}
+      - {type: case, normal: ["\u067E", "\u064F", "\u066A", "\u00A3", "\u060E", "\u0614", "\u0600", "\\", "\u06F0"], shiftedManually: ["\u064F", "\u067E", "\u066A", "\u00A3", "\u060E", "\u0614", "\u0600", "\\", "\u06F0"]}
 
   - letters:
       # Compact mobile middle row: a s d f g h j k l
