@@ -877,6 +877,8 @@ languages:
     - tatar
   tyv:
     - kyrgyz
+  ttq:
+  - tamajeq_azerty
   udm:
     - udmurt
   ug:
