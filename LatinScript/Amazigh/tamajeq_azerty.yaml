@@ -1,5 +1,5 @@
 name: Tamajeq-Latin (azerty)
-languages: ttq
+languages: ttq-latn
 rows:
   - letters: # rowkeys_tamajeq1.xml
     - ['a', 'ă', 'â', 'ä']
