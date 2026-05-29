@@ -1,0 +1,90 @@
+name: Syriac Standard
+description: The default Syriac keyboard from GBoard
+languages: syr
+rows:
+  - letters:
+    # U+0729: "ܩ" SYRIAC LETTER QAPH
+    - ['\0729']
+    
+    # U+0718: "ܘ" SYRIAC LETTER WAW
+    - ['\0718', '\0718\073C', '\0718\073F']
+    
+    # U+072A: "ܪ" SYRIAC LETTER RISH
+    - ['\072A']
+    
+    # U+072C: "ܬ" SYRIAC LETTER TAW
+    - ['\072C', '\072C\0740', '\072C\0741', '\072C\0742']
+    
+    # U+071D: "ܝ" SYRIAC LETTER YUDH
+    - ['\071D', '\071D\073C', '\071E']
+    
+    # U+0725: "ܥ" SYRIAC LETTER E
+    - ['\0725']
+    
+    # U+0726: "ܦ" SYRIAC LETTER PE
+    - ['\0726','\0726\0741' , '\0726\0742', '\0727']
+    
+    #
+    - ['\0308', '\0324', '\0740', '\0747', '\0748', '\032E', '\0303', '\0330']
+    
+    #
+    - ['\0732', '\0735', '\0738', '\0739']
+    
+  - letters:
+    # U+0710: "ܐ" SYRIAC LETTER ALAPH
+    - [' \0710', '\0711']
+    
+    # U+0723: "ܣ" SYRIAC LETTER SEMKATH
+    - ['\0723', '\0724']
+    
+    # U+0715: "ܕ" SYRIAC LETTER DALATH
+    - ['\0715', '\0716', '\0715\0741', '\0715\0742', '\072F']
+    
+    # U+0713: "ܓ" SYRIAC LETTER GAMAL
+    - ['\0713', '\0713\0741', '\0713\0742', '\0714', '\072E']
+    
+    # U+0717: "ܗ" SYRIAC LETTER HE
+    - ['\0717']
+    
+    # U+071B: "ܛ" SYRIAC LETTER TETH
+    - ['\071B', '\071C']
+    
+    # U+071F: "ܟ" SYRIAC LETTER KAPH
+    - ['\071F', '\071F\0741', '\071F\0742']
+    
+    # U+0720: "ܠ" SYRIAC LETTER LAMADH
+    - ['\0720']
+    
+    #
+    - ['\0730', '\0731', '\0733', '\0734', '\0736', '\0737', '\073D', '\073E', '\073A', '\073B']
+    
+  - letters:
+    # U+0719: "ܙ" SYRIAC LETTER ZAIN
+    - ['\0719']
+    
+    # U+0728: "ܨ" SYRIAC LETTER SADHE
+    - ['\0728']
+    
+    # U+071A: "ܚ" SYRIAC LETTER HETH
+    - ['\071A']
+    
+    # U+072B: "ܫ" SYRIAC LETTER SHIN
+    - ['\072B']
+    
+    # U+0712: "ܒ" SYRIAC LETTER BETH
+    - ['\0712', '\072D', '\0712\0742', '\0712\0741']
+    
+    # U+0722: "ܢ" SYRIAC LETTER NUN
+    - ['\0722']
+    
+    # U+0721: "ܡ" SYRIAC LETTER MIM
+    - ['\0721']
+    
+    - "$delete"
+  
+  - bottom:
+    - $symbols
+    - ['\060C']
+    - $space
+    - ['\002E', '\0658', '\06D4', '\0656', '\0670', '\0653', '\0652', '\0651', '\064C', '\0657', '\064F', '\0650', '\064D', '\064B', '\064E', '\0655', '\061F', '\0654']
+    - $enter
