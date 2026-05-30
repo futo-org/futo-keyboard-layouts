@@ -95,3 +95,7 @@ This keeps the keyboard compact while preserving the familiar phonetic Urdu typi
 - This layout is made for Urdu typing in the style of InPage phonetic input.
 - It is not a new Urdu typing system; it is intended to feel familiar for existing InPage users.
 - Some desktop-only keys are moved to long press so the layout works naturally on Android.
+
+## Need Help?
+
+If you need any help using this keyboard layout, please contact us. We can help with installation, key usage, and understanding how the InPage-style phonetic typing works on Android.
