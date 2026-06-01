@@ -170,7 +170,6 @@ You can use the following template keys:
 * `$space` - spacebar
 * `$enter` - enter/search/next/prev/go key
 * `$symbols` - switch to symbols menu
-* `$period` - period key
 * `$alphabet` - switch back to alphabet (only used in symbols layout)
 * `$action` - action key, user-defined, may be empty
 * `$number` - switch to numpad mode
