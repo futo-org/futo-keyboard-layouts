@@ -2,7 +2,7 @@ name: Bulgarian (Dvorak)
 languages: bg
 rows:
   - letters:
-    - {type: case, normal: "'", shifted: "\""}
+    - {type: case, normal: "'", shifted: "\"", swipeLetter: "'"}
     - {type: case, normal: ",", shifted: "<"}
     - {type: case, normal: ".", shifted: ">"}
     - ['п']

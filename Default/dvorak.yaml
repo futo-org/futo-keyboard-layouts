@@ -1,7 +1,7 @@
 name: Dvorak
 rows:
   - letters:
-    - {type: case, normal: "'", shifted: "\""}
+    - {type: case, normal: "'", shifted: "\"", swipeLetter: "'"}
     - {type: case, normal: ",", shifted: "<"}
     - {type: case, normal: ".", shifted: ">"}
     - p
