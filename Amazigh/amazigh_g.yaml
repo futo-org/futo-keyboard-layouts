@@ -9,7 +9,7 @@ rows:
     - ['ⵓ', 'ⵧ']
     - ['ⵀ', 'ⵁ', 'ⵂ']
     - ['ⴹ', 'ⴺ']
-    - ['ⵎ', '\2D7F'] #2D7F Tifinagh consonant joiner
+    - ['ⵎ', '⵿'] #2D7F Tifinagh consonant joiner
     - ['ⵕ', '⵰']
     - ['ⵃ']
     - ['ⴻ', 'ⵦ']
