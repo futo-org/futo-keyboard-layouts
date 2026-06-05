@@ -1,0 +1,40 @@
+name: "Symbols (Uyghur)"
+attributes:
+  shiftable: false
+rows:
+  - letters: "1 2 3 4 5 6 7 8 9 0"
+    # Only show this row if number row is inactive on main layout
+    numRowMode: Hideable
+  - letters: "% \\ | = [ ] < > { }"
+    # Only show this row if number row is active on main layout
+    numRowMode: Filler
+  - letters:
+      - "@"
+      - ["#", "№"]
+      - "$"
+      - "_"
+      - "%"
+      - "&"
+      # U+2013: "–" EN DASH
+      # U+2014: "—" EM DASH
+      # U+207B: "⁻" SUPERSCRIPT MINUS
+      # U+208B: "₋" SUBSCRIPT MINUS
+      # U+00B7: "·" MIDDLE DOT
+      - ["-", "_", "\u2013", "\u2014", "\u207B", "\u208B", "\u00B7"]
+      # U+207A: "⁺" SUPERSCRIPT PLUS
+      # U+208A: "⁺" SUBSCRIPT PLUS
+      - ["+", "\u207A", "\u208A"]
+      - "("
+      - ")"
+  - letters: #       
+      - "$shift"
+      - ["٫", "٬", "\"", "'", "*"]
+      - ["»", "›", ">", "≥", "⟩"]
+      - ["«", "‹", "<", "≤", "⟨"]
+      - ":"
+      - ["؛", ";"]
+      - ["!", "¡"]
+      - ["؟", "?", "¿"]
+      - "$delete"
+  - bottom: "$alphabet , $number $space / . $enter"
+
