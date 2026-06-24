@@ -1,0 +1,42 @@
+name: Afrikaans
+languages: af
+minimumFunctionalKeyWidth: 0.0
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+  - letters: q w e r t y u i o p
+  - letters:
+    - a
+    - s
+    - d
+    - f
+    - g
+    - h
+    - j
+    - k
+    - l
+    # U+0308 ◌̈ COMBINING DIAERESIS
+    # U+0301 ◌́ COMBINING ACUTE ACCENT
+    - {type: case, normal: ["¨|\u0308"], shiftedManually: ["´|\u0301"]}
+  - letters:
+    - $shift
+    - z
+    - x
+    - c
+    - v
+    - b
+    - n
+    - m
+    # U+0302 ◌̂ COMBINING CIRCUMFLEX ACCENT
+    # U+0300 ◌̀ COMBINING GRAVE ACCENT
+    - {type: case, normal: ["ˆ|\u0302"], shiftedManually: ["`|\u0300"]}
+    - $delete
+  - bottom:
+    - $symbols
+    - ','
+    - $action
+    - $space
+    - ["'", '"']
+    - '.'
+    - $enter
