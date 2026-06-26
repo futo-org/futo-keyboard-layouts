@@ -180,6 +180,9 @@ You can use the following template keys:
 * `$alt0` - switch to alt page 0, or back from alt page 0
 * `$alt1` - switch to alt page 1, or back from alt page 1
 * `$alt2` - switch to alt page 2, or back from alt page 2
+* `$period` - just a normal '.' key usually, but if "Quick period key" setting is enabled by user, switches to a quicker layout 
+
+You may find yourself wanting to customize the template keys to set a custom width or similar. You can how to do this in the [Customizing template keys](#customizing-template-keys) section.
 
 ---
 
@@ -406,6 +409,21 @@ The `Keyboard` data class represents a keyboard layout definition, serving as th
 * **Optional**: Yes
 * **Default Value**: true
 
+#### `imeHint`
+
+* **Description**: (optional) Hint for the IME engine to request specific behavior. Only has effect if the language is set to Chinese or Japanese.
+* **Type**: `string?`
+* **Optional**: Yes
+* **Default Value**: null
+
+Valid values for Japanese are "12key" or "qwerty" to specify how the keys should be interpreted.
+
+Valid values for Chinese are "stroke" or "qwerty" to specify which schema should be used.
+
+When the imeHint is not qwerty, the key codes are remapped to something else. For example, "1" will type "あ" in 12key Japanese, and "a" will type "き", despite no phonetic relation between these letters. Whereas in Chinese, "h" types "一" in stroke input. You will need to heavily reference these layouts if you want to use a non-qwerty imeHint:
+* [Chinese stroke](https://github.com/futo-org/futo-keyboard-layouts/blob/main/Chinese/zh_stroke.yaml)
+* [Japanese 12key](https://github.com/futo-org/futo-keyboard-layouts/blob/main/Japanese/flick.yaml)
+
 ## Row
 
 ### Overview
@@ -442,6 +460,7 @@ One of `numbers`, `letters` or `bottom` must be defined.
 *   **Default Value**: `null`
 *   **Behavior**:
     *   If defined, this is a bottom row. Bottom row should typically contain: `$symbols , $action $space $optionalzwnj . $enter`
+    *   Bottom row does not inherit the keyboard's attributes by default, so the global `moreKeyMode` will be ignored there. Attributes must be specified either for the individual key or for the bottom row itself.
 
 The default bottom row is the following:
 ```yaml
@@ -452,7 +471,7 @@ The default bottom row is the following:
     - $action
     - $space
     - $optionalzwnj
-    - "."
+    - $period
     - $enter
 ```
 
@@ -679,6 +698,15 @@ The `KeyAttributes` data class represents various attributes for keys in a keybo
 *   *   When true, the longpress time will be cut in half
 *   *   In addition, it will implicitly add the base key as the first element in moreKeys (you should avoid using fixedColumnOrder)
 
+#### `rowSpan`
+
+*   **Description**: How many rows this key should span (the height of this key). Extra care needs to be taken to ensure there is a gap in the row below, or else you may have overlapping keys.
+*   **Type**: `Int?`
+*   **DefaultKeyAttributes Value**: `1`
+*   **Behavior**:
+*   *   When greater than 1, the key will expand to the row below.
+
+
 ### Inheritance
 
 The attributes are inherited in the following order:
@@ -845,57 +873,64 @@ Note: You can specify a different type of Key in different cases. For example, n
 *   **Behavior**:
     *   Specifies the key to use when the layout is in symbols mode and shifted.
 
+## Customizing template keys
 
-## Gap
-### Overview
+If you want to customize `$shift`, `$delete`, etc. with custom attributes, you can use most of them as a `type` with a custom `attributes` set.
+
+Example:
+```yaml
+letters:
+  # Instead of this...
+  - $shift
+
+  # You can do this
+  - type: shift
+    attributes: { width: Custom1 }
+```
+
+This is possible for the following templates. All of the following accept an `attributes` parameter:
+* `$shift` = `type: shift`
+* `$delete` = `type: delete`
+* `$space` = `type: space`
+* `$enter` = `type: enter`
+* `$action` = `type: action`, also takes a `fallbackKey` parameter for when the action key is disabled
+* `$symbols` = `type: symbols`
+* `$alphabet` = `type: alphabet`
+* `$number` = `type: number`
+* `$contextual` = `type: contextual`, also takes a `fallbackKey` parameter
+* `$optionalzwnj` = `type: optionalzwnj`, also takes a `fallbackKey` parameter
+* `$gap`
+* `$alt0`, `$alt1`, `$alt2` = `{ type: alt, idx: 0 }` or 1 or 2
+
+The following cannot be customized:
+* `$zwnj`
+* `$period` - use `type: base, spec: "."` or just `.` instead
+
+
+### Gap
 The `GapKey` data class represents a gap in the keyboard layout.
 Instead of a key, a gap will be placed in its place.
 
 Defined in yaml using `type: gap`, or just use the `$gap` shortcut.
 
-### Properties
-
-#### `attributes`
-*   **Description**: Attributes for this key. This is mainly useful for setting the width.
-*   **Type**: `KeyAttributes`
-*   **Default Value**: blank
-
-
-## Enter
-### Overview
+### Enter
 The `EnterKey` data class represents an enter key. Its icon and moreKeys will depend on the input field.
 
-Defined in yaml using `type: enter`
+Defined in yaml using `type: enter`, or just use the `$enter` shortcut.
 
-This is not intended to be used in layouts, instead please use the `$enter` shortcut when possible.
-
-### Properties
-
-#### `attributes`
-*   **Description**: Attributes for this key.
-*   **Type**: `KeyAttributes`
-*   **Default Value**: blank
-
-
-## Action
-### Overview
+### Action
 The `ActionKey` data class represents the user-configurable action key. If an action key is not set,
 then the key will be skipped.
 
-Defined in yaml using `type: action`
+Defined in yaml using `type: action`, or just use the `$action` shortcut.
 
-This is not intended to be used in layouts, instead please use the `$action` shortcut when possible.
-
-### Properties
-
-#### `attributes`
-*   **Description**: Attributes for this key.
-*   **Type**: `KeyAttributes`
-*   **Default Value**: blank
+#### `fallbackKey`
+*   **Description**: Default key to use in normal text fields that are not listed above
+*   **Type**: `Key?`
+*   **Default Value**: `null`
 
 
-## Contextual
-### Overview
+### Contextual
 The `ContextualKey` data class represents a contextual key. In specific text field types, it displays a key useful for that text field type, as defined here:
 ```kotlin
         KeyboardId.MODE_EMAIL    to BaseKey(spec = "@", attributes = attributes),
@@ -905,17 +940,9 @@ The `ContextualKey` data class represents a contextual key. In specific text fie
         KeyboardId.MODE_TIME     to BaseKey(spec = ":", attributes = attributes),
 ```
 
-If the current text field does not match any of the types (e.g. it's a normal text field), it uses the fallbackKey. If fallbackKey is null (or if you use `$contextual`) then no key will be displayed at all.
+If the current text field does not match any of the types (e.g. it's a normal text field), it uses the fallbackKey. If fallbackKey is null, or if you use `$contextual`, then this key will be skipped.
 
-Defined in yaml using `type: contextual`
-
-### Properties
-
-#### `attributes`
-*   **Description**: Attributes for this key.
-*   **Type**: `KeyAttributes`
-*   **Default Value**: blank
-
+Defined in yaml using `type: contextual`, or just use the `$contextual` shortcut.
 
 #### `fallbackKey`
 *   **Description**: Default key to use in normal text fields that are not listed above
@@ -1101,7 +1128,6 @@ Codes: (e.g. `!code/key_tab`)
 
 
 Icons: (e.g. `!icon/go_key`)
-* `undefined`
 * `shift_key`
 * `shift_key_shifted`
 * `delete_key`
@@ -1122,6 +1148,8 @@ Icons: (e.g. `!icon/go_key`)
 * `emoji_normal_key`
 * `numpad`
 * `action_{...}` (e.g. `!icon/action_emoji`)
+
+There is no blank icon, but you can set a key's label to a space.
 
 Actions:
 * `emoji`

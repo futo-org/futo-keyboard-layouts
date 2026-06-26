@@ -1,5 +1,5 @@
 # This layout is preliminary and is missing moreKeys
-name: International Phonetic Alphabet
+name: IPA
 minimumFunctionalKeyWidth: 0.0
 attributes: &attrs
     shiftable: false

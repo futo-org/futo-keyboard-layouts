@@ -1,0 +1,23 @@
+name: toki pona
+languages: tok
+description: A simple Toki Pona keyboard, originally created by jan Lepeka and added to Futo by jan Jelipe.
+rowHeightMode: FillHeight
+rows:
+  - letters:
+    - { type: case, normal: "[", shifted: "?" }
+    - w
+    - e
+    - t
+    - u
+    - i
+    - o
+    - p
+    - { type: case, normal: "]", shifted: "!" }
+  - letters:
+    - a
+    - s
+    - n
+    - m
+    - { type: base, spec: "j", hint: "y", moreKeys: "y" }
+    - k
+    - l

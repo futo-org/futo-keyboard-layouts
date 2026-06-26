@@ -29,4 +29,4 @@ rows:
     - v
     - b
     - n
-    - {type: case, normal: "'", shifted: "?"}
+    - {type: case, normal: "'", shifted: "?", swipeLetter: "'"}
