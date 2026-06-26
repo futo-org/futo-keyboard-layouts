@@ -386,6 +386,22 @@ languages:
     - nordic
     - kasroz
     - clearflow
+  got:
+    - gothic_wulfilian
+  got_Latn:
+    - gothic_qwerty
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+    - kasroz
+    - clearflow
   ha:
     - hausa
   haw:

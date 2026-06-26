@@ -1,0 +1,18 @@
+name: 𐍅𐌿𐌻𐍆𐌹𐌻𐌹𐍃𐌺𐍉
+languages: got
+attributes:
+  shiftable: false
+autoShift: false
+rows:
+  - letters: 𐌵 𐍅 𐌴 𐍂 𐍄 𐌹̈ 𐌿 𐌹 𐍉 𐍀
+  - letters: 𐌰 𐍃 𐌳 𐍆 𐌲 𐌷 𐌾 𐌺 𐌻 𐍁
+  - letters: 𐍊 𐌶 𐍇 𐌸 𐍈 𐌱 𐌽 𐌼 $delete
+  - bottom:
+    - $symbols
+    - type: contextual
+      fallbackKey: ","
+    - $action
+    - $space
+    - $optionalzwnj
+    - [ ".", "·", ":", "∴", "‾|\u0305" ]
+    - $enter
