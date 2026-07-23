@@ -1,0 +1,63 @@
+name: Hoplite Polytonic
+languages: el
+numberRowMode: AlwaysDisabled
+overrideWidths: {Custom1: 0.222}
+attributes: {moreKeyMode: OnlyExplicit}
+rows: 
+  - { splittable: false,
+   letters: [
+     {type: base, spec: "\u0314"}, # ̔  Combining Reversed Comma Above (U+0314)
+      {type: base, spec: "\u0313"}, # ̓  Combining Comma Above (U+0313),
+      {type: base, spec: "\u0301"}, # ́  Combining Acute Accent (U+0301),
+      {type: base, spec: "\u0300"}, # ̀  Combining Grave Accent (U+0300),
+      {type: case, normal: {type: base, spec: "\u0342"}, shifted: {type: base, spec: "\u0308"}}, # ͂  Combining Greek Perispomeni (U+0342) ̈  Combining Diaeresis (U+0308),
+      {type: case, normal: {type: base, spec: "\u0304"}, shifted: {type: base, spec: "\u0306"}}, # ̄  Combining Macron (U+0304) ̆  Combining Breve (U+0306),
+      {type: case, normal: {type: base, spec: "\u0345"}, shifted: {type: base, spec: "\u0323"}}, # ͅ  Combining Greek Ypogegrammeni (U+0345) ̣  Combining Dot Below (U+0323),
+      {type: case, normal: {type: base, spec: ','}, shifted: {type: base, spec: "\u2019"}}, # ’ Right Single Quotation Mark (U+2019),
+      {type: case, normal: {type: base, spec: '·'}, shifted: {type: base, spec: "\u2014"}} # — Em Dash (U+2014),
+   ]
+  }
+  - { splittable: false,
+   letters: [
+      {type: case, normal: {type: base, spec: 'ς'}, shiftLocked: {type: base, spec: 'ς'}, shiftedManually: {type: base, spec: '!'}},
+      'ε',
+      'ρ',
+      'τ',
+      'υ',
+      'θ',
+      'ι',
+      'ο',
+      'π'
+      ]
+    }
+  - { splittable: false,
+   letters: [
+      'α',
+      'σ',
+      'δ',
+      'φ',
+      'γ',
+      'η',
+      'ξ',
+      ['κ', '«'],
+      ['λ', '»']
+      ]
+    }
+  - { splittable: false,
+   letters: [
+      'ζ',
+      'χ',
+      'ψ',
+      'ω',
+      'β',
+      'ν',
+      'μ',
+      {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: { width: Custom1, style: Functional, showPopup: false, repeatableEnabled: true }}
+      ]
+    }
+  - bottom: 
+    - "$shift"
+    - "$symbols"
+    - "$space"
+    -  {type: case, normal: ".", shifted: ";"}
+    - "$enter"
