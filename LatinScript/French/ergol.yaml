@@ -1,0 +1,36 @@
+name: Ergo-L
+languages: ["fr", "en_GB", "en_IN", "en_US"]
+description: "Ergo-L layout for Futo Keyboard"
+numberRowMode: UserConfigurable
+rows:
+  - letters:
+    - [q, â]
+    - [c, ç]
+    - [o, œ]
+    - [p, ô]
+    - [w]
+    - [j]
+    - [m]
+    - [d]
+    - [y, û]
+  - letters:
+    - [a, à]
+    - [s, é]
+    - [e, è]
+    - [n, ê, ë]
+    - [f]
+    - [l]
+    - [r]
+    - [t, î]
+    - [i, ï]
+    - [u, ù]
+  - letters:
+    - $shift
+    - [z, æ]
+    - [x]
+    - [v]
+    - [b]
+    - [h]
+    - [g]
+    - [k]
+    - $delete

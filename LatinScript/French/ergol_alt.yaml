@@ -1,0 +1,79 @@
+name: Ergo-L Full
+languages: ["fr", "en_GB", "en_IN", "en_US"]
+description: "Ergo-L full layout for Futo Keyboard"
+numberRowMode: UserConfigurable
+rows:
+  - numbers:
+    - type: case
+      normal: [1, "€", "„"]
+      shifted: [1, "„", "€"]
+    - type: case
+      normal: [2, "«", "‘", "“"]
+      shifted: [2, "‘", "«", "“"]
+    - type: case
+      normal: [3, "»", "’", "”"]
+      shifted: [3, "’", "»", "”"]
+    - [4, "$", "¢"]
+    - [5, "%|%", "‰"]
+    - [6, "^"]
+    - [7, "&"]
+    - [8, "*", "§"]
+    - [9, "#", "¶"]
+    - [0, "@", "°"]
+    - type: case
+      normal: ["=", "+", "±", "≠", "–", "÷"]
+      shifted: ["+", "=", "±", "≠", "–", "÷"]
+  - letters:
+    - [q, â, "^"]
+    - [c, ç, "<"]
+    - [o, œ, ">"]
+    - [p, ô, "$", "¤"]
+    - [w, "%|%"]
+    - [j, "@"]
+    - [m, "&", "µ"]
+    - [d, "*", "_"]
+    - [y, û, "`"]
+    - type: case
+      normal: ["'", "\"", "!", "¡"]
+      shifted: ["\"", "'", "!", "¡"]
+    - type: case
+      normal: ["{", "["]
+      shifted: ["[", "{"]
+  - letters:
+    - [a, à, "{"]
+    - [s, é, "("]
+    - [e, è, ")"]
+    - [n, ê, ë, "}"]
+    - [f, "ñ", "="]
+    - [l, "(", "\\"]
+    - [r, ")", "+"]
+    - [t, î, "-"]
+    - [i, "/", ï]
+    - [u, ù, "\""]
+    - type: case
+      normal: ["}", "]"]
+      shifted: ["]", "}"]
+  - letters:
+    - $shift
+    - [z, æ, "~"]
+    - [x, "\\", "[", ß, "‑"]
+    - [v, "|", "_", "]", "–"]
+    - [b, "#", "—"]
+    - [h, "!"]
+    - [g, ";"]
+    - [k, "?"]
+    - type: case
+      normal: ["-", "_", ":", "|", "…", "’"]
+      shifted: ["_", "-", ":", "|", "…", "’"]
+    - $delete
+  - bottom:
+    - $symbols
+    - type: contextual
+      fallbackKey: ","
+    - $action
+    - $space
+    - $number
+    - type: case
+      normal: [".", "'", "?", "-", "¿", ":", "|", ";"]
+      shifted: ["'", ".", "?", "-", "¿", ":", "|", ";"]
+    - $enter
