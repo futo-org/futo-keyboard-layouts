@@ -7,7 +7,7 @@ rows:
   - letters:
     - ['q', '!fixedColumnOrder!3', '1', '~', '～', '`', '·']
     - ['w', '!fixedColumnOrder!3', '2', '@', '·']
-    - ['e', '!fixedColumnOrder!3', '3', '#']
+    - ['e', '!fixedColumnOrder!3', '3', '#', 'ē', 'é', 'ě', 'è']
     - ['r', '!fixedColumnOrder!3', '4', '$', '￥']
     - ['t', '!fixedColumnOrder!3', '5', '%|%']
     - ['y', '!fixedColumnOrder!3', '6', '^']
