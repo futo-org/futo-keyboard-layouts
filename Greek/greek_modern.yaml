@@ -1,0 +1,43 @@
+name: Modern
+languages: el
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+  - letters: # rowkeys_greek1.xml
+    - {type: case, normal: [';', '%', ':', '·'], shiftLocked: [';', '%', ':', '·'], shiftedManually: [':', '%', ';', '·']}
+    - {type: case, normal: 'ς', shiftLocked: 'Σ'}
+    - ['ε', '%', 'έ']
+    - ['ρ']
+    - ['τ']
+    - ['υ', '%', 'ύ', 'ϋ', 'ΰ']
+    - ['θ']
+    - ['ι', '%', 'ί', 'ϊ', 'ΐ']
+    - ['ο', '%', 'ό']
+    - ['π']
+  - letters: # rowkeys_greek2.xml
+    - ['α', '%', 'ά']
+    - ['σ']
+    - ['δ']
+    - ['φ']
+    - ['γ']
+    - ['η', '%', 'ή']
+    - ['ξ']
+    - ['κ', '%', '«']
+    - ['λ', '%', '»']
+    # U+00B4 ´ ACUTE ACCENT (for key label)
+    # U+00A8 ¨ DIAERESIS (for key label)
+    # U+0385 ΅ GREEK DIALYTIKA TONOS (for key label)
+    # U+0301 ◌́ COMBINING ACUTE ACCENT
+    # U+0308 ◌̈ COMBINING DIAERESIS
+    # U+0344 ◌̈́ COMBINING GREEK DIALYTIKA TONOS
+    - ["´|\u0301", "¨|\u0308", "΅|\u0344"] 
+  - letters: # rowkeys_greek3.xml
+    - ['ζ']
+    - ['χ']
+    - ['ψ']
+    - ['ω', '%', 'ώ']
+    - ['β']
+    - ['ν']
+    - ['μ']
+# detected 3 rows
