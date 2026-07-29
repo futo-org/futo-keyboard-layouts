@@ -1,0 +1,34 @@
+name: QWERTY Gutisk
+languages: got-Latn
+rows:
+  - letters:
+    - q
+    - w
+    - [ e, ē ]
+    - r
+    - t
+    - [ y, ï ]
+    - [ u, ú, ū ]
+    - [ i, í, ï ]
+    - [ o, ō ]
+    - p
+  - letters:
+    - [ a, á, ā ]
+    - s
+    - d
+    - f
+    - g
+    - h
+    - j
+    - k
+    - l
+    - ƕ
+  - letters:
+    - z
+    - x
+    - c
+    - v
+    - b
+    - n
+    - m
+    - þ
