@@ -5,18 +5,18 @@ autoShift: false
 imeHint: "qwerty"
 rows:
   - letters:
-    - ['q', '!fixedColumnOrder!3', '1', '~', '`']
-    - ['w', '!fixedColumnOrder!3', '2', '@']
-    - ['e', '!fixedColumnOrder!3', '3', '#']
+    - ['q', '!fixedColumnOrder!3', '1', '~', '～', '`', '·']
+    - ['w', '!fixedColumnOrder!3', '2', '@', '·']
+    - ['e', '!fixedColumnOrder!3', '3', '#', 'ē', 'é', 'ě', 'è']
     - ['r', '!fixedColumnOrder!3', '4', '$', '￥']
     - ['t', '!fixedColumnOrder!3', '5', '%|%']
     - ['y', '!fixedColumnOrder!3', '6', '^']
-    - ['u', '!fixedColumnOrder!3', '7', '&']
-    - ['i', '!fixedColumnOrder!3', '8', '*']
-    - ['o', '!fixedColumnOrder!3', '9', '(']
+    - ['u', '!fixedColumnOrder!3', '7', '&', 'ū', 'ú', 'ǔ', 'ù']
+    - ['i', '!fixedColumnOrder!3', '8', '*', 'ī', 'í', 'ǐ', 'ì']
+    - ['o', '!fixedColumnOrder!3', '9', '(', 'ō', 'ó', 'ǒ', 'ò']
     - ['p', '!fixedColumnOrder!3', '0', ')']
   - letters:
-    - ['a', '!fixedColumnOrder!3', '？', '?']
+    - ['a', '!fixedColumnOrder!3', '？', '?', 'ā', 'á', 'ǎ', 'à']
     - ['s', '!fixedColumnOrder!3', '！', '!']
     - ['d', '!fixedColumnOrder!3', '；', ';']
     - ['f', '!fixedColumnOrder!3', '：', ':']
@@ -30,7 +30,7 @@ rows:
     - ['z', '!fixedColumnOrder!3', '"', '「', '」']
     - ['x', '!fixedColumnOrder!3', '''', '『', '』']
     - ['c', '!fixedColumnOrder!3', '-', '_']
-    - ['v', '!fixedColumnOrder!3', '=', '+']
+    - ['v', '!fixedColumnOrder!3', '=', '+', 'ü', 'ǖ', 'ǘ', 'ǚ', 'ǜ']
     - ['b', '!fixedColumnOrder!3', '<', '《', '〈']
     - ['n', '!fixedColumnOrder!3', '>', '》', '〉']
     - ['m', '!fixedColumnOrder!3', '/', '\', '|']
@@ -42,6 +42,6 @@ rows:
     - $space
     - type: base
       spec: '。'
-      moreKeys: ['…|……', '？', '！', '；', '：', '—|——']
+      moreKeys: ['…|……', '？', '！', '；', '：', '—|——', '·', '～']
       attributes: { moreKeyMode: OnlyExplicit }
     - $enter
