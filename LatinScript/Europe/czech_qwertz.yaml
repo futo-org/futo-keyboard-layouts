@@ -1,0 +1,10 @@
+name: Čestina/Slovenčina (QWERTZ)
+languages: cz sk
+minimumFunctionalKeyWidth: 0.0
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+  - letters: ['q', 'w', ['e', 'é', 'ě'], ['r', 'ŕ', 'ř'], ['t', 'ť'], ['z', 'ž'], ['u', 'ů', 'ú'], ['i', 'í'], ['o', 'ô', 'ó'], 'p']
+  - letters: [['a', 'ä', 'á'], ['s', 'š'], ['d', 'ď'], 'f', 'g', 'h', 'j', 'k', ['l', 'ĺ', 'ľ'], ["´|\u0301", "˚|\u030a"]]
+  - letters: [['y', 'ý'], 'x', ['c', 'č'], 'v', 'b', ['n', 'ň'], 'm', ["ˇ|\u030c", "ˆ|\u0302", "¨|\u0308"]]
