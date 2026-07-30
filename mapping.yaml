@@ -30,6 +30,7 @@ languages:
     - north_caucasian
   az_AZ:
     - azerbaijani
+    - azerbaijani_querty
     - qwerty
     - qwertz
     - dvorak
