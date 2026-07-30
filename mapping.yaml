@@ -237,6 +237,7 @@ languages:
     - kasroz
     - clearflow
   es:
+    - spanish_deadkey
     - spanish
     - qwerty
     - qwertz
@@ -249,6 +250,7 @@ languages:
     - pcqwerty
     - nordic
   es_419:
+    - spanish_deadkey
     - spanish
     - qwerty
     - qwertz
@@ -263,6 +265,7 @@ languages:
     - kasroz
     - clearflow
   es_US:
+    - spanish_deadkey
     - spanish
     - qwerty
     - qwertz
