@@ -4,6 +4,7 @@ languages:
   ady:
     - north_caucasian
   af:
+    - afrikaans
     - qwerty
     - qwertz
     - dvorak
