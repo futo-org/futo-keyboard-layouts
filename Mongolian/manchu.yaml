@@ -1,0 +1,34 @@
+name: "ᠮᠠᠨᠵᡠ"
+languages: mnc
+attributes: {shiftable: false}
+autoShift: false
+rows:
+  - letters: 
+    - {type: case, normal: "ᠴ", shiftedManually: "ᡱ"}
+    - "ᠸ"
+    - "ᡝ"
+    - {type: case, normal: "ᡵ", shiftedManually: "ᡰ"}
+    - "ᡨ"
+    - "ᠶ"
+    - "ᡠ"
+    - {type: case, normal: "ᡳ", shiftedManually: " ᠊ᡳ"}
+    - "ᠣ"
+    - "ᡦ"
+  - letters:
+    - "ᠠ"
+    - {type: case, normal: "ᠰ", shiftedManually: "ᠰᡟ"}
+    - "ᡩ"
+    - "ᡶ"
+    - {type: case, normal: "ᡤ", shiftedManually: "ᡬ"}
+    - {type: case, normal: "ᡥ", shiftedManually: "ᡭ"}
+    - {type: case, normal: "ᠵ", shiftedManually: "ᡷ"}
+    - {type: case, normal: "ᡴ", shiftedManually: "ᠺ"}
+    - {type: case, normal: "ᠯ", shiftedManually: "ᢪ"}
+  - letters:
+    - "ᡯ"
+    - "ᡧ"
+    - {type: case, normal: "ᡮ", shiftedManually: "ᡮᡟ"}
+    - "ᡡ"
+    - "ᠪ"
+    - {type: case, normal: "ᠨ", shiftedManually: "ᠩ"}
+    - "ᠮ"

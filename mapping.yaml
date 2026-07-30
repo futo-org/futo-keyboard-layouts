@@ -606,6 +606,8 @@ languages:
     - malayalam
   mn_MN:
     - mongolian
+  mnc:
+    - manchu
   mr_IN:
     - marathi_v2
     - marathi
@@ -757,6 +759,8 @@ languages:
     - sinhala
   sip:
     - tibetan_wylie
+  sjo:
+    - sibe
   sk:
     - qwerty
     - qwertz
