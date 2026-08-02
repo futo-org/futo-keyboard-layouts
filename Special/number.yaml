@@ -47,7 +47,7 @@ rows:
       - "7"
       - "8"
       - "9"
-      - {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: *side}
+      - {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: { style: Functional, width: FunctionalKey, repeatableEnabled: true }}
     splittable: false
   - bottom:
       - {type: base, spec: "!text/keylabel_to_alpha|!code/key_switch_alpha_symbol", attributes: *side}
