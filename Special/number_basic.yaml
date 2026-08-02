@@ -29,7 +29,7 @@ rows:
       - {type: base, spec: "7"}
       - {type: base, spec: "8"}
       - {type: base, spec: "9"}
-      - {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: *functional}
+      - {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: { style: Functional, labelFlags: {}, repeatableEnabled: true }}
     splittable: false
   - bottom:
       - {type: contextual, fallbackKey: ","}
