@@ -1,0 +1,34 @@
+name: Yiddish (Keyman)
+languages: yi
+attributes: {shiftable: false}
+autoShift: false
+rows:
+  - letters:
+    - {type: case, normal: ["„"], shiftedManually: ["”"]}
+    - {type: case, normal: ["ש"], shiftedManually: ["שׂ"]}
+    - {type: case, normal: ["ע"], shiftedManually: ["ײ"]}
+    - ר
+    - {type: case, normal: ["ט"], shiftedManually: ["תּ"]}
+    - {type: case, normal: ["י"], shiftedManually: ["ײַ"]}
+    - {type: case, normal: ["ו"], shiftedManually: ["וּ"]}
+    - {type: case, normal: ["י"], shiftedManually: ["יִ"]}
+    - {type: case, normal: ["אָ"], shiftedManually: ["ױ"]}
+    - ["פּ"]
+  - letters: 
+    - {type: case, normal: ["אַ"], shiftedManually: ["א"]}
+    - {type: case, normal: ["ס"], shiftedManually: ["ת"]}
+    - ד
+    - {type: case, normal: ["פֿ", "פ"], shiftedManually: ["ף"]}
+    - {type: case, normal: ["ג"], shiftedManually: ["׳"]}
+    - {type: case, normal: ["ה"], shiftedManually: ["ח"]}
+    - {type: case, normal: ["ײ"], shiftedManually: ["ײ"]}
+    - {type: case, normal: ["ק"], shiftedManually: ["כּ"]}
+    - ל
+  - letters: 
+    - ז
+    - {type: case, normal: ["כ"], shiftedManually: ["ך"]}
+    - {type: case, normal: ["צ"], shiftedManually: ["ץ"]}
+    - {type: case, normal: ["װ"], shiftedManually: ["בֿ"]}
+    - ב
+    - {type: case, normal: ["נ"], shiftedManually: ["ן"]}
+    - {type: case, normal: ["מ"], shiftedManually: ["ם"]}
