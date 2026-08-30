@@ -1,0 +1,96 @@
+# Polski / English (typograficzna)
+# Contributed by Andrei Kirkouski; notes and the desktop layouts
+# this follows are at https://polish-typographic.com
+
+name: "Polski / English (typograficzna)"
+description: "Polish and English on one layout, with dead-key accents and the typographic characters the stock symbols pages lack."
+languages: pl en_US
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+mirrorInOneHanded: true
+rows:
+  - letters:
+      - "q"
+      - "w"
+      - {type: base, spec: "e", moreKeys: ["ę"], hint: "ę"}
+      - "r"
+      - "t"
+      - "y"
+      - "u"
+      - "i"
+      - {type: base, spec: "o", moreKeys: ["ó"], hint: "ó"}
+      - "p"
+  - letters:
+      - {type: base, spec: "a", moreKeys: ["ą"], hint: "ą"}
+      - {type: base, spec: "s", moreKeys: ["ś", "ß"], hint: "ś"}
+      - "d"
+      - "f"
+      - "g"
+      - "h"
+      - "j"
+      - "k"
+      - {type: base, spec: "l", moreKeys: ["ł"], hint: "ł"}
+  - letters:
+      - $shift
+      - {type: base, spec: "z", moreKeys: ["ż", "ź"], hint: "ż"}
+      - "x"
+      - {type: base, spec: "c", moreKeys: ["ć"], hint: "ć"}
+      - "v"
+      - "b"
+      - {type: base, spec: "n", moreKeys: ["ń"], hint: "ń"}
+      - "m"
+      - $delete
+  - bottom:
+      - $symbols
+      - {type: contextual, fallbackKey: ","}
+      - $action
+      - $space
+      - {type: base, spec: "⁜|!code/key_to_alt_0_layout", attributes: {width: Regular, style: Functional, showPopup: false, moreKeyMode: OnlyExplicit}} # U+205C DOTTED CROSS, switches to the alt page
+      - $period
+      - $enter
+altPages:
+  - - attributes: {moreKeyMode: OnlyExplicit}
+      letters:
+        - "`|\u0300" # dead grave
+        - "´|\u0301" # dead acute
+        - "ˆ|\u0302" # dead circumflex
+        - "˜|\u0303" # dead tilde
+        - "˘|\u0306" # dead breve
+        - "¨|\u0308" # dead diaeresis
+        - "˚|\u030A" # dead ring
+        - "˝|\u030B" # dead double-acute
+        - "ˇ|\u030C" # dead caron
+        - "¸|\u0327" # dead cedilla
+    - attributes: {moreKeyMode: OnlyExplicit}
+      letters:
+        - {type: base, spec: "⍽|\u00A0", hint: "nbsp"} # NO-BREAK SPACE
+        - "✓" # CHECK MARK
+        - "−" # MINUS SIGN
+        - "⌀" # DIAMETER SIGN
+        - "⌃" # UP ARROWHEAD
+        - $gap
+        - $gap
+        - $gap
+        - $gap
+        - $gap
+    - attributes: {moreKeyMode: OnlyExplicit}
+      letters:
+        - {type: base, spec: "⍽|\u202F", hint: "nnbsp"} # NARROW NO-BREAK SPACE
+        - {type: base, spec: "␣|\u2009", hint: "thin"} # THIN SPACE
+        - {type: base, spec: "‧|\u00AD", hint: "shy"} # SOFT HYPHEN
+        - {type: base, spec: "‑|\u2011", hint: "nbhy"} # NON-BREAKING HYPHEN
+        - $gap
+        - $gap
+        - $gap
+        - $gap
+        - $gap
+        - $delete
+    - bottom:
+        - $symbols
+        - {type: contextual, fallbackKey: ","}
+        - $action
+        - $space
+        - {type: base, spec: "⁜|!code/key_to_alt_0_layout", attributes: {width: Regular, style: Functional, showPopup: false, moreKeyMode: OnlyExplicit}} # U+205C DOTTED CROSS, switches to the alt page
+        - $period
+        - $enter

@@ -187,6 +187,7 @@ languages:
     - workman
     - kasroz
     - clearflow
+    - polish_english_typographic
   en_IN:
     - qwerty
     - qwertz
@@ -201,6 +202,7 @@ languages:
     - workman
     - kasroz
     - clearflow
+    - polish_english_typographic
   en_Shaw:
     - shavian
     - shavian_two_layer
@@ -218,6 +220,7 @@ languages:
     - workman
     - kasroz
     - clearflow
+    - polish_english_typographic
   enf:
     - enets
   enh:
@@ -690,6 +693,7 @@ languages:
     - nordic
     - kasroz
     - clearflow
+    - polish_english_typographic
   pt_BR:
     - spanish
     - qwerty
