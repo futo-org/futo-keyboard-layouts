@@ -1,0 +1,102 @@
+# Кириллица (типографская)
+# Contributed by Andrei Kirkouski; notes and the desktop layouts
+# this follows are at https://polish-typographic.com
+
+name: "Кириллица (типографская)"
+description: "Russian, Belarusian and Ukrainian on one layout, the extra letters behind their base letter, with dead-key accents."
+languages: ru be uk
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+mirrorInOneHanded: true
+rows:
+  - letters:
+      - "й"
+      - "ц"
+      - {type: base, spec: "у", moreKeys: ["ў"], hint: "ў"}
+      - "к"
+      - {type: base, spec: "е", moreKeys: ["ё", "є"], hint: "ё"}
+      - "н"
+      - {type: base, spec: "г", moreKeys: ["ґ"], hint: "ґ"}
+      - "ш"
+      - {type: base, spec: "щ", moreKeys: ["щ"]} # keeps щ reachable where KeySpecShortcuts replaces this keycap; dedup drops it elsewhere
+      - "з"
+      - {type: base, spec: "х", moreKeys: ["’", "'"], hint: "’"}
+      - "ъ"
+  - letters:
+      - "ф"
+      - {type: base, spec: "ы", moreKeys: ["ы"]} # keeps ы reachable where KeySpecShortcuts replaces this keycap; dedup drops it elsewhere
+      - "в"
+      - "а"
+      - "п"
+      - "р"
+      - "о"
+      - "л"
+      - "д"
+      - "ж"
+      - {type: base, spec: "э", moreKeys: ["э"]} # keeps э reachable where KeySpecShortcuts replaces this keycap; dedup drops it elsewhere
+  - letters:
+      - $shift
+      - "я"
+      - "ч"
+      - "с"
+      - "м"
+      - {type: base, spec: "и", moreKeys: ["ї", "і", "и"], hint: "ї"} # keeps и reachable where KeySpecShortcuts replaces this keycap; dedup drops it elsewhere
+      - "т"
+      - "ь"
+      - "б"
+      - "ю"
+      - $delete
+  - bottom:
+      - $symbols
+      - {type: contextual, fallbackKey: ","}
+      - $action
+      - $space
+      - {type: base, spec: "⁜|!code/key_to_alt_0_layout", attributes: {width: Regular, style: Functional, showPopup: false, moreKeyMode: OnlyExplicit}} # U+205C DOTTED CROSS, switches to the alt page
+      - $period
+      - $enter
+altPages:
+  - - attributes: {moreKeyMode: OnlyExplicit}
+      letters:
+        - "`|\u0300" # dead grave
+        - "´|\u0301" # dead acute
+        - "ˆ|\u0302" # dead circumflex
+        - "˜|\u0303" # dead tilde
+        - "˘|\u0306" # dead breve
+        - "¨|\u0308" # dead diaeresis
+        - "˚|\u030A" # dead ring
+        - "˝|\u030B" # dead double-acute
+        - "ˇ|\u030C" # dead caron
+        - "¸|\u0327" # dead cedilla
+    - attributes: {moreKeyMode: OnlyExplicit}
+      letters:
+        - {type: base, spec: "⍽|\u00A0", hint: "nbsp"} # NO-BREAK SPACE
+        - "₽" # RUBLE SIGN
+        - "✓" # CHECK MARK
+        - "₴" # HRYVNIA SIGN
+        - "−" # MINUS SIGN
+        - "⌀" # DIAMETER SIGN
+        - $gap
+        - $gap
+        - $gap
+        - $gap
+    - attributes: {moreKeyMode: OnlyExplicit}
+      letters:
+        - "⌃" # UP ARROWHEAD
+        - {type: base, spec: "⍽|\u202F", hint: "nnbsp"} # NARROW NO-BREAK SPACE
+        - {type: base, spec: "␣|\u2009", hint: "thin"} # THIN SPACE
+        - {type: base, spec: "‧|\u00AD", hint: "shy"} # SOFT HYPHEN
+        - {type: base, spec: "‑|\u2011", hint: "nbhy"} # NON-BREAKING HYPHEN
+        - $gap
+        - $gap
+        - $gap
+        - $gap
+        - $delete
+    - bottom:
+        - $symbols
+        - {type: contextual, fallbackKey: ","}
+        - $action
+        - $space
+        - {type: base, spec: "⁜|!code/key_to_alt_0_layout", attributes: {width: Regular, style: Functional, showPopup: false, moreKeyMode: OnlyExplicit}} # U+205C DOTTED CROSS, switches to the alt page
+        - $period
+        - $enter
