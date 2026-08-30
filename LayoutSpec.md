@@ -313,7 +313,7 @@ The `Keyboard` data class represents a keyboard layout definition, serving as th
 
 #### `languages`
 
-* **Description**: (optional) List of languages this layout is intended for. It will be displayed as an option for the specified languages.
+* **Description**: (optional) List of languages this layout is intended for. This does not register the layout: which layouts are offered for a language is decided by `mapping.yaml`, and this field is read only by the layout preview and the developer layout list.
 * **Type**: `List<String>`
 * **Optional**: Yes
 * **Default Value**: empty list
@@ -402,6 +402,53 @@ The `Keyboard` data class represents a keyboard layout definition, serving as th
 * **Optional**: Yes
 * **Default Value**: empty list
 
+An alt page replaces every row of the layout, including the bottom row, so it must
+include its own way back.
+
+* Give an alt page the same number of letter rows as the main layout. With fewer rows,
+  the default [`ClampHeight`](#clampheight) leaves visible gaps between the rows.
+* Pad short letter rows out to the width of the widest one with `$gap`. A row is
+  centered on its own content, so rows of different widths start at different offsets,
+  and an anchored key such as `$delete` moves the whole of that row's slack to the
+  other side. Without the padding the rows step raggedly across the page instead of
+  sharing one grid.
+* The letter rows of an alt page still receive automatic long-press keys, derived from
+  grid position regardless of what the key emits. With the number row off, the first row
+  receives the digit long-presses and hints, centered against ten columns: a row of
+  exactly ten gets `1`-`0` and nine gets `1`-`9`; eleven loses the digit on its last
+  key and twelve on both its outermost; and a row of eight or fewer keeps a digit on
+  every key but starts further up the sequence, `2`-`9` at eight or seven and `3`-`8`
+  at six or five, since the offset is a truncating halving of the difference. With the
+  number row on, the first row
+  receives symbols instead. The second and third letter rows always receive symbols, and
+  quick actions are added to all three. A fourth or later letter row inherits neither,
+  because the qwerty reference both are looked up in has only three rows. On a
+  page of symbols the inherited digit hint can be more
+  prominent than the key's own label. Setting `moreKeyMode: OnlyExplicit` at the
+  keyboard level, as `ipa.yaml` does, suppresses it everywhere; set it on the alt
+  page's letter rows instead when the main layout's rows want the automatic keys and
+  only the alt page does not. See [`MoreKeyMode`](#more-key-mode).
+
+The `$alt0`/`$alt1`/`$alt2` keys are labeled with their index, so `$alt0` renders as the
+character `0`, indistinguishable from a digit key. To give it a label of your own, write
+the key out instead of using the template:
+
+```yaml
+- type: base
+  spec: "⁜|!code/key_to_alt_0_layout"
+  attributes: { width: Regular, style: Functional,
+                showPopup: false, moreKeyMode: OnlyExplicit }
+```
+
+`⁜` here is U+205C DOTTED CROSS, standing in for whatever label the layout
+gives the key. `$alt0` applies `FunctionalAttributes`, which sets `width`, `style`, `anchored`,
+`showPopup`, `moreKeyMode` and `labelFlags`. The written-out form above keeps `style`,
+`showPopup` and `moreKeyMode`, and differs in the other three. `width` drops to `Regular`,
+because in a bottom row `FunctionalKey` resolves against `KeyWidth.FunctionalKey`, which
+is wider than a letter key, and the label then sits off-center next to the spacebar.
+`anchored` is left off, since it holds a key at the row edge when the row is padded.
+`labelFlags` falls back to the default, which scales a wide label down to fit.
+
 #### `autoShift`
 
 * **Description**: (optional) Whether or not automatic shifting should apply for this keyboard, when input starts or a sentence is finished.
@@ -459,8 +506,10 @@ One of `numbers`, `letters` or `bottom` must be defined.
 *   **Optional**: One of `numbers`, `letters` or `bottom` must be defined.
 *   **Default Value**: `null`
 *   **Behavior**:
-    *   If defined, this is a bottom row. Bottom row should typically contain: `$symbols , $action $space $optionalzwnj . $enter`
+    *   If defined, this is a bottom row. It should typically follow the default bottom row shown below. The comma slot is written out in long form because the `$contextual` shorthand cannot carry a `fallbackKey`, and a `contextual` key without one renders nothing in an ordinary text field.
     *   Bottom row does not inherit the keyboard's attributes by default, so the global `moreKeyMode` will be ignored there. Attributes must be specified either for the individual key or for the bottom row itself.
+    *   `$action` and `$period` each carry a user setting: `$action` is the user-configurable action key, which defaults to Emoji, and `$period` is an ordinary `.` that switches to the flickable variant when the user turns on "Quick period key". `$contextual` is not a setting; it picks its key from the input field's mode. Replacing any of the three with a literal removes that behavior, with no warning.
+    *   `$optionalzwnj` renders nothing unless the layout sets [`useZWNJKey`](#usezwnjkey), so it is usually the free slot if you need a position for a key of your own. It is not free of cost: `$space` is `Grow`, so on a layout that leaves the slot empty the spacebar absorbs it, and putting a real key there makes the spacebar one key narrower.
 
 The default bottom row is the following:
 ```yaml
@@ -516,7 +565,23 @@ The default bottom row is the following:
 ### Overview
 
 The `LayoutSetOverrides` data class represents a set of overrides for specific layouts.
-All layouts currently leave this default.
+Most layouts leave this default; `clearflow` sets it to point at its own symbols pages,
+and `kasroz` points at clearflow's.
+
+Each value is a layout name, resolved the same way as any other layout name. That
+includes custom layouts, which are addressable as `custom0`, `custom1`, ... where the
+number is the layout's position in Developer Settings > Custom layouts, counting from
+zero. This is how you replace the symbols pages for a custom layout:
+
+```yaml
+# in Custom Layout 0
+layoutSetOverrides:
+  symbols: custom1
+  symbolsShifted: custom2
+```
+
+A name that cannot be resolved raises an entry in the Bug Viewer naming the layout that
+could not be loaded.
 
 ### Properties
 
@@ -900,11 +965,13 @@ This is possible for the following templates. All of the following accept an `at
 * `$contextual` = `type: contextual`, also takes a `fallbackKey` parameter
 * `$optionalzwnj` = `type: optionalzwnj`, also takes a `fallbackKey` parameter
 * `$gap`
-* `$alt0`, `$alt1`, `$alt2` = `{ type: alt, idx: 0 }` or 1 or 2
+* `$alt0`, `$alt1`, `$alt2` = `{ type: alt, idx: 0 }` or 1 or 2. Neither form can set a label: the key is labeled with its index, so `$alt0` renders as the character `0`. To label it, write the key out; see [`altPages`](#altpages).
 
 The following cannot be customized:
 * `$zwnj`
-* `$period` - use `type: base, spec: "."` or just `.` instead
+* `$period` - use `type: base, spec: "."` or just `.` instead. A plain `.` loses the
+  flickable `? , !` variant that the "Quick period key" setting swaps in, so that
+  setting will appear to do nothing on your layout.
 
 
 ### Gap
@@ -935,7 +1002,7 @@ The `ContextualKey` data class represents a contextual key. In specific text fie
 ```kotlin
         KeyboardId.MODE_EMAIL    to BaseKey(spec = "@", attributes = attributes),
         KeyboardId.MODE_URL      to BaseKey(spec = "/", attributes = attributes),
-        KeyboardId.MODE_DATETIME to BaseKey(spec = "/", moreKeys = listOf(":"), attributes = attributes),
+        KeyboardId.MODE_DATETIME to BaseKey(spec = "/", moreKeys = listOf(":"), hint = ":", attributes = attributes),
         KeyboardId.MODE_DATE     to BaseKey(spec = "/", attributes = attributes),
         KeyboardId.MODE_TIME     to BaseKey(spec = ":", attributes = attributes),
 ```
@@ -1067,6 +1134,11 @@ Represents the height mode of rows in this layout.
 
 #### `ClampHeight`
 *   **Description**: The row height is clamped to a reasonable height, row spacing is added to fill the space.
+*   **Behavior**:
+    *   Under the default [`bottomRowHeightMode`](#bottomrowheightmode-1) of `Fixed`, the bottom row is held at the standard row height and the remaining height is divided among the other rows: `(availableHeight - standardRowHeight) / sum(rowHeight of non-bottom rows)`.
+    *   A key never grows past the standard row height, so with few rows the extra height becomes spacing above and below each row.
+    *   Scaling [`rowHeight`](#rowheight) has no effect on this, since it appears both in the multiplier and in the sum underneath.
+    *   `FillHeight` removes the clamp, at the cost of changing key height across the whole page.
 
 #### `FillHeight`
 *   **Description**: The row height fills available height.
