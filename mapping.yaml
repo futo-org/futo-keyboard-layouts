@@ -881,7 +881,7 @@ languages:
     - kyrgyz
   udm:
     - udmurt
-    - udmurt_4row
+    - udmurt_3row
   ug:
     - uyghur_phonetic
     - uyghur
