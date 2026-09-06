@@ -880,6 +880,7 @@ languages:
   tyv:
     - kyrgyz
   udm:
+    - udmurt_4row
     - udmurt
   ug:
     - uyghur_phonetic
