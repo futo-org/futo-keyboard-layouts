@@ -1,7 +1,8 @@
-name: Udmurt
+name: Udmurt (4 rows)
 languages: udm
 minimumFunctionalKeyWidth: 0.0
 rows:
-  - letters: [й, ц, у, к, [е, ё], н, г, ш, щ, [з, ӟ], х]
-  - letters: [ф, ы, в, а, п, р, [о, ӧ], л, д, [ж, ӝ], э]
-  - letters: [я, [ч, ӵ], с, м, [и, ӥ], т, [ь, ъ], б, ю]
+  - letters: ё ӝ ӧ ӵ ӥ ӟ ь ъ х э
+  - letters: й ц у к е н г ш щ з
+  - letters: ф ы в а п р о л д ж
+  - letters: я ч с м и т б ю
