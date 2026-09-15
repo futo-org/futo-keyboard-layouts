@@ -1,0 +1,39 @@
+name: Halmak
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - w
+    - l
+    - r
+    - b
+    - z
+    - {type: case, normal: ";", shifted: ":"}
+    - q
+    - u
+    - d
+    - j
+  - letters:
+    - s
+    - h
+    - n
+    - t
+    - {type: case, normal: ",", shifted: "<"}
+    - {type: case, normal: ".", shifted: ">"}
+    - a
+    - e
+    - o
+    - i
+  - letters:
+    - $shift
+    - f
+    - m
+    - v
+    - c
+    - {type: case, normal: "/", shifted: "?"}
+    - g
+    - p
+    - x
+    - k
+    - y
+    - $delete
+  - bottom: $symbols $action $space $enter

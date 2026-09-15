@@ -185,6 +185,7 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - halmak
     - kasroz
     - clearflow
   en_IN:
@@ -199,6 +200,7 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - halmak
     - kasroz
     - clearflow
   en_Shaw:
@@ -216,6 +218,7 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - halmak
     - kasroz
     - clearflow
   enf:
