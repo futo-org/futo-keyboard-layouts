@@ -861,6 +861,7 @@ languages:
     - clearflow
   tok:
     - toki_pona
+    - toki_pona_divided
   tr:
     - turkish
     - qwerty
