@@ -864,6 +864,7 @@ languages:
   tr:
     - turkish
     - qwerty
+    - turkish_f
     - qwertz
     - dvorak
     - azerty
