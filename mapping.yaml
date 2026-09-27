@@ -847,6 +847,7 @@ languages:
     - north_caucasian
   tl:
     - spanish
+    - baybayin
     - qwerty
     - qwertz
     - dvorak

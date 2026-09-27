@@ -1,0 +1,78 @@
+name: Baybayin
+languages: tl
+autoShift: false
+minimumBottomRowFunctionalKeyWidth: 0.125
+attributes:
+  moreKeyMode: OnlyExplicit
+  shiftable: false
+overrideWidths:
+  Custom1: 0.055555556
+  Custom2: 0.166666667
+rows:
+  - letters:
+      # U+1700: "ᜀ" TAGALOG LETTER A
+      - "\u1700"
+      # U+1701: "ᜁ" TAGALOG LETTER I
+      - "\u1701"
+      # U+1702: "ᜂ" TAGALOG LETTER U
+      - "\u1702"
+      # U+1703: "ᜃ" TAGALOG LETTER KA
+      - "\u1703"
+      # U+1704: "ᜄ" TAGALOG LETTER GA
+      - "\u1704"
+      # U+1705: "ᜅ" TAGALOG LETTER NGA
+      - "\u1705"
+      # U+1706: "ᜆ" TAGALOG LETTER TA
+      - "\u1706"
+      # U+1707: "ᜇ" TAGALOG LETTER DA
+      - "\u1707"
+      # U+1708: "ᜈ" TAGALOG LETTER NA
+      - "\u1708"
+
+  - letters:
+      # U+1709: "ᜉ" TAGALOG LETTER PA
+      - "\u1709"
+      # U+170A: "ᜊ" TAGALOG LETTER BA
+      - "\u170A"
+      # U+170B: "ᜋ" TAGALOG LETTER MA
+      - "\u170B"
+      # U+170C: "ᜌ" TAGALOG LETTER YA
+      - "\u170C"
+      # U+170D: "ᜍ" TAGALOG LETTER RA
+      - "\u170D"
+      # U+170E: "ᜎ" TAGALOG LETTER LA
+      - "\u170E"
+      # U+170F: "ᜏ" TAGALOG LETTER WA
+      - "\u170F"
+      # U+1710: "ᜐ" TAGALOG LETTER SA
+      - "\u1710"
+      # U+1711: "ᜑ" TAGALOG LETTER HA
+      - "\u1711"
+
+  - letters:
+      - "$gap"
+      # U+1712: "ᜒ" TAGALOG VOWEL SIGN I (also E)
+      - "\u00A0\u1712|\u1712"
+      # U+1713: "ᜓ" TAGALOG VOWEL SIGN U (also O)
+      - "\u00A0\u1713|\u1713"
+      # U+1714: "᜔" TAGALOG SIGN VIRAMA
+      - "\u00A0\u1714|\u1714"
+      # U+1715: "᜕" TAGALOG SIGN PAMUDPOD
+      - "\u00A0\u1715|\u1715"
+      # U+1735: "᜵" PHILIPPINE SINGLE PUNCTUATION
+      - "\u1735"
+      # U+1736: "᜶" PHILIPPINE DOUBLE PUNCTUATION
+      - "\u1736"
+      - type: gap
+        attributes: { width: Custom1 }
+      - type: delete
+        attributes: { width: Custom2 }
+
+  - bottom:
+      - "$symbols"
+      - type: base
+        spec: "!icon/action_emoji|!code/action_emoji"
+        attributes: { width: FunctionalKey, style: Functional, showPopup: false, moreKeyMode: OnlyExplicit }
+      - "$space"
+      - "$enter"
+      - "$enter"
