@@ -317,6 +317,9 @@ languages:
     - colemak_dh_ansi
     - bepo
     - pcqwerty
+  fo:
+    - faroese
+    - qwerty
     - kasroz
     - clearflow
   fr:
