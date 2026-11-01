@@ -1,0 +1,23 @@
+name: Northern Selkup
+languages: sel
+minimumFunctionalKeyWidth: 0.0
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+  - letters:
+    - { type: base, spec: "¨|\u0308", attributes: { width: Grow } }
+    - { type: base, spec: "і", attributes: { width: Grow } }
+    - { type: base, spec: "ӄ", attributes: { width: Grow } }
+    - { type: base, spec: "ә", attributes: { width: Grow } }
+    - { type: base, spec: "ӈ", attributes: { width: Grow } }
+    - { type: base, spec: "ө", attributes: { width: Grow } }
+    - { type: base, spec: "¯|\u0304", attributes: { width: Grow } }
+    - { type: base, spec: "´|\u0301", attributes: { width: Grow } }
+    - { type: base, spec: "ъ", attributes: { width: Grow } }
+  # U+0308 ◌̈ COMBINING DIAERESIS
+  # U+0304 ◌̄ COMBINING MACRON
+  # U+0301 ◌́ COMBINING ACUTE ACCENT
+  - letters: й ц у к е н г ш щ з х
+  - letters: ф ы в а п р о л д ж э
+  - letters: я ч с м и т ь б ю

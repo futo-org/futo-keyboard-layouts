@@ -1,0 +1,16 @@
+name: Nivkh
+languages: niv
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters: ё ӷ ў ӄ ғ ӈ ӻ р̌ ӽ ӿ ъ
+  - letters: й ц у к е н г ш щ з х
+  - letters: ф ы в а п р о л д ж э
+  - letters: $shift я ч с м и т ь б ю $delete
+  - bottom:
+    - $symbols
+    - ','
+    - $action
+    - $space
+    - "'"
+    - '.'
+    - $enter

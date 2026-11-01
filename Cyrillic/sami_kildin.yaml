@@ -1,0 +1,23 @@
+name: Kildin Sámi
+languages: sjd
+minimumFunctionalKeyWidth: 0.0
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+  - letters:
+    - { type: base, spec: "ё", attributes: { width: Grow } }
+    - { type: base, spec: "ј", attributes: { width: Grow } }
+    - { type: base, spec: "һ", attributes: { width: Grow } }
+    # U+0304 ◌̄ COMBINING MACRON
+    - { type: base, spec: "¯|\u0304", attributes: { width: Grow } }
+    # U+0326 ◌̦ COMBINING COMMA BELOW
+    - { type: base, spec: ",|\u0326", attributes: { width: Grow } }
+    - { type: base, spec: "ӭ", attributes: { width: Grow } }
+    - { type: base, spec: "ӈ", attributes: { width: Grow } }
+    - { type: base, spec: "ӓ", attributes: { width: Grow } }
+    - { type: base, spec: "ъ", attributes: { width: Grow } }
+    - { type: base, spec: "ҍ", attributes: { width: Grow } }
+  - letters: й ц у к е н г ш щ з х
+  - letters: ф ы в а п р о л д ж э
+  - letters: я ч с м и т ь б ю

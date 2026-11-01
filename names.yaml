@@ -2,23 +2,63 @@
 # You should include at least an English name and its own name. You can include another name if
 # it makes sense (e.g. Hindi name for Hinglish)
 
-ipa:
-  en: International Phonetic Alphabet
+ckt:
+  ckt: ԓыгъоравэтԓьэн
+  en: Chukchi
+  ru: чукотский
+eve:
+  en: Evenki
+  eve: эвэды̄ турэ̄н
+  ru: эвенкийский
 hi_Latn:
   en: Hinglish
   hi: "हिंग्लिश"
   hi_Latn: Hinglish
+ipa:
+  en: International Phonetic Alphabet
+itl:
+  en: Itelmen
+  itl: итэнмэн
+  ru: ительменский
+ket:
+  en: Ket
+  ket: "остыганна ӄа'"
+  ru: кетский
+kpy:
+  en: Koryak
+  kpy: "чав'чываелыел"
+  ru: корякский
 lbj:
   bod: ལ་དྭགས་སྐད་
   en: Ladakhi
   lbj: ལ་དྭགས་སྐད་
+mns:
+  en: Mansi
+  mns: ма̄ньси ла̄тыӈ
+  ru: мансийский
+niv:
+  en: Nivkh
+  niv: нивхгу диф
+  ru: нивхский
+sel:
+  en: Selkup
+  ru: селькупский
+  sel: шӧльӄумыт әты
 sip:
   bod: འབྲས་ལྗོངས་སྐད་
   en: Sikkimese Bhutia
   sip: འབྲས་ལྗོངས་སྐད་
+sjd:
+  en: Kildin Sámi
+  ru: кильдинский саамский
+  sjd: кӣллт са̄мь кӣлл
 tok:
   en: Toki Pona
   tok: toki pona
+xal:
+  en: Kalmyk
+  ru: калмыцкий
+  xal: хальмг
 xsr:
   bod: ཤར་པའི་སྐད་
   en: Sherpa

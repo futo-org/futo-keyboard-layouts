@@ -77,6 +77,8 @@ languages:
   bod:
     - tibetan
     - tibetan_wylie
+  bua:
+    - buryat
   ca:
     - spanish
     - qwerty
@@ -96,6 +98,8 @@ languages:
   ckb:
     - kurdish
     - central_kurdish_arabic_g
+  ckt:
+    - chukchi_koryak
   cs:
     - qwertz
     - qwerty
@@ -276,6 +280,8 @@ languages:
     - nordic
     - kasroz
     - clearflow
+  eve:
+    - evenki_mansi
   et_EE:
     - estonian
     - nordic
@@ -494,6 +500,8 @@ languages:
     - nordic
     - kasroz
     - clearflow
+  itl:
+    - itelmen
   iw:
     - hebrew
     - hebrew-staggered
@@ -521,6 +529,8 @@ languages:
     - karakalpak_latin
   kbd:
     - north_caucasian
+  ket:
+    - ket
   kk:
     - kazakh_cyrillic
     - east_slavic
@@ -543,6 +553,8 @@ languages:
     - komi
   kpv:
     - komi
+  kpy:
+    - chukchi_koryak
   krl:
     - karelian
     - qwerty
@@ -596,6 +608,8 @@ languages:
     - nordic
     - kasroz
     - clearflow
+  mns:
+    - evenki_mansi
   mhr:
     - mari_meadow
   mrj:
@@ -675,6 +689,10 @@ languages:
     - clearflow
   nio:
     - nganasan
+  niv:
+    - nivkh
+  os:
+    - ossetian
   pa_IN:
     - gurmukhi
   pl:
@@ -743,6 +761,9 @@ languages:
     - yakut
   se:
     - sami_northern
+  sel:
+    - selkup_north
+    - selkup_south
   sje:
     - sami_pite
   sju:
@@ -757,6 +778,8 @@ languages:
     - sinhala
   sip:
     - tibetan_wylie
+  sjd:
+    - sami_kildin
   sk:
     - qwerty
     - qwertz
@@ -906,6 +929,8 @@ languages:
   vot:
     - votic
     - qwerty
+  xal:
+    - tatar
   xsr:
     - tibetan_wylie
   yrk:

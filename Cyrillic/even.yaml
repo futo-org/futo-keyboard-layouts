@@ -1,0 +1,35 @@
+name: Even
+languages: eve
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - { type: base, spec: "ё", attributes: { width: Grow } }
+    - { type: base, spec: "ӫ", attributes: { width: Grow } }
+    - { type: base, spec: "ӈ", attributes: { width: Grow } }
+    - { type: base, spec: "ө", attributes: { width: Grow } }
+    - { type: base, spec: "ъ", attributes: { width: Grow } }
+  - letters:
+    - й
+    - ц
+    - ['у', 'ү']
+    - к
+    - е
+    - ['н', 'ӈ', 'ң']
+    - г
+    - ш
+    - щ
+    - з
+    - х
+  - letters:
+    - ф
+    - ы
+    - в
+    - а
+    - п
+    - р
+    - ['о', 'ө']
+    - л
+    - д
+    - ж
+    - э
+  - letters: я ч с м и т ь б ю
