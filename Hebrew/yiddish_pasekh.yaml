@@ -1,4 +1,4 @@
-name: Yiddish (Keyman)
+name: Yiddish Pasekh
 languages: yi
 attributes: {shiftable: false}
 autoShift: false
@@ -24,11 +24,23 @@ rows:
     - {type: case, normal: ["ײ"], shiftedManually: ["ײ"]}
     - {type: case, normal: ["ק"], shiftedManually: ["כּ"]}
     - ל
-  - letters: 
+  - letters:
+    - $shift
     - ז
     - {type: case, normal: ["כ"], shiftedManually: ["ך"]}
     - {type: case, normal: ["צ"], shiftedManually: ["ץ"]}
     - {type: case, normal: ["װ"], shiftedManually: ["בֿ"]}
-    - ב
+    - ["ב", "בּ"]
     - {type: case, normal: ["נ"], shiftedManually: ["ן"]}
     - {type: case, normal: ["מ"], shiftedManually: ["ם"]}
+    - $delete
+ 
+  - bottom:
+    - $symbols
+    - [',']
+    - $action
+    - $space
+
+    - ['.', "◌\u05b0|\u05b0", "◌\u05b1|\u05b1", "◌\u05b2|\u05b2", "◌\u05b3|\u05b3", "◌\u05b4|\u05b4", "◌\u05b5|\u05b5", "◌\u05b6|\u05b6", "◌\u05b7|\u05b7", "◌\u05b8|\u05b8", "◌\u05c2|\u05c2", "◌\u05c1|\u05c1", "◌\u05b9|\u05b9", "◌\u05bc|\u05bc", "◌\u05bd|\u05bd", "◌\u05bf|\u05bf", "◌\u05bb|\u05bb", ";", ":", "!", "?", "־", "׃", "﬩"]
+
+    - $enter

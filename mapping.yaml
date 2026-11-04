@@ -906,6 +906,9 @@ languages:
     - qwerty
   xsr:
     - tibetan_wylie
+  yi:
+    - yiddish
+    - yiddish_pasekh
   yrk:
     - nenets
   zgh:
