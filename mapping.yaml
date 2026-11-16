@@ -67,6 +67,7 @@ languages:
     - bengali_inscript
     - bengali_jatiyo
     - bengali_unijoy
+    - bengali_avro
   bn_IN:
     - bengali_inscript
     - bengali_probhat
@@ -74,6 +75,7 @@ languages:
     - bengali_jatiyo
     - bengali
     - bengali_unijoy
+    - bengali_avro
   bod:
     - tibetan
     - tibetan_wylie

@@ -1,0 +1,11 @@
+name: Bengali (Avro Phonetic)
+description: Type Bengali phonetically using Latin letters, e.g. "ami banglay gan gai" becomes "আমি বাংলায় গান গাই". Capital letters are significant (for example "d" is দ and "D" is ড).
+languages: bn
+combiners:
+  - Avro
+autoShift: false
+rows:
+  - numbers: ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ০
+  - letters: q w e r t y u i o p
+  - letters: a s d f g h j k l
+  - letters: z x c v b n m
